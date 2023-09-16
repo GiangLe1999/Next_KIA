@@ -8,6 +8,10 @@ import banner7 from "./kia-banner-7.jpg";
 import banner8 from "./kia-banner-8.jpg";
 import banner9 from "./kia-banner-9.jpg";
 import banner10 from "./kia-banner-10.jpg";
+import option1 from "./option-1.webp";
+import option2 from "./option-2.webp";
+import option3 from "./option-3.webp";
+import option4 from "./option-4.webp";
 
 export {
   banner1,
@@ -20,4 +24,8 @@ export {
   banner8,
   banner9,
   banner10,
+  option1,
+  option2,
+  option3,
+  option4,
 };

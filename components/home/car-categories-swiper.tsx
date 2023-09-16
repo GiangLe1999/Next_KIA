@@ -1,6 +1,7 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper as SwiperType } from "swiper/types";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,6 +15,7 @@ import { BsFuelPumpFill } from "react-icons/bs";
 import { MdEventSeat } from "react-icons/md";
 import ContainNextImage from "../contain-next-image";
 import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 
 export default function CarCategoriesSwiper({
   cars,
@@ -22,9 +24,19 @@ export default function CarCategoriesSwiper({
 }) {
   const router = useRouter();
 
+  const swiperRef = useRef(null);
+
+  const [swiper, setSwiper] = useState<SwiperType>();
+
+  //   Reset Swiper về Slide đầu mỗi khi mảng cars thay đổi
+  useEffect(() => {
+    swiper?.slideTo(0);
+  }, [cars]);
+
   return (
     <>
       <Swiper
+        ref={swiperRef}
         slidesPerView={1}
         pagination={{
           type: "fraction",
@@ -32,6 +44,7 @@ export default function CarCategoriesSwiper({
         navigation={true}
         modules={[Pagination, Navigation]}
         className="car-categories-swiper"
+        onSwiper={(swiper) => setSwiper(swiper)}
       >
         {cars.map((car) => (
           <SwiperSlide key={car._id.toString()}>

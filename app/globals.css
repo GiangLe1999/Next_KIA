@@ -143,3 +143,50 @@ li {
   background-color: #05141f;
   background-image: url("../public/assets/images/home/icons/left-active.png") !important;
 }
+
+/* Home Main Options Swiper */
+
+.main-options-swiper .swiper-pagination-bullet {
+  @apply w-[6px] h-[6px] rounded-full z-50 bg-white opacity-80;
+}
+
+.main-options-swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply bg-transparent w-8 h-[6px] bg-white opacity-100;
+}
+
+/* Footer */
+.footer-title {
+  @apply font-bold uppercase text-white mb-3;
+}
+
+.footer-item {
+  @apply text-[#999999] text-xs my-[10px] hover:font-bold leading-5;
+}
+
+.footer-icon {
+  @apply relative w-7 h-7 rounded-full overflow-hidden;
+}
+
+.form-input-wrapper {
+  @apply flex flex-col gap-1;
+}
+
+.form-input-label {
+  @apply text-primary text-[13px];
+}
+
+.form-input {
+  @apply px-4 py-2 rounded-sm border outline-none;
+}
+
+.footer-accordion-list {
+  @apply space-y-3;
+}
+
+.footer-accordion-list li {
+  @apply list-disc ml-3;
+}
+
+.footer-accordion-list li:hover {
+  @apply font-bold;
+}
