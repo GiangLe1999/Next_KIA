@@ -13,3 +13,38 @@ export const getCarDataByCategory = async () => {
     console.log(error);
   }
 };
+
+export const getSingleCarData = async (carSlug: string) => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car?slug=${carSlug}`
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getSingleCarContent = async (carSlug: string) => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car-content?slug=${carSlug}`
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json() as Promise<{
+      content: string;
+      data: { promotion: string };
+    }>;
+  } catch (error) {
+    console.log(error);
+  }
+};

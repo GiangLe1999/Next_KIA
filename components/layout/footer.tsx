@@ -20,10 +20,12 @@ const Footer: FC<Props> = (): JSX.Element => {
         {/* Column1 */}
         <div className="w-1/3 pr-3 max-[1017px]:w-[50%] max-[717px]:w-full">
           {/* General info */}
-          <p className="footer-title">CÔNG TY TNHH PHÂN PHỐI THACO AUTO</p>
+          <p className="footer-title !mb-[14px]">
+            CÔNG TY TNHH PHÂN PHỐI THACO AUTO
+          </p>
           <ul>
             {footerCol1.map((item, index) => (
-              <li className="footer-item hover:font-normal" key={index}>
+              <li className="footer-item hover:text-[#999999]" key={index}>
                 {item}
               </li>
             ))}
@@ -47,7 +49,7 @@ const Footer: FC<Props> = (): JSX.Element => {
               <div className="footer-icon">
                 <NextImage
                   src="/assets/images/home/icons/facebook.webp"
-                  alt="Mazda Facebook"
+                  alt="KIA Facebook"
                 />
               </div>
             </Link>
@@ -56,7 +58,7 @@ const Footer: FC<Props> = (): JSX.Element => {
               <div className="footer-icon">
                 <NextImage
                   src="/assets/images/home/icons/youtube.webp"
-                  alt="Mazda Youtube"
+                  alt="KIA Youtube"
                 />
               </div>
             </Link>
@@ -65,7 +67,7 @@ const Footer: FC<Props> = (): JSX.Element => {
               <div className="footer-icon">
                 <NextImage
                   src="/assets/images/home/icons/instagram.webp"
-                  alt="Mazda Instagram"
+                  alt="KIA Instagram"
                 />
               </div>
             </Link>
@@ -76,7 +78,7 @@ const Footer: FC<Props> = (): JSX.Element => {
         <div className="w-[18%] px-3 max-[717px]:w-[45%] max-[717px]:px-0">
           <p className="footer-title">Sản phẩm</p>
           <ul>
-            <FooterAccordion data={footerAccordionData} initialOpened={0} />
+            <FooterAccordion data={footerAccordionData} />
           </ul>
         </div>
 
@@ -111,7 +113,7 @@ const Footer: FC<Props> = (): JSX.Element => {
       <div className="border-t border-[#999999] py-1">
         <div className="container text-[#999999] text-xs flex items-center justify-between">
           <span className="uppercase my-2 text-center">
-            © 2023 Mazda Việt Nam - All rights reserved
+            © 2023 KIA Việt Nam - All rights reserved
           </span>
 
           <span>

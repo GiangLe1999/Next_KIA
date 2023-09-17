@@ -31,7 +31,7 @@ export default function HomeSwiper() {
             <Link href="" className="relative w-full h-full block">
               <NextImage
                 src={banner.src}
-                alt={`Mazda Home Banner ${index}`}
+                alt={`KIA Home Banner ${index}`}
                 priority={index === 0}
               />
             </Link>

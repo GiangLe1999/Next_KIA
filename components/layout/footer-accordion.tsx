@@ -11,7 +11,6 @@ import { FiChevronDown } from "react-icons/fi";
 interface ItemsProps {
   header: string;
   children: JSX.Element | JSX.Element[] | ReactNode;
-  initialEntered?: boolean;
 }
 
 const AccordionItem: FC<ItemsProps> = ({ header, ...rest }) => {
@@ -20,7 +19,7 @@ const AccordionItem: FC<ItemsProps> = ({ header, ...rest }) => {
       {...rest}
       header={({ state: { isEnter } }) => (
         <div className="flex items-center justify-between w-[80%]">
-          <span className="block text-[#999999] text-xs hover:font-bold">
+          <span className="block text-[#999999] text-xs hover:text-white transition">
             {header}
           </span>
           <FiChevronDown
@@ -44,19 +43,14 @@ const AccordionItem: FC<ItemsProps> = ({ header, ...rest }) => {
 
 interface Props {
   data: { header: string; content: ReactNode }[];
-  initialOpened: number;
 }
 
-const FooterAccordion: FC<Props> = ({ data, initialOpened }): JSX.Element => {
+const FooterAccordion: FC<Props> = ({ data }): JSX.Element => {
   return (
     <div className="my-4 transition text-[#999999]">
       <Accordion transition transitionTimeout={500}>
         {data.map((group, index) => (
-          <AccordionItem
-            header={group.header}
-            key={index}
-            initialEntered={index === initialOpened}
-          >
+          <AccordionItem header={group.header} key={index}>
             {group.content}
           </AccordionItem>
         ))}

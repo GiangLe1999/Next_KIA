@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import Link from "next/link";
 import { CarByCategory } from "@/types";
 import { formatPrice } from "@/lib/formatData";
-import BtnWithIcon from "../btnWithIcon";
+import BtnWithIcon from "../btn-with-icon";
 import { FaGear } from "react-icons/fa6";
 import { BsFuelPumpFill } from "react-icons/bs";
 import { MdEventSeat } from "react-icons/md";
@@ -63,7 +63,7 @@ export default function CarCategoriesSwiper({
                 <BtnWithIcon
                   to={"/" + car.slug}
                   content="Xem tất cả"
-                  customClasses="w-max"
+                  customClasses="w-max !bg-primary"
                 />
               </div>
 
