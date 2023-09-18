@@ -1,3 +1,5 @@
+import { cache } from "react";
+
 export const getCarDataByCategory = async () => {
   try {
     const res = await fetch(
@@ -48,3 +50,35 @@ export const getSingleCarContent = async (carSlug: string) => {
     console.log(error);
   }
 };
+
+export const getAllCarsLinesData = async () => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/cars/lines`
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getCarRegistration = cache(async (carName: string) => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car/registration?name=${carName}`
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.log(error);
+  }
+});

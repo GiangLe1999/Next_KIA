@@ -80,7 +80,7 @@ const GeneralInfo: FC<Props> = ({
           content="Giá lăn bánh"
           icon={GiCarWheel}
           iconSize={19}
-          customClasses="!bg-primary"
+          customClasses="!bg-quaternary"
         />
         <BtnWithIcon
           content="Đăng ký lái thử"
@@ -98,7 +98,7 @@ const GeneralInfo: FC<Props> = ({
           content="Tư vấn nhanh"
           icon={MdHeadsetMic}
           iconSize={20}
-          customClasses="!bg-primary"
+          customClasses="!bg-quaternary"
         />
       </div>
     </div>

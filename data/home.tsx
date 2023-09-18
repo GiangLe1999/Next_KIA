@@ -66,6 +66,22 @@ export const mainOptions: {
   },
 ];
 
+export const carNames: string[] = [
+  "New Morning",
+  "Morning",
+  "Soluto",
+  "K3",
+  "K5",
+  "Sonet",
+  "Carens",
+  "Seltos",
+  "Sportage",
+  "Sorento",
+  "Carnival",
+  "Sorento Hybrid",
+  "Sorento Plug-in Hybrid",
+];
+
 type staticCarsDataType = { title: string; link: string };
 
 export const staticCarsData: staticCarsDataType[] = [

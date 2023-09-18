@@ -5,6 +5,7 @@ import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemoteSerializeResult } from "next-mdx-remote";
 import PromotionInfo from "@/components/car-page/promotion-info";
 import ImageGallery from "@/components/car-page/image-gallery";
+import MainContent from "@/components/car-page/main-content";
 
 interface Props {
   params: { carSlug: string };
@@ -21,7 +22,8 @@ const page: NextPage<Props> = async ({ params }) => {
     tier,
     mainInfo,
     colors,
-    carLInes,
+    carLines,
+    registration,
   } = carData;
 
   const mdContent = (await getSingleCarContent(params.carSlug)) as {
@@ -50,7 +52,15 @@ const page: NextPage<Props> = async ({ params }) => {
         <PromotionInfo name={name} content={promotionContent} />
       </div>
 
-      <ImageGallery />
+      <ImageGallery colors={colors} />
+
+      <MainContent
+        name={name}
+        slug={slug}
+        carLines={carLines}
+        registration={registration}
+        serializedContent={serializedContent}
+      />
     </div>
   );
 };

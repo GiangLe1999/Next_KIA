@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 /* Base */
+html {
+  scroll-behavior: smooth;
+}
+
 ul,
 li {
   @apply list-none;
@@ -215,4 +219,163 @@ li {
 
 .car-promotion-ul .small-text {
   @apply text-[12px] italic mt-1 block;
+}
+
+.car-price-table {
+  @apply w-full rounded-sm;
+}
+
+.car-price-table td {
+  @apply border;
+}
+
+.car-price-table .table-title {
+  @apply bg-pentanary text-white uppercase font-bold text-xl py-3 text-center border-pentanary;
+}
+
+.car-price-table .table-group-heading {
+  @apply text-pentanary font-bold;
+}
+
+.car-price-table .table-group-heading td,
+.car-price-table .table-group-content td {
+  @apply py-4 text-center;
+}
+
+/* Single Car Page Tables */
+
+.calculate-price-table {
+  @apply p-5 w-full border border-[#eee] rounded-sm shadow-md;
+}
+
+.price-table {
+  @apply my-8;
+}
+
+.price-table td {
+  @apply border border-[#80808080] px-[10px] py-2;
+}
+
+.price-table tbody td {
+  @apply text-primary;
+}
+
+.price-table thead {
+  @apply bg-secondary text-white font-bold;
+}
+
+.price-table tbody tr:nth-child(odd) {
+  @apply bg-[#F4F9FE];
+}
+
+.interest-table td {
+  @apply text-center py-1 text-sm;
+}
+
+.calculate-price-table-title {
+  @apply border-b border-pentanary text-pentanary font-bold text-xl;
+}
+
+.form-input-wrapper {
+  @apply flex flex-col gap-1;
+}
+
+.form-input-label {
+  @apply text-white text-sm;
+}
+
+.form-input {
+  @apply px-4 py-2 rounded-sm outline-none;
+}
+
+.calculate-price-table-control {
+  @apply flex items-center mb-5 gap-1 max-[458px]:flex-col max-[458px]:items-start;
+}
+
+.calculate-price-table-control label {
+  @apply w-1/3 max-[458px]:w-full;
+}
+
+.calculate-price-table-control input,
+.calculate-price-table-control select,
+.calculate-price-table-control div {
+  @apply flex-1 border border-[#ccc] bg-[#f9fafb] outline-none rounded-md px-3 py-2 max-[458px]:w-full;
+}
+
+.components-price-list li {
+  @apply flex justify-between gap-2;
+}
+
+.components-price-list span {
+  @apply block text-right;
+}
+
+/* Single Car Image Gallery */
+/* Car Image Gallery */
+
+.carousel .thumbs {
+  text-align: center;
+}
+
+.carousel .thumb {
+  @apply !w-10 !h-10 rounded-full;
+}
+
+.carousel .thumb:hover,
+.carousel .thumb.selected {
+  @apply !border-[3px] !border-[#686868];
+}
+
+.carousel .thumb {
+  @apply !border !border-[#ccc];
+}
+
+.carousel-status {
+  @apply hidden;
+}
+
+/* Post content */
+.postContent {
+  @apply mt-8 text-primary;
+}
+
+.promotion-ul {
+  @apply list-disc space-y-2 ml-3;
+}
+
+.post-img-wrapper,
+.post-img-wrapper-no-margin {
+  @apply relative w-full aspect-[3/2] mb-[80px] rounded-b-sm;
+}
+
+.post-img-wrapper-no-margin {
+  @apply !mb-0;
+}
+
+.post-img-title {
+  @apply absolute -bottom-11 left-0 w-full bg-[rgba(0,0,0,0.05)] text-center block py-2 text-zinc-500;
+}
+
+.postContent img {
+  @apply rounded-t-sm m-0;
+}
+
+.postContent h2,
+.postContent h3 {
+  @apply w-fit px-3 py-[9px] text-xl font-bold bg-pentanary text-white relative uppercase max-[500px]:w-full;
+}
+
+.postContent h2::after,
+.postContent h3::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-[2000px] h-[2px] bg-pentanary block;
+}
+
+.postContent h3 {
+  @apply bg-quaternary text-base capitalize;
+}
+
+.postContent h3::after {
+  content: "";
+  @apply bg-quaternary block;
 }

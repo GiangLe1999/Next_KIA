@@ -17,12 +17,21 @@ const config: Config = {
         primary: "#05141f",
         secondary: "#2b2b2b",
         tertiary: "#00e9f8",
+        quaternary: "#2e3237",
+        pentanary: "#0071bc",
       },
       transitionProperty: {
         width: "width",
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: "120ch",
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;
