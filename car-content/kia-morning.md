@@ -12,6 +12,10 @@ Sau thời gian dài im hơi lặng tiếng, Thaco Trường Hải đã chính t
 <section id="thongso">
 <h2>THÔNG SỐ KỸ THUẬT</h2>
 
+<div class="post-img-wrapper" style={{aspectRatio:4.087}}>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695012592/KIA/KIA%20Car/kich-thuoc-tong-the-kia-morning_cnobbc.jpg" alt="Kích thước tổng thể KIA morning" fill={true} />
+</div>
+
 <div class="post-img-wrapper-no-margin" style={{aspectRatio:0.465}}>
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695005418/KIA/KIA%20Car/thong-so-ki-thuat-kia-morning_xgij1o.webp" alt="Thông số kỹ thuật kia morning" fill={true} />
 </div>

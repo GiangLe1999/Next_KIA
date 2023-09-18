@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Footer from "@/components/layout/footer";
+import StyledProgressBar from "@/components/progress-bar";
 
 const kiaFont = localFont({
   src: [
@@ -32,6 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={kiaFont.className}>
+        <StyledProgressBar />
         <Header />
         {children}
         <Footer />
