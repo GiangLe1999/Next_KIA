@@ -38,6 +38,7 @@ const ImageGallery: FC<Props> = ({ colors }): JSX.Element => {
               src={image}
               alt={`${image} preview`}
               priority={index === 0}
+              className="!h-[95%]"
             />
 
             <div className="absolute -bottom-[5px] left-1/2 -translate-x-1/2">

@@ -379,3 +379,7 @@ li {
   content: "";
   @apply bg-quaternary block;
 }
+
+.postContent .grid-2-cols {
+  @apply grid grid-cols-2 gap-3;
+}

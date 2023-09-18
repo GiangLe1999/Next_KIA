@@ -25,7 +25,7 @@ const GeneralInfo: FC<Props> = ({
 }): JSX.Element => {
   return (
     <div className="space-y-3">
-      <h1 className="uppercase font-bold text-2xl text-primary">{name}</h1>
+      <h1 className="uppercase font-bold text-2xl text-primary">KIA {name}</h1>
       <p className="font-semibold text-lg italic text-[#999999]">{slogan}</p>
       <p className="text-sm">
         Giá từ:{" "}
