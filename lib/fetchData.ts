@@ -35,7 +35,8 @@ export const getSingleCarData = async (carSlug: string) => {
 export const getSingleCarContent = async (carSlug: string) => {
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car-content?slug=${carSlug}`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car-content?slug=${carSlug}`,
+      { cache: "no-store" }
     );
 
     if (!res.ok) {
