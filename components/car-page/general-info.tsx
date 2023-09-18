@@ -25,8 +25,10 @@ const GeneralInfo: FC<Props> = ({
 }): JSX.Element => {
   return (
     <div className="space-y-3">
-      <h1 className="uppercase font-bold text-2xl text-primary">KIA {name}</h1>
-      <p className="font-semibold text-lg italic text-[#999999]">{slogan}</p>
+      <h1 className="uppercase font-bold text-3xl text-primary">KIA {name}</h1>
+      <p className="font-semibold text-lg italic text-pentanary font-sans !-mt-[2px]">
+        {slogan}
+      </p>
       <p className="text-sm">
         Giá từ:{" "}
         <span className="text-lg font-bold text-red-700">
@@ -86,13 +88,13 @@ const GeneralInfo: FC<Props> = ({
           content="Đăng ký lái thử"
           icon={PiSteeringWheelFill}
           iconSize={21}
-          customClasses="!bg-red-700 !border-red-700 hover:!text-red-700"
+          customClasses="!bg-pentanary !border-pentanary hover:!text-pentanary"
         />
         <BtnWithIcon
           content="Nhận báo giá"
           icon={FaEdit}
           iconSize={18}
-          customClasses="!bg-red-700 !border-red-700 hover:!text-red-700"
+          customClasses="!bg-pentanary !border-pentanary hover:!text-pentanary"
         />
         <BtnWithIcon
           content="Tư vấn nhanh"
