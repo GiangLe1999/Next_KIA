@@ -70,8 +70,8 @@ const CarPageContent: FC<Props> = ({
       <div className="bg-primary flex items-center justify-center gap-4 px-3 py-2 rounded-sm sticky top-[61px] z-50">
         {stickyMenuItems.map((item, index) => (
           <Link
-            className={`px-2 py-[6px] rounded-sm border border-transparent text-white text-sm font-bold transition ${
-              item.id === currentSection && "!border-white"
+            className={`car-page-sticky-item ${
+              item.id === currentSection && "!border-white hover:after:w-0"
             }`}
             href={`/${slug}${item.link}`}
             key={index}

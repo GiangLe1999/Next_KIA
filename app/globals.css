@@ -242,6 +242,21 @@ li {
   @apply py-4 text-center;
 }
 
+/* Single Car Page Sticky Header */
+
+.car-page-sticky-item {
+  @apply relative px-2 py-[6px] rounded-sm border border-transparent text-white text-sm font-bold transition;
+}
+
+.car-page-sticky-item:hover::after {
+  width: 100%;
+}
+
+.car-page-sticky-item::after {
+  content: "";
+  @apply absolute bottom-0 left-0 h-[3px] bg-white w-0 transition-width duration-500;
+}
+
 /* Single Car Page Tables */
 
 .calculate-price-table {
