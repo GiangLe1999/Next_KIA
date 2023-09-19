@@ -1,28 +1,30 @@
 ---
-promotion: <ul class="car-promotion-ul"><li>Hỗ trợ trả góp đến <strong>85% giá trị xe</strong></li><li>Tặng kèm<strong>&nbsp;phụ kiện</strong> chính hãng KIA (<strong>thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>Film cách nhiệt Flumar</strong></li><li>Tặng nhiên liệu khi giao xe.</li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100.000km</strong></li><li>Lãi suất ưu đãi chỉ từ <strong>0.75% / tháng</strong></li><li>Kho xe đủ màu, đủ xe nhất Việt Nam</li></ul>
+promotion: <ul class="car-promotion-ul"><li>Ưu đãi cực khủng lên đến <strong>37 triệu đồng  </strong></li><li>Tặng túi cứu hộ, Dây câu bình, đèn pin, găng tay, tam giác phản quang</li><li>Hỗ trợ trả góp đến <strong>80% giá trị xe</strong></li><li>Chính sách trả trước chỉ từ <strong>215 triệu đồng</strong></li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100.000km</strong></li><li>Lãi suất ưu đãi chỉ từ <strong>0.75% / tháng</strong></li><li>Màn hình DVD tích hợp loa bluetooth, radio, GPS tích hợp camera lùi</li></ul>
 ---
 
 <section id="tongquan">
 ## TỔNG QUAN
-**KIA Sportage** vừa có màn “comeback” ấn tượng tại thị trường Việt Nam với thế hệ thứ 5 cùng nhiều thay đổi để thách thức Hyundai Tucson, Mazda CX-5 trong phân khúc Crossover hạng C.
+**Kia Sorento** là mẫu Crossover/SUV hạng trung (05-07 chỗ) khá nổi tiếng của hãng xe Kia Motors, Hàn Quốc. Được ra mắt lần đầu tiên năm 2002, đến nay Kia Sorento đã bước sang thế hệ thứ 4 (MQ4, 2020-nay). Sorento là đối thủ của đồng hương Hyundai Tucson, Hyundai Santafe, các mẫu xe nhật như Mazda CX-5/CX8, xe Toyota Fortuner, Honda CR-V, Nissan X-trail
 
-<div class="post-img-wrapper">
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092496/KIA/KIA%20Car/kia-sportage_cnzpw6.png" alt="KIA Sportage" fill={true} />
-<span class="post-img-title">KIA Sportage - Đối thủ đáng gờm trong phân khúc C-CUV</span>
+<div class="post-img-wrapper" style={{aspectRatio:1.6667}}>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137839/KIA/KIA%20Car/kia-sorento_mgmqaj.jpg" alt="KIA Sorento" fill={true} />
+<span class="post-img-title">KIA Sorento - Crossover/SUV hạng trung</span>
 </div>
-
-Bước sang thế hệ thứ 5, KIA Sportage đã có màn “lột xác” toàn diện và Thaco nhận thấy tiềm năng trong phân khúc C-CUV nên đã quyết định lắp ráp mẫu xe này.
 
 </section>
 
 <section id="thongso">
 ## THÔNG SỐ KỸ THUẬT
 
-<div class="post-img-wrapper" style={{aspectRatio:3.615}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092494/KIA/KIA%20Car/kich-thuoc-sportage_rfkuew.png" alt="Kích thước tổng thể KIA Sportage" fill={true} />
+<div class="post-img-wrapper" style={{aspectRatio:4.08}}>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137838/KIA/KIA%20Car/kich-thuoc-kia-sorento_rzm6mn.jpg" alt="Kích thước tổng thể KIA Sorento" fill={true} />
 </div>
-<div class="post-img-wrapper" style={{aspectRatio:0.822}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092493/KIA/KIA%20Car/thong-so-ky-thuat-kia-sportage_fnueco.webp" alt="THÔNG SỐ KỸ THUẬT KIA Sportage" fill={true} />
+<div class="post-img-wrapper" style={{aspectRatio:1.08}}>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137838/KIA/KIA%20Car/thong-so-ky-thuat-kia-sorrento-scaled_ggbhjw.jpg" alt="THÔNG SỐ KỸ THUẬT KIA Sorento" fill={true} />
+</div>
+
+<div class="post-img-wrapper" style={{aspectRatio:2.09}}>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137838/KIA/KIA%20Car/mau-xe-kia-sorento_ggjqhn.png" alt="Màu xe KIA Sorento" fill={true} />
 </div>
 
 </section>
@@ -30,122 +32,95 @@ Bước sang thế hệ thứ 5, KIA Sportage đã có màn “lột xác” to�
 <section id="ngoaithat">
 ## NGOẠI THẤT
 
-KIA Sportage 2023 là chiếc xe được thiết kế dựa theo ngôn ngữ mới với tên gọi Opposites United, chiếc xe nhấn mạnh sự trẻ trung, năng động.
-
-Sportage 2023 được phát triển dựa trên nền tảng kiến trúc N3 hoàn toàn mới với kích thước chiều Dài x Rộng x Cao lần lượt là 4.660 x 1.865 x 1.665 (mm), chiều dài cơ sở đạt 2.755mm.
-
-### Đầu xe
-
-Không giống như “đàn anh” Sorento, lưới tản nhiệt của KIA Sportage 2023 là hình mũi hổ thon gọn hơn và mở rộng xuống dưới với nhiệm vụ làm mát động cơ. Những họa tiết bên trong lưới tản nhiệt sơn đen thể thao và liền mạch với hệ thống chiếu sáng.
-
-<div class="post-img-wrapper" style={{aspectRatio:1.4545}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092491/KIA/KIA%20Car/dau-xe-kia-sportage_evvkdq.webp" alt="KIA Sportage 2023 với thiết kế trẻ trung" fill={true} />
-<span class="post-img-title">KIA Sportage 2023 với thiết kế trẻ trung</span>
-</div>
-
-<div class="post-img-wrapper" style={{aspectRatio:1.777778}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092489/KIA/KIA%20Car/cum-den-truoc-kia-sportage_d1e8qa.webp" alt="Hệ thống chiếu sáng Sportage" fill={true} />
-<span class="post-img-title">Hệ thống chiếu sáng sử dụng công nghệ LED</span>
-</div>
-
-Hệ thống chiếu sáng của KIA Sportage 2023 sẽ sử dụng công nghệ LED hoàn toàn. Với những bản Signature, đèn pha/cos là bóng LED Projector với khả năng thích ứng của gói công nghệ an toàn cao cấp.
-
-Trong khi đó, đèn LED định vị ban ngày của KIA Sportage cũng thiết kế mới “ôm” trọn đèn pha tạo ra vẻ trẻ trung, năng động cho chiếc CUV này.
-
-Cản trước của mỏng sử dụng chất liệu nhựa màu xám tích hợp hệ thống đèn sương mù, 2 bên có khe thoát gió khí động học.
-
-### Thân xe
-
-Thay vì những đường gân nổi, KIA lại mang đến vẻ bầu bĩnh cho Sportage 2023 khi tiếp cận từ phần thân. Các trụ B-C-D được sơn đen toàn bộ nhằm gia tăng hiệu ứng thị giác, hướng đến giới trẻ nhờ vẻ thể thao.
+Trong khi Kia Sorento thế hệ thứ 3 có thiết kế khá nhạt nhẽo thì Sorento thế hệ mới có ngoại hình hấp dẫn hơn nhiều. Hệ thống chassis hoàn toàn mới cũng giúp xe có tổng trọng lượng thấp hơn tới 80kg so với thế hệ cũ.
 
 <div class="post-img-wrapper">
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092488/KIA/KIA%20Car/than-xe-kia-sportage_t3k4jy.webp" alt="Thân xe KIA Sportage" fill={true} />
-<span class="post-img-title">Thân xe KIA Sportage 2023 đời mới</span>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137838/KIA/KIA%20Car/kia-sorento-ngoai-that_cq3lhn.jpg" alt="Ngoại hình của Kia Sorento thế hệ 4 KIA Sorento" fill={true} />
+<span class="post-img-title">Ngoại hình hấp dẫn của Kia Sorento thế hệ 4</span>
 </div>
 
-“Dàn chân” của KIA Sportage 2023 đều dùng mâm 19 inch ở tất cả các phiên bản với tạo hình phay bóng 2 màu lạ mắt.
+Tổng quan ngoại thất Kia Sorento thế hệ 4. Chiếc SUV Sorento All new sở hữu ngoại thất hiện đại, thể thao nhờ những thiết kế theo tỷ lệ rất hợp lý.
 
-Gương chiếu hậu của KIA Sportage 2023 được rời xuống cửa xe giúp mở rộng tầm quan sát cho tài xế về 2 bên. Những tính năng như chỉnh điện, gập tự động tích hợp xi-nhan là tiêu chuẩn trên gương, bản cao cấp sẽ có thêm sấy gương.
+Phía trước đầu xe vẫn là lưới tản nhiệt dạng mũi hổ đặc trưng nhưng lỗ mũi lớn và góc cạnh hơn, kết nối với cụm đèn pha LED kiểu dáng mới. Đèn dạng 3 bóng full LED khá đẹp mặt. Hốc hút gió thanh ngang nằm trong tổng thế cản trước rất dữ dằn hầm hố. Đèn sương mù 2 tầng cũng tích hợp ở hốc gió.
 
-### Đuôi xe
+Có thể nhận thấy các đường nét tạo hình gãy gọn dứt khoát tương đồng với phần đầu xe. Tuy vậy, Sorento vẫn toát ra vẻ sang trọng khó cưỡng. Có cảm giác như đây là một chiếc xe BMW nếu không chú ý đến logo trên bánh.
 
-Trái với vẻ thể thao của phần đầu, đuôi xe KIA Sportage 2023 không quá ấn tượng khi những đường cắt vát được thương hiệu Hàn Quốc sử dụng nhiều ở đây.
-
-<div class="post-img-wrapper" style={{aspectRatio:1.47}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092487/KIA/KIA%20Car/duoi-xe-kia-sportage_qmusyk.webp" alt="Đuôi xe KIA Sportage" fill={true} />
-<span class="post-img-title">Đuôi xe thiết kế góc cạnh</span>
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137833/KIA/KIA%20Car/kia-sorrento-dau-xe_ydl9lz.jpg" alt="Lưới tản nhiệt dạng mũi hổ góc cạnh hơn KIA Sorento" fill={true} />
+<span class="post-img-title">Lưới tản nhiệt dạng mũi hổ góc cạnh hơn</span>
 </div>
 
-Trong đó, cụm đèn hậu được vuốt sắc lẹm nối với nhau bởi một đường gân nổi, nhưng tiếc rằng không phải dải LED. Cản sau của Sportage tạo hình tương đối giống cản trước cùng bộ khuếch lưu gió ở vị trung tâm.
+Chiếc SUV nhà Kia có kích thước tổng thể DxRxC tương ứng 4810 x 1900 x 1700 mm; chiều dài trục cơ sở đạt 2815 mm; khoảng sáng gầm 176 mm. So với Sorento thế hệ cũ có các số đo tương ứng là 4685 x 1885 x 1755 mm, chiều dài cơ sở 2.700 mm, khoảng sáng gầm 185 mm thì rõ ràng Sorento được gia tăng kích thước đáng kể.
+
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-duoi-xe_csdwpl.jpg" alt="KIA Sorento Cụm đèn hậu công nghệ LED" fill={true} />
+<span class="post-img-title">Cụm đèn hậu công nghệ LED</span>
+</div>
+
+Đuôi xe với cụm đèn hậu công nghệ LED cùng kiểu dáng thiết kế theo phương thẳng đứng, ốp cản sau màu bạc cứng cáp hơn; cặp ống xả kép mạ crôm vuông vắn, sáng bóng tạo điểm nhấn cho phần thân màu đen. Gạt nước mưa phía sau được khéo léo ẩn trong cánh gió phía trên và chỉ xuất hiện khi hoạt động.
 
 </section>
 
 <section id="noithat"> 
 ## NỘI THẤT
-Những sản phẩm của KIA trong vài năm trở lại đây không chỉ thuyết phục khách hàng bởi ngoại hình trẻ trung mà nội thất sang trọng, mới lạ cũng là bước tiến dài của hãng xe Hàn Quốc khi chinh phục người dùng và Sportage không phải ngoại lệ.
+Nhờ vào trục cơ sở được gia tăng 115mm; khoang cabin của Sorento rộng rãi thoải mái hơn hẳn chiếc Sorento đời cũ cũng như bất kỳ một chiếc SUV hạng trung nào khác trên thị trường.
 
-<div class="post-img-wrapper" style={{aspectRatio:0.616}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092484/KIA/KIA%20Car/noithat-kia-sportage_ftrnx7.jpg" alt="Nội thất KIA Sportage" fill={true} />
-<span class="post-img-title">Nội thất KIA Sportage</span>
+<div class="post-img-wrapper" style={{aspectRatio:1.58}}>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-khoang-lai_xr59tf.jpg" alt="Khoang cabin rộng rãi thoải mái của KIA Sorento" fill={true} />
+<span class="post-img-title">Khoang cabin rộng rãi thoải mái của Sorento</span>
 </div>
 
-### Khoang lái
-
-Ấn tượng nhất ở khu vực khoang lái của All New KIA Sportage 2023 chắc chắn đến từ vị trí màn hình đôi ở táp-lô trung tâm. Trong tất cả những chiếc xe KIA hiện nay, màn hình Sportage 2023 là thu hút nhất bởi thiết kế tràn viền giúp xe trở nên hiện đại và sang trọng.
+Toàn cảnh nội thất xe Kia Sorento . So với thế hệ hiện tại thì Kia Sorento 2021 allnew có đến 2 lựa chọn 6 và 7 chỗ ngồi. Với 6 chỗ ngồi thì chiếc xe nhắm tới các khách hàng VIP.
 
 <div class="post-img-wrapper">
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092483/KIA/KIA%20Car/khoang-lai-kia-sportage_ot2057.webp" alt="Khoang lái cao cấp KIA Sportage 2023" fill={true} />
-<span class="post-img-title">KIA Sportage 2023 với khoang lái cao cấp</span>
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-ghe-lai_s4znip.jpg" alt="Ghế trước KIA Sorento" fill={true} />
+<span class="post-img-title">Ghế trước KIA Sorento</span>
 </div>
 
-Một trong những điểm mới thú vị nữa của KIA Sportage 2023 đến từ cụm điều hòa dạng cảm ứng, bên dưới là cụm xoay chuyển số tích hợp nhiều chức năng như sưởi/thông gió.
-
-Vô-lăng của chiếc xe hạng C đến từ Hàn Quốc dạng D-Cut bọc da thể thao tích hợp nhiều phím bấm chức năng hỗ trợ lái xe trong quá trình di chuyển. Phía sau là màn hình kỹ thuật số hiển thị đa thông tin đầy sắc nét, giao diện thay đổi theo chế độ lái.
-
-### Hệ thống ghế ngồi
-
-Toàn bộ ghế của KIA Sportage đời mới đều được bọc da, 2 bản Luxury và Premium chỉ có ghế lái chỉnh điện. Trong khi đó, những phiên bản còn lại có khả năng chỉnh điện đa hướng, nhớ vị trí, sưởi/làm mát hàng ghế trước tiện nghi.
-
-<div class="post-img-wrapper" style={{aspectRatio:1.48}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092482/KIA/KIA%20Car/ghe-truoc-kia-sportage_xx4lws.webp" alt="Hàng ghế trước KIA Sportage" fill={true} />
-<span class="post-img-title">Hàng ghế trước KIA Sportage</span>
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-ghe-hanh-khach_wr7kit.jpg" alt="Ghế sau KIA Sorento" fill={true} />
+<span class="post-img-title">Ghế sau KIA Sorento</span>
 </div>
 
-<div class="post-img-wrapper" style={{aspectRatio:1.48}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092482/KIA/KIA%20Car/ghe-truoc-kia-sportage_xx4lws.webp" alt="Hàng ghế sau KIA Sportage" fill={true} />
-<span class="post-img-title">Hàng ghế sau KIA Sportage</span>
+Hình ảnh vô lăng có tính năng sưởi cao cấp. Sorento thê hệ mới có cabin trang bị thống đèn Moodlight 7 màu tiêu chuẩn có 64 tùy chọn đẹp mắt. Hệ thống sưởi, làm mát ghế thông minh có khả năng tự động, sưởi ghế để điều chỉnh nhiệt độ không khí như mong muốn.
+
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-cua-so-troi_lmnh1y.jpg" alt="Cửa sổ trời trên Sorento" fill={true} />
+<span class="post-img-title">Cửa sổ trời trên Sorento</span>
 </div>
 
-Với chiều dài cơ sở 2.755mm, KIA Sportage 2023 đang là rộng rãi hàng đầu phân khúc tương tự “người anh em” Hyundai Tucson 2023 khi trải nghiệm hàng ghế sau. Ở đây, người dùng có khả năng ngả ghế, bệ tỳ tay trung tâm tích hợp và phía trước là cửa gió điều hòa.
+Kia Sorento thế hệ mới trang bị màn hình thông tin kỹ thuật số kích thước lớn 12.3” với màn hình giải trí 10.25”. Hỗ trợ kết nối Apple CarPlay/Android Auto; Hệ thống âm thanh vòm với 12 loa Bose 10 loa đem lại sự thư thái cho mọi người trong xe; hệ thống điều hòa tự động 2 vùng độc lập – 3 chế độ gió với cửa gió cho phép điều chỉnh từng vị trí ghế.
 
-### Tiện nghi
-
-Hệ thống giải trí của KIA Sportage 2023 sẽ xoay quanh màn hình cảm ứng trung tâm 12,3 inch có khả năng ghép nối điện thoại thông qua Apple CarPlay/Android Auto. Đầu ra là hệ thống âm thanh 8 loa Harman Kardon (2 bản tiêu chuẩn dùng loa thường).
-
-<div class="post-img-wrapper" style={{aspectRatio:1.77778}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092479/KIA/KIA%20Car/man-hinh-trung-tam-kia-sportage_ir2wnf.webp" alt="KIA Sportage 2023 sở hữu màn hình cong đẹp mắt." fill={true} />
-<span class="post-img-title">KIA Sportage 2023 sở hữu màn hình cong đẹp mắt</span>
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-man-hinh-trung-tam_yk3r0x.jpg" alt="Màn hình giải trí KIA Sorento" fill={true} />
+<span class="post-img-title">Màn hình thông tin kỹ thuật số 12.3” với màn hình giải trí 10”.25”</span>
 </div>
 
-Những tiện nghi khác trên KIA Sportage 2023 gồm: Nút bấm khởi động & chìa khóa thông minh, sưởi/làm mát ghế trước, cửa sổ trời toàn cảnh trên các bản cao cấp, gương chống chói tự động, điều hòa tự động, phanh tay điện tử, đèn LED nội thất trên & cần số điện tử trên 4 bản cao cấp,.
+Một tính năng khá thú vị của KIA SORENTO là khởi động từ xa thông qua khóa điện tử thông minh, giúp bật điều hòa sớm trước khi vào xe. Với tính năng Surround View Monitor, chủ xe có thể quan sát 360 độ xung quanh Sorento từ xa qua điện thoại thông minh.
+
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-num-xoay_crc5yg.jpg" alt="Các núm xoay KIA Sorento" fill={true} />
+<span class="post-img-title">Các núm xoay KIA Sorento</span>
+</div>
+
+Cổng USB và cửa gió điều hòa hàng ghế sau và bệ trung tâm. Các núm xoay thường thấy trên các dòng xe sang nay đã xuất hiện trên phiên bản Kia Sorento Signature cao cấp. Các tiện nghi khác như ghi nhớ vị trí ghế thông minh, rèm che nắng phía sau, cảnh báo còn trẻ em hàng ghế sau khi khóa cửa...
 
 </section>
 
 <section id="vanhanh">
 ## VẬN HÀNH
+Dòng SUV mới của Kia có 2 tùy chọn động cơ 4 xy-lanh khác nhau. Đầu tiên là động cơ Diesel Smartstream 2.2L với công suất tối đa 198Hp/3800rpm và và mô-men xoắn cực đại 440 Nm/1570-2750rpm. Hộp số đi kèm 8AT và hệ dẫn động AWD.
 
-Thương hiệu Hàn Quốc mang đến cho khách hàng Việt 3 tùy chọn động cơ KIA Sportage 2023 bao gồm:
-
-- **Động cơ xăng – 2.0L** cho công suất 154 mã lực và mô-men xoắn 192 Nm kết nối với hộp số tự động 6 cấp và hệ dẫn động cầu trước.
-- **Động cơ xăng tăng áp 1.6L** sản sinh công suất 178 mã lực và mô-men xoắn 265 Nm ghép nối cùng hộp số ly hợp kép tự động 7 cấp và hệ dẫn động bốn bánh.
-- **Động cơ dầu – 2.0L** tạo ra công suất 183 mã lực và mô-men xoắn 416 Nm kết nối cùng hộp số tự động 8 cấp và hệ dẫn động cầu trước.
-
-Trái với dự đoán, KIA Sportage 2023 không có động cơ Hybrid là điểm đáng tiếc với nhiều khách hàng.
-
-<div class="post-img-wrapper" style={{aspectRatio:0.378}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092478/KIA/KIA%20Car/van-hanh-kia-sportage_q2h7e9.jpg" alt="Hệ thống vận hành KIA Sportage" fill={true} />
-<span class="post-img-title">Hệ thống vận hành KIA Sportage</span>
+<div class="post-img-wrapper">
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695137832/KIA/KIA%20Car/kia-sorrento-dong-co_exgmwh.jpg" alt="động cơ KIA Sorento" fill={true} />
+<span class="post-img-title">Có 2 lựa chọn động cơ khi mua KIA Sorento</span>
 </div>
+
+Tiếp theo là động cơ xăng Smartstream 2.5L cho sức mạnh 177hp tại 6.000 vòng/phút và momen xoắn 232 Nm tại 4.000 vòng/phút, kết hợp hộp số tự động 6AT và hệ dẫn động AWD.
+
+KIA SORENTO (All-New) trang bị đến 4 chế độ lái Comfort/ Eco/ Sport/ Smart theo từng địa hình đường có tuyết, đương có cát và đường bùn lầy, mang những trải nghiệm tuyệt vời khi lái xe.
+
+Cùng với chassis, hệ thống treo cũng hoàn toàn mới, tối ưu khả năng phân bổ tải trọng, trang bị van thủy lực thế hệ mới của giảm chấn giúp gia tăng khả năng phản hồi thông tin khi đánh lái, vừa mang lại cảm giác lái chính xác cho người lái, vừa mang đến sự êm dịu cho hành khách.
 
 </section>
 
@@ -153,20 +128,6 @@ Trái với dự đoán, KIA Sportage 2023 không có động cơ Hybrid là đi
 
 ## AN TOÀN
 
-Về khả năng bảo vệ hành khách, KIA Sportage 2023 ngoài những tính năng tiêu chuẩn còn có những công nghệ cao cấp gồm:
-
-- Camera 360 độ
-- Ga hành trình thích ứng
-- Cảm biến áp suất lốp
-- Cảnh báo điểm mù hiển thị hình ảnh
-- Hệ thống hỗ trợ tránh phòng tránh va chạm
-- Cảnh báo lệch làn & hỗ trợ giữ làn đường
-- Hỗ trợ phanh chủ động
-- Hệ thống 6 túi khí
-
-<div class="post-img-wrapper" style={{aspectRatio:0.815}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695092478/KIA/KIA%20Car/he-thong-an-toan-kia-sportage_ugpuqg.jpg" alt="Thiết bị an toàn trên KIA Sportage" fill={true} />
-<span class="post-img-title">Thiết bị an toàn trên KIA Sportage</span>
-</div>
+Về tính năng an toàn, trên Sorento thế hệ mới có đầy đủ phanh ABS/EBD/BA, cân bằng điện tử, hỗ trợ khởi hành ngang dốc, cảm biến đỗ xe trước/sau, camera lùi, camera 360 độ, kiểm soát hành trình thích ứng, công nghệ như hỗ trợ duy trì làn đường, kiểm soát hành trình thông minh, hỗ trợ ngăn va chạm trực diện, phát hiện cảnh báo điểm mù, đèn chiếu chủ động khi bẻ lái, cảnh báo tình trạng buồn ngủ của người lái và hệ thống cảm biến áp suất lốp.
 
 </section>

@@ -15,7 +15,7 @@ const InterestDetailTable: FC<Props> = ({
   lengthArr,
 }): JSX.Element => {
   return (
-    <table className="price-table interest-table w-full">
+    <table className="price-table interest-table w-full !mb-0">
       <thead>
         <tr>
           <td>Số kỳ trả</td>

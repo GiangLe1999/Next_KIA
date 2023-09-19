@@ -37,8 +37,8 @@ const MainContent: FC<Props> = ({
         <div className="flex-1 p-4 text-center mt-16 shadow-md border rounded-sm h-fit sticky top-[150px] space-y-3">
           <h4 className="font-bold text-secondary text-xl mt-2">KIA SÀI GÒN</h4>
           <p className="text-sm">
-            Khách hàng vui lòng liên hệ để được tư vấn tận tình về giá xe cùng
-            các chương trình khuyến mại mới nhất.
+            Khách hàng vui lòng liên hệ để được tư vấn về giá xe cùng các chương
+            trình khuyến mại mới nhất.
           </p>
           <p className="text-red-700 font-bold">Hotline: 0962.334.807</p>
 
