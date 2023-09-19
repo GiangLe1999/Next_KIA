@@ -10,7 +10,7 @@ Sau thời gian dài im hơi lặng tiếng, Thaco Trường Hải đã chính t
 </div>
 
 <section id="thongso">
-<h2>THÔNG SỐ KỸ THUẬT</h2>
+## THÔNG SỐ KỸ THUẬT
 
 <div class="post-img-wrapper-no-margin" style={{aspectRatio:0.85}}>
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695001816/KIA/KIA%20Car/thong-so-ki-thuat-kia-new-mazda_fwdtxo.webp" alt="Thông số kỹ thuật kia new morning" fill={true} />
@@ -19,7 +19,7 @@ Sau thời gian dài im hơi lặng tiếng, Thaco Trường Hải đã chính t
 </section>
 
 <section id="ngoaithat">
-<h2>NGOẠI THẤT</h2>
+## NGOẠI THẤT
 
 Ngay từ phần đầu xe, New KIA Morning ​X-Line đã tạo ấn tượng với trang bị lưới tản nhiệt hình mũi hổ đặc trưng được tinh chỉnh với viền mạ crôm bao quanh kéo dài đến cụm đèn pha cũng được tái thiết kế. Dải đèn LED ban ngày gồm 4 bóng đèn bao quanh đèn chính dạng gương cầu trông thiết kế hiện đại.
 
@@ -59,7 +59,7 @@ Tiến đến phần đuôi xe, cụm đèn hậu của Morning 2021 được ti
 </section>
 
 <section id="noithat"> 
-<h2>NỘI THẤT</h2>
+## NỘI THẤT
 
 Màn hình đa thông tin LCD 4.2 inch cung cấp nhiều thông tin trên nền giao diện trực quan, rõ nét và tăng tính cao cấp cho xe.
 
@@ -100,7 +100,7 @@ Bệ tay tay trung tâm tích hợp hộc chứa đồ và khả năng di trư�
 </section>
 
 <section id="vanhanh">
-<h2 >VẬN HÀNH</h2>
+## VẬN HÀNH
 
 Thaco cho biết **KIA Morning X-Line** được trang bị động cơ mới, tuy nhiên thông số chi tiết chưa được công bố. Ở đời xe trước, Kia Morning sử dụng động cơ xăng I4 1.25L công suất 86 mã lực và mô-men xoắn 120 Nm.
 
@@ -112,7 +112,7 @@ Thaco cho biết **KIA Morning X-Line** được trang bị động cơ mớ
 </section>
 
 <section id="antoan">
-<h2 >AN TOÀN</h2>
+## AN TOÀN
 
 Các trang bị an toàn trên xe có thể kể tới như:
 

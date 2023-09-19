@@ -84,12 +84,12 @@ export default function CarCategoriesSwiper({
                   </li>
                 </ul>
 
-                <div
-                  onClick={() => router.push("/" + car.slug)}
-                  className="cursor-pointer mt-10 w-full aspect-[1.7] relative hover:scale-[1.05] transition"
+                <Link
+                  href={"/" + car.slug}
+                  className="block cursor-pointer mt-10 w-full aspect-[1.7] relative hover:scale-[1.05] transition"
                 >
                   <ContainNextImage src={car.avatar} alt={car.name} />
-                </div>
+                </Link>
               </div>
             </div>
           </SwiperSlide>

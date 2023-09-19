@@ -281,7 +281,7 @@ li {
 }
 
 .form-input-label {
-  @apply text-white text-sm;
+  @apply text-secondary text-[13px];
 }
 
 .form-input {

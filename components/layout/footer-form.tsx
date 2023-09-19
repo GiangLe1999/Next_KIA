@@ -121,7 +121,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
 
       <button
         type="submit"
-        className="primary-btn w-full text-white uppercase flex items-center justify-center gap-1 hover:scale-[1.01]"
+        className="primary-btn !bg-primary w-full text-white uppercase flex items-center justify-center gap-1 hover:scale-[1.01]"
       >
         {loading ? (
           <>

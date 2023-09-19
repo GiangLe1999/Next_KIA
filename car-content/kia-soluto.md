@@ -10,7 +10,7 @@ promotion: <ul class="car-promotion-ul"><li>Ưu đãi&nbsp;<strong>giảm giá t
 </div>
 
 <section id="thongso">
-<h2>THÔNG SỐ KỸ THUẬT</h2>
+## THÔNG SỐ KỸ THUẬT
 
 <div class="post-img-wrapper" style={{aspectRatio:3.805}}>
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695010233/KIA/KIA%20Car/thong-so-ky-thuat-kia-soluto_gbkyda.webp" alt="Kích thước Kia Soluto" fill={true} />
@@ -23,7 +23,7 @@ promotion: <ul class="car-promotion-ul"><li>Ưu đãi&nbsp;<strong>giảm giá t
 </section>
 
 <section id="ngoaithat">
-<h2>NGOẠI THẤT</h2>
+## NGOẠI THẤT
 
 **Kia Soluto 2023** sở hữu ngoại hình trẻ trung, năng động, theo đúng phong cách thường thấy của các mẫu xe nhà Kia. So với nhiều đối thủ cùng phân khúc như Toyota Vios, Hyundai Accent, Nissan Sunny, Mazda 2… giới chuyên môn đánh giá Kia Soluto sẽ dễ dàng lọt vào tầm ngắm của nhóm khách hàng trẻ tuổi hơn.
 
@@ -64,7 +64,7 @@ Thân xe còn nổi bật với trang bị gương chiếu hậu cho phép chỉ
 </section>
 
 <section id="noithat"> 
-<h2>NỘI THẤT</h2>
+## NỘI THẤT
 
 Chiều dài cơ sở của KIA Soluto là 2570 mm, thông số này nhỉnh hơn đối thủ Toyota Vios có kích thước 2550 mm. Nhờ vậy, bạn có thể yên tâm Soluto hứa hẹn mang tới cho tất cả các hành khách trên xe không gian nội thất thoáng đãng.
 
@@ -97,7 +97,7 @@ Về tiện nghi giải trí, KIA Soluto được trang bị màn hình cảm �
 </section>
 
 <section id="vanhanh">
-<h2 >VẬN HÀNH</h2>
+## VẬN HÀNH
 
 Nếu bạn chọn Soluto hộp số tự động 4 cấp thì ưu điểm là quá trình sang số diễn ra nhanh chóng và mượt mà. Đây được xem là trang bị hộp số được đông đảo khách hàng nữ ưu tiên chọn lựa vì việc lái xe không đòi hỏi bạn phải thao tác quá nhiều nhất là sử dụng xe trong đô thị.
 
@@ -125,7 +125,7 @@ Bên dưới nắp ca-pô là khối động cơ xăng 4 xi-lanh 1.4L, sản sin
 </section>
 
 <section id="antoan">
-<h2 >AN TOÀN</h2>
+## AN TOÀN
 Các trang an toàn nổi bật trên **Soluto** gồm có: 2 túi khí, camera lùi, chống bó cứng phanh ABS. Tính an ninh của Soluto được đảm bảo nhờ vào hệ thống chống trộm Immobilizer giúp bạn yên tâm khi rời khỏi xe.
 
 <div class="grid-2-cols">
