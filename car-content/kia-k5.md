@@ -2,6 +2,8 @@
 promotion: <ul class="car-promotion-ul"><li>Giảm ngay tiền mặt <strong>81 Triệu</strong></li><li>Ưu đãi&nbsp;<strong>giảm giá trực tiếp</strong>&nbsp;khi khách hàng liên hệ qua&nbsp;<strong><span>HOTLINE</span></strong></li><li>Tặng kèm 3 món<strong>&nbsp;phụ kiện</strong>&nbsp;chính hãng (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>1/2</strong> bình nhiên liệu khi giao xe</li><li>Bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li><li>Lái thử xe tận nhà miễn phí, giao xe tận nhà</li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 Sau thời gian dài chờ đợi, chiếc Kia K5 đã chính thức trình làng tại thị trường Mỹ với ngoại hình cực kỳ lôi cuốn và mới mẻ. Sở dĩ có cái tên Kia K5 là vì bắt đầu từ model 2022, Kia Optima sẽ được đổi thành Kia K5 và hãng xe Hàn sẽ áp dụng tên gọi toàn cầu cho dòng sedan này tại thị trường USA là K5.
 
 <div class="post-img-wrapper">
@@ -10,6 +12,8 @@ Sau thời gian dài chờ đợi, chiếc Kia K5 đã chính thức trình làn
 </div>
 
 Kia K5 (hay Kia Optima) là dòng xe cỡ trung (Mid-size car) của nhà sản xuất xe hơi Kia Motor, Hàn Quốc. Ra đời từ năm 2000, đến nay Kia K5 (Optima) vừa bước vào thế hệ thứ 5. Sau khi Kia K5 thế hệ mới ra mắt tại Hàn Quốc vào đầu năm 2020 thì đến tháng 08/2020 chính thức trình làng thị trường Mỹ. Kia K5 thế hệ mới được phát triển dựa trên nền tảng Hyundai N3, tương tự mẫu xe Hyundai Sonata.
+
+</section>
 
 <section id="thongso">
 ## THÔNG SỐ KỸ THUẬT

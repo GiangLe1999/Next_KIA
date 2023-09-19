@@ -1,11 +1,8 @@
-import GeneralInfo from "@/components/car-page/general-info";
 import { getSingleCarContent, getSingleCarData } from "@/lib/fetchData";
 import { NextPage } from "next";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemoteSerializeResult } from "next-mdx-remote";
-import PromotionInfo from "@/components/car-page/promotion-info";
-import ImageGallery from "@/components/car-page/image-gallery";
-import MainContent from "@/components/car-page/main-content";
+import CarPageContent from "@/components/car-page/car-page-content";
 
 interface Props {
   params: { carSlug: string };
@@ -38,30 +35,20 @@ const page: NextPage<Props> = async ({ params }) => {
   )) as MDXRemoteSerializeResult;
 
   return (
-    <div className="container mt-28 space-y-14">
-      <div className="grid grid-cols-2 gap-6">
-        <GeneralInfo
-          name={name}
-          priceFrom={priceFrom}
-          slogan={slogan}
-          mainInfo={mainInfo}
-          category={category}
-          tier={tier}
-        />
-
-        <PromotionInfo name={name} content={promotionContent} />
-      </div>
-
-      <ImageGallery colors={colors} />
-
-      <MainContent
-        name={name}
-        slug={slug}
-        carLines={carLines}
-        registration={registration}
-        serializedContent={serializedContent}
-      />
-    </div>
+    <CarPageContent
+      name={name}
+      priceFrom={priceFrom}
+      slogan={slogan}
+      mainInfo={mainInfo}
+      category={category}
+      tier={tier}
+      slug={slug}
+      carLines={carLines}
+      registration={registration}
+      serializedContent={serializedContent}
+      promotionContent={promotionContent}
+      colors={colors}
+    />
   );
 };
 

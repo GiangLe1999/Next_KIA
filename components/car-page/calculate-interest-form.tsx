@@ -25,7 +25,7 @@ const unitClasses = "w-1/3 block text-xs text-right";
 
 const calRowClasses = "flex justify-between py-2 border-b border-[#eee] gap-2";
 
-const calRowPriceClasses = "text-lg font-bold text-pentanary";
+const calRowPriceClasses = "text-lg font-bold text-secondary";
 
 const CalInterestForm: FC<Props> = ({
   chosePercent,
@@ -162,7 +162,7 @@ const CalInterestForm: FC<Props> = ({
 
         <div>
           <BtnWithIcon
-            customClasses="!bg-pentanary !border-pentanary text-white hover:!text-pentanary ml-auto mt-6 font-bold text-sm"
+            customClasses="!bg-secondary !border-secondary text-white hover:!text-secondary ml-auto mt-6 font-bold text-sm"
             content={showInterestTable ? "ẨN BẢNG CHI TIẾT" : "XEM CHI TIẾT"}
             onClick={showInterestTableHandler}
           />

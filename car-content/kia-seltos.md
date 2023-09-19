@@ -2,6 +2,8 @@
 promotion: <ul class="car-promotion-ul"><li>Tặng kèm nhiều <strong>phụ kiện quà tặng chính hãng</strong> theo xe</li><li>Tặng Tiền Mặt <strong>40 Triệu Đồng</strong></li><li><strong>Flim cách nhiệt, Áp Suất Lốp, Dù, Phiếu Nhiên Liệu</strong></li><li><strong>Túi cứu hộ, Thảm chân</strong></li><li><strong>Tặng gói bảo dưỡng 1000 km, 50000 km, 100000 Km</strong></li><li>Hỗ trợ thủ tục vay ngân hàng <strong>nhanh nhất, dễ nhất, tỷ lệ tối đa 80% giá trị xe</strong></li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 **Kia Seltos** tại Hồ Chí Minh là mẫu xe SUV/Crossover cỡ nhỏ, 5 chỗ ngồi (subcompact crossover SUV) của nhà sản xuất Kia Motors, Hàn Quốc. Cái tên Seltos là tên của con trai của Hercules trong thần thoại Hy Lạp. Đây là mẫu xe mà Kia kỳ vọng sẽ nhắm đến những khách hàng trẻ trung, đam mê công nghệ và thích nổi bật giữa đám đông.
 
 <div class="post-img-wrapper" style={{aspectRatio:1.583333}}>
@@ -10,6 +12,8 @@ promotion: <ul class="car-promotion-ul"><li>Tặng kèm nhiều <strong>phụ ki
 </div>
 
 Dòng SUV hạng nhỏ Kia Seltos đã chính thức được bán tại thị trường Ấn Độ, Mỹ, Hàn Quốc, Việt Nam trong đó Hồ Chí Min là huyện rất nhiều khách hàng ưu chuộng mẫu xe này…. Tại Mỹ có 4 phiên bản là Seltos LX, S, EX, SX với mức giá từ 23.110-29.010 USD (tương đương 537-674 triệu VNĐ).
+
+</section>
 
 <section id="thongso">
 ## THÔNG SỐ KỸ THUẬT

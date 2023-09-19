@@ -2,6 +2,8 @@
 promotion: <ul class="car-promotion-ul"><li>Giảm ngay tiền mặt <strong>43 triệu đồng</strong></li><li>Tặng kèm<strong>&nbsp;phụ kiện</strong> chính hãng KIA (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>Film cách nhiệt Flumar</strong></li><li>Tặng nhiên liệu khi giao xe</li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li><li>Kho xe đủ màu, đủ xe nhất Việt Nam</li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 Tham chiến phân khúc xe MPV cỡ nhỏ, **Kia Carens** 2023 tung ra thị trường Việt Nam 7 phiên bản với 3 loại động cơ đi kèm giá bán công bố từ **619 đến 859 triệu đồng**.
 
 <div class="post-img-wrapper" style={{aspectRatio:2.318}}>
@@ -10,6 +12,8 @@ Tham chiến phân khúc xe MPV cỡ nhỏ, **Kia Carens** 2023 tung ra thị tr
 </div>
 
 Tung ra thị trường Việt Nam tới 7 phiên bản, chia thành 3 loại động cơ khác nhau, Kia Carens 2023 cạnh tranh với các đối thủ Mitsubishi Xpander, Suzuki Ertiga/XL7, Toyota Avanza/Veloz Cross và Hyundai Stargazer trong phân khúc xe MPV cỡ nhỏ. Xe có giá bán thấp nhất 619 triệu đồng, cao nhất 859 triệu đồng.
+
+</section>
 
 <section id="thongso">
 ## THÔNG SỐ KỸ THUẬT

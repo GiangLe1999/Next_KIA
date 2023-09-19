@@ -8,6 +8,7 @@ import { FC, useEffect, useState } from "react";
 import CalInterestForm from "./calculate-interest-form";
 import InterestDetailTable from "./interest-detail-table";
 import FinalPriceFrom from "./final-price-form";
+import { BiSolidPhoneIncoming } from "react-icons/bi";
 
 interface Props {
   name?: string;
@@ -127,8 +128,18 @@ const PriceSection: FC<Props> = ({
             {lines?.map((line) => (
               <tr key={line.name} className="table-group-content">
                 <td>{line.name}</td>
-                <td>{line.price} Triệu</td>
-                <td>Liên hệ: 0962.334.807</td>
+                <td>
+                  {line.price >= 1000
+                    ? `1 tỷ ${line.price - 1000}`
+                    : line.price}{" "}
+                  Triệu
+                </td>
+                <td>
+                  <span className="flex items-center text-red-700 justify-center">
+                    <BiSolidPhoneIncoming size={18} className="mr-1" />{" "}
+                    0962.334.807
+                  </span>
+                </td>
                 <td>
                   {calculateFinalPrice(
                     registration || 0,

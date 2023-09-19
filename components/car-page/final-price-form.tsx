@@ -136,7 +136,7 @@ const FinalPriceFrom: FC<Props> = ({
 
           <p className="flex justify-between my-3">
             Tổng dự toán
-            <span className="text-xl font-bold text-pentanary block text-right">
+            <span className="text-xl font-bold text-secondary block text-right">
               {formatPrice(currentTotal, true)} VNĐ
             </span>
           </p>

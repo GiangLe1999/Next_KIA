@@ -12,18 +12,23 @@ export const calculateFinalPrice = (
   const registrationFee = (registration * 1000000 * tax * 10) / 100;
 
   const finalPrice =
-    listPrice * 1000000 +
-    registrationFee +
-    phiDkiem +
-    phiDkyBienso +
-    phiDuongbo +
-    phiDvu +
-    thuchiho +
-    bhTNDS;
+    (listPrice * 1000000 +
+      registrationFee +
+      phiDkiem +
+      phiDkyBienso +
+      phiDuongbo +
+      phiDvu +
+      thuchiho +
+      bhTNDS) /
+    1000000;
 
   if (percent) {
-    return Math.round((finalPrice * percent) / 100 / 1000000);
+    return Math.round((finalPrice * percent) / 100);
   }
 
-  return Math.round(finalPrice / 1000000);
+  if (finalPrice >= 1000) {
+    return `1 tỷ ${Math.round(finalPrice - 1000)}`;
+  }
+
+  return Math.round(finalPrice);
 };

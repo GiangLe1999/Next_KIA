@@ -2,6 +2,8 @@
 promotion: <ul class="car-promotion-ul"><li>Giảm ngay tiền mặt <strong>81 Triệu</strong></li><li>Ưu đãi&nbsp;<strong>giảm giá trực tiếp</strong>&nbsp;khi khách hàng liên hệ qua&nbsp;<strong><span>HOTLINE</span></strong></li><li>Tặng kèm 3 món<strong>&nbsp;phụ kiện</strong>&nbsp;chính hãng (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>1/2</strong> bình nhiên liệu khi giao xe</li><li>Bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li><li>Lái thử xe tận nhà miễn phí, giao xe tận nhà</li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 Phân khúc sedan hạng C tại Việt Nam bỗng trở nên sôi động trước màn ra mắt của The NEW K3 – KIA K3. Đây chỉ mới là bản nâng cấp giữa dòng đời (facelift) chứa chưa phải thế hệ hoàn toàn mới.
 
 <div class="post-img-wrapper">
@@ -19,6 +21,8 @@ Phân khúc sedan hạng C tại Việt Nam bỗng trở nên sôi động trư�
 - Màn cảm ứng trung tâm nâng kích thước 8-10.25 inch (bản cũ 7-8 inch)
 - Bổ sung tính năng khởi động xe từ xa
 - Bổ sung cảm biến áp suất lốp
+
+</section>
 
 <section id="thongso">
 ## THÔNG SỐ KỸ THUẬT

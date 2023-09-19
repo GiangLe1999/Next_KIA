@@ -2,6 +2,8 @@
 promotion: <ul class="car-promotion-ul"><li>Giảm ngay tiền mặt <strong>43 triệu đồng</strong></li><li>Tặng kèm<strong>&nbsp;phụ kiện</strong> chính hãng KIA (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>Film cách nhiệt Flumar</strong></li><li>Tặng nhiên liệu khi giao xe</li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li><li>Kho xe đủ màu, đủ xe nhất Việt Nam</li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 Kia Sonet được lắp ráp tại nhà máy Chu Lai (Quảng Nam) của THACO bao gồm 4 phiên bản với giá bán dao động từ 499 – 609 triệu đồng. Hiện tại, các đại lý KIA đã bắt đầu nhận cọc từ khách hàng và dự kiến giao xe trong tháng 11/2021.
 
 <div class="post-img-wrapper">
@@ -15,6 +17,8 @@ Kia Sonet là dòng xe hoàn toàn mới của hãng xe KIA, Hàn Quốc. Kia So
 - **_Sonet 1.5 Deluxe:_**  Là phiên bản dành cho những khách hàng thích cảm giác lái nhàn, thoải mái nhờ sử dụng hộp số vô cấp CVT. Danh sách trang bị, tính năng đều tương đồng với bản tiêu chuẩn.
 - **_Sonet 1.5 Luxury:_**  So với bản 1.5 Deluxe, phiên bản Sonet 1.5 Luxury được bổ sung thêm đèn pha, đèn định vị và đèn hậu đều sử dụng công nghệ LED, tính năng khởi động từ xa, điều hoà tự động, chìa khóa thông minh, khởi động bằng nút bấm, sạc không dây, Cruise Control, cảm biến áp suất lốp.
 - **_Sonet 1.5 Premium:_**  So với bản 1.5 Luxury, phiên bản cao cấp nhất được bổ sung thêm  tuỳ chọn ghế da màu be, ghế lái chỉnh điện, màn hình cảm ứng 10.25 inch, gương chiếu hậu chống chói tự động, cửa sổ trời, 6 túi khí.
+
+</section>
 
 <section id="thongso">
 <h2>THÔNG SỐ KỸ THUẬT</h2>

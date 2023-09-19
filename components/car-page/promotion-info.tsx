@@ -7,8 +7,8 @@ interface Props {
 
 const PromotionInfo: FC<Props> = ({ content, name }): JSX.Element => {
   return (
-    <div className="text-white text-sm bg-quaternary rounded-[3px] p-6 wrapper-shadow">
-      <p className="font-bold text-center">KHUYẾN MÃI MUA XE</p>
+    <div className="text-sm bg-white text-primary rounded-[3px] p-6 shadow-md border">
+      <p className="font-bold text-center text-red-700">KHUYẾN MÃI MUA XE</p>
       <h2 className="text-center font-bold text-2xl uppercase mt-1 mb-3">
         KIA {name}
       </h2>

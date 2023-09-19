@@ -2,7 +2,11 @@
 promotion: <ul class="car-promotion-ul"><li>Ưu đãi&nbsp;<strong>giảm giá trực tiếp</strong>&nbsp;khi khách hàng liên hệ qua&nbsp;<strong>HOTLINE</strong></li><li>Tặng kèm 3 món<strong>&nbsp;phụ kiện</strong>&nbsp;chính hãng (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>Film cách nhiệt Flumar</strong></li><li>Tặng&nbsp;<strong>1/2</strong>&nbsp;bình nhiên liệu khi giao xe</li><li>Tặng phiếu bảo dưỡng định kỳ&nbsp;<strong>02 năm/</strong>&nbsp;<strong>20000km</strong></li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 Sau thời gian dài im hơi lặng tiếng, Thaco Trường Hải đã chính thức giới thiệu New KIA Morning mới nhất. Mẫu xe này sẽ được ra mắt trong thời gian tới với hai phiên bản X-Line và GT-Line. Bước sang thế hệ mới, KIA Morning nhận được rất nhiều cải tiến từ ngoại thất, nội thất giúp dòng xe khẳng định lại kỷ nguyên huy hoàng năm xưa.
+
+</section>
 
 <div class="post-img-wrapper">
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695005418/KIA/KIA%20Car/kia-morning-tong-quan_fexjr4.webp" alt="Tổng quan New Morning" fill={true} />

@@ -2,12 +2,15 @@
 promotion: <ul class="car-promotion-ul"><li>Ưu đãi&nbsp;<strong>giảm giá trực tiếp</strong>&nbsp;khi khách hàng liên hệ qua&nbsp;<strong>HOTLINE</strong></li><li>Tặng kèm 3 món<strong>&nbsp;phụ kiện</strong>&nbsp;chính hãng (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>1/2</strong> bình nhiên liệu khi giao xe</li><li>Bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li><li>Lái thử xe tận nhà miễn phí, giao xe tận nhà</li><li>Kho xe đủ màu, đủ xe nhất Việt Nam</li></ul>
 ---
 
+<section id="tongquan">
+## TỔNG QUAN
 **KIA Soluto** hay còn gọi là KIA Pegas là mẫu sedan hạng B xuất hiện lần đầu tiên trước công chúng trong triển lãm ô tô Thượng Hải 2017. Soluto được sản xuất dựa trên nền tảng của mẫu xe KIA K2 hướng tới khách hàng trẻ. Khi Soluto được bán chính thức tại Việt Nam nó sẽ thay thế cho KIA Rio và sẽ chám trán các đối thủ cực mạnh như Toyota Vios, Hyundai Accent, Honda City,…
 
 <div class="post-img-wrapper">
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695010209/KIA/KIA%20Car/kia-soluto_jtcb9x.jpg" alt="KIA Soluto" fill={true} />
 <span class="post-img-title">KIA Soluto</span>
 </div>
+</section>
 
 <section id="thongso">
 ## THÔNG SỐ KỸ THUẬT

@@ -70,7 +70,7 @@ li {
 .homeSwiper .swiper-button-next {
   @apply text-white scale-[0.4] -translate-y-[30px] w-[90px] h-[90px] transition duration-500 
   bg-[rgba(102,102,102,0.354)] grid place-items-center translate-x-0 opacity-0
-  rounded-full border-white border-4 hover:border-none hover:bg-secondary;
+  rounded-full border-white border-4 hover:border-none hover:bg-[#2b2b2b];
 }
 
 .homeSwiper .swiper-pagination-bullet {
@@ -214,7 +214,7 @@ li {
 }
 
 .car-promotion-ul strong {
-  @apply text-tertiary;
+  @apply text-secondary;
 }
 
 .car-promotion-ul .small-text {
@@ -230,11 +230,11 @@ li {
 }
 
 .car-price-table .table-title {
-  @apply bg-pentanary text-white uppercase font-bold text-xl py-3 text-center border-pentanary;
+  @apply bg-secondary text-white uppercase font-bold text-xl py-3 text-center border-secondary;
 }
 
 .car-price-table .table-group-heading {
-  @apply text-pentanary font-bold;
+  @apply text-secondary font-bold;
 }
 
 .car-price-table .table-group-heading td,
@@ -261,7 +261,7 @@ li {
 }
 
 .price-table thead {
-  @apply bg-secondary text-white font-bold;
+  @apply bg-primary text-white font-bold;
 }
 
 .price-table tbody tr:nth-child(odd) {
@@ -273,7 +273,7 @@ li {
 }
 
 .calculate-price-table-title {
-  @apply border-b border-pentanary text-pentanary font-bold text-xl;
+  @apply border-b border-secondary text-secondary font-bold text-xl;
 }
 
 .form-input-wrapper {
@@ -281,7 +281,7 @@ li {
 }
 
 .form-input-label {
-  @apply text-secondary text-[13px];
+  @apply text-primary text-[13px];
 }
 
 .form-input {
@@ -362,22 +362,22 @@ li {
 
 .postContent h2,
 .postContent h3 {
-  @apply w-fit px-3 py-[9px] text-xl font-bold bg-pentanary text-white relative uppercase max-[500px]:w-full;
+  @apply w-fit px-3 py-[9px] text-xl font-bold bg-secondary text-white relative uppercase max-[500px]:w-full;
 }
 
 .postContent h2::after,
 .postContent h3::after {
   content: "";
-  @apply absolute bottom-0 left-0 w-[2000px] h-[2px] bg-pentanary block;
+  @apply absolute bottom-0 left-0 w-[2000px] h-[2px] bg-secondary block;
 }
 
 .postContent h3 {
-  @apply bg-quaternary text-base capitalize;
+  @apply bg-primary text-base capitalize;
 }
 
 .postContent h3::after {
   content: "";
-  @apply bg-quaternary block;
+  @apply bg-primary block;
 }
 
 .postContent .grid-2-cols {
