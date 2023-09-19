@@ -1,5 +1,5 @@
 ---
-promotion: <ul class="car-promotion-ul"><li>Giảm ngay tiền mặt <strong>43 triệu đồng</strong></li><li>Tặng kèm<strong>&nbsp;phụ kiện</strong> chính hãng KIA (<strong>Thảm chân, dù che mưa</strong>).</li><li>Tặng&nbsp;<strong>Film cách nhiệt Flumar.</strong></li><li>Tặng nhiên liệu khi giao xe.</li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100.000km.</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh.</li><li>Kho xe đủ màu, đủ xe nhất Việt Nam.</li></ul>
+promotion: <ul class="car-promotion-ul"><li>Giảm ngay tiền mặt <strong>43 triệu đồng</strong></li><li>Tặng kèm<strong>&nbsp;phụ kiện</strong> chính hãng KIA (<strong>Thảm chân, dù che mưa</strong>)</li><li>Tặng&nbsp;<strong>Film cách nhiệt Flumar</strong></li><li>Tặng nhiên liệu khi giao xe</li><li>Tặng bảo hành<strong>&nbsp;03 năm</strong>&nbsp;hoặc&nbsp;<strong>100000km</strong></li><li>Hỗ trợ mua xe với lãi suất thấp,thủ tục nhanh chóng, xét duyệt nhanh</li><li>Kho xe đủ màu, đủ xe nhất Việt Nam</li></ul>
 ---
 
 Kia Sonet được lắp ráp tại nhà máy Chu Lai (Quảng Nam) của THACO bao gồm 4 phiên bản với giá bán dao động từ 499 – 609 triệu đồng. Hiện tại, các đại lý KIA đã bắt đầu nhận cọc từ khách hàng và dự kiến giao xe trong tháng 11/2021.
@@ -11,10 +11,10 @@ Kia Sonet được lắp ráp tại nhà máy Chu Lai (Quảng Nam) của THACO 
 
 Kia Sonet là dòng xe hoàn toàn mới của hãng xe KIA, Hàn Quốc. Kia Sonet được định vị là SUV cỡ nhỏ (A-SUV, Mini Crossover/SUV) dành cho đô thị. Có 4 cấu hình động cơ là 1.5 Xăng; 1.2 Xăng; 1.0 Xăng T-GDi và 1.5 Diesel cùng hộp số sàn hoặc tự động. Xe có 05 hoặc 07 chỗ tùy thị trường.
 
-- *Sonet 1.5 Deluxe MT:* là phiên bản tiêu chuẩn hướng đến đối tượng khách hàng mua xe lần đầu, có mức tài chính vừa phải. Xe có những trang bị cơ bản như đèn pha, đèn định vị và đèn hậu đều là bóng Halogen, ghế ngồi và điều hòa chỉnh cơ, hộp số sàn 6 cấp. Điểm cộng cho bản tiêu chuẩn khi vẫn sở hữu một số trang bị đắt giá như: màn hình cảm ứng 8 inch, cửa gió hàng ghế sau giúp đáp ứng khá tốt nhu câu giải trí. Danh sách an toàn có những tính năng hiện đại như: hỗ trợ khởi hành ngang dốc, cảm biến lùi, camera lùi.
-- *Sonet 1.5 Deluxe:* là phiên bản dành cho những khách hàng thích cảm giác lái nhàn, thoải mái nhờ sử dụng hộp số vô cấp CVT. Danh sách trang bị, tính năng đều tương đồng với bản tiêu chuẩn.
-- *Sonet 1.5 Luxury:* so với bản 1.5 Deluxe, phiên bản Sonet 1.5 Luxury được bổ sung thêm đèn pha, đèn định vị và đèn hậu đều sử dụng công nghệ LED, tính năng khởi động từ xa, điều hoà tự động, chìa khóa thông minh, khởi động bằng nút bấm, sạc không dây, Cruise Control, cảm biến áp suất lốp.
-- *Sonet 1.5 Premium:* so với bản 1.5 Luxury, phiên bản cao cấp nhất được bổ sung thêm  tuỳ chọn ghế da màu be, ghế lái chỉnh điện, màn hình cảm ứng 10.25 inch, gương chiếu hậu chống chói tự động, cửa sổ trời, 6 túi khí.
+- **_Sonet 1.5 Deluxe MT:_** &nbsp;Là phiên bản tiêu chuẩn hướng đến đối tượng khách hàng mua xe lần đầu, có mức tài chính vừa phải. Xe có những trang bị cơ bản như đèn pha, đèn định vị và đèn hậu đều là bóng Halogen, ghế ngồi và điều hòa chỉnh cơ, hộp số sàn 6 cấp. Điểm cộng cho bản tiêu chuẩn khi vẫn sở hữu một số trang bị đắt giá như: màn hình cảm ứng 8 inch, cửa gió hàng ghế sau giúp đáp ứng khá tốt nhu câu giải trí. Danh sách an toàn có những tính năng hiện đại như: hỗ trợ khởi hành ngang dốc, cảm biến lùi, camera lùi.
+- **_Sonet 1.5 Deluxe:_**  Là phiên bản dành cho những khách hàng thích cảm giác lái nhàn, thoải mái nhờ sử dụng hộp số vô cấp CVT. Danh sách trang bị, tính năng đều tương đồng với bản tiêu chuẩn.
+- **_Sonet 1.5 Luxury:_**  So với bản 1.5 Deluxe, phiên bản Sonet 1.5 Luxury được bổ sung thêm đèn pha, đèn định vị và đèn hậu đều sử dụng công nghệ LED, tính năng khởi động từ xa, điều hoà tự động, chìa khóa thông minh, khởi động bằng nút bấm, sạc không dây, Cruise Control, cảm biến áp suất lốp.
+- **_Sonet 1.5 Premium:_**  So với bản 1.5 Luxury, phiên bản cao cấp nhất được bổ sung thêm  tuỳ chọn ghế da màu be, ghế lái chỉnh điện, màn hình cảm ứng 10.25 inch, gương chiếu hậu chống chói tự động, cửa sổ trời, 6 túi khí.
 
 <section id="thongso">
 <h2>THÔNG SỐ KỸ THUẬT</h2>
