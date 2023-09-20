@@ -7,4 +7,5 @@ export const linkConstants = {
   lienhe: "/lien-he",
   giaxe: "/gia-xe-kia",
   brochure: "/e-brochure",
+  laithu: "dang-ky-lai-thu",
 };
