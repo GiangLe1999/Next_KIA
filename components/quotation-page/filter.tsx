@@ -3,10 +3,9 @@
 import { carNames } from "@/data/home";
 import { Dispatch, FC, SetStateAction } from "react";
 import FilterAccordion from "./filter-accordion";
-import { QueryType, initialQuery } from "@/app/(car-price)/gia-xe-kia/page";
+import { QueryType } from "@/app/(car-price)/gia-xe-kia/page";
 import BtnWithIcon from "../btn-with-icon";
 import { BiSolidEraser } from "react-icons/bi";
-import { useRouter } from "next/navigation";
 
 interface Props {
   query: QueryType;
@@ -50,29 +49,11 @@ const Filter: FC<Props> = ({
       <h3 className="text-lg font-bold text-center">BỘ LỌC</h3>
       <FilterAccordion
         data={accordionData}
+        setSortBy={setSortBy}
         query={query}
         setQuery={setQuery}
         loading={loading}
         setCurrentPage={setCurrentPage}
-      />
-
-      <BtnWithIcon
-        content="Reset bộ lọc"
-        customClasses="!bg-primary w-full"
-        icon={BiSolidEraser}
-        iconSize={20}
-        onClick={() => {
-          setSortBy("");
-          setQuery((prev) => {
-            const newState = { ...prev };
-            newState.line = [];
-            newState.price = [];
-            newState.fuel = [];
-            newState.seats = [];
-            newState.kind = [];
-            return newState;
-          });
-        }}
       />
     </div>
   );

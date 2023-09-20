@@ -5,6 +5,8 @@ import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import { FiChevronDown } from "react-icons/fi";
 import { CarType } from "@/types";
 import { QueryType } from "@/app/(car-price)/gia-xe-kia/page";
+import BtnWithIcon from "../btn-with-icon";
+import { BiSolidEraser } from "react-icons/bi";
 
 /**
  * @type {React.ExoticComponent<import('@szhsin/react-accordion').AccordionItemProps>}
@@ -72,6 +74,7 @@ interface Props {
   setQuery: Dispatch<SetStateAction<QueryType>>;
   loading: boolean;
   setCurrentPage: Dispatch<SetStateAction<number>>;
+  setSortBy: Dispatch<SetStateAction<string>>;
 }
 
 export type FieldNameType = "line" | "price" | "fuel" | "seats" | "kind";
@@ -82,6 +85,7 @@ const FilterAccordion: FC<Props> = ({
   setQuery,
   loading,
   setCurrentPage,
+  setSortBy,
 }): JSX.Element => {
   const inputChangeHandler = (name: FieldNameType, value: string) => {
     const newQuery = { ...query };
@@ -130,6 +134,27 @@ const FilterAccordion: FC<Props> = ({
           </AccordionItem>
         ))}
       </Accordion>
+
+      <div className="pt-4 border-t">
+        <BtnWithIcon
+          content="Reset bộ lọc"
+          customClasses="!bg-primary w-full border-t"
+          icon={BiSolidEraser}
+          iconSize={20}
+          onClick={() => {
+            setSortBy("");
+            setQuery((prev) => {
+              const newState = { ...prev };
+              newState.line = [];
+              newState.price = [];
+              newState.fuel = [];
+              newState.seats = [];
+              newState.kind = [];
+              return newState;
+            });
+          }}
+        />
+      </div>
     </div>
   );
 };

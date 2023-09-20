@@ -18,7 +18,7 @@ export type QueryType = {
   kind: string[];
 };
 
-export const initialQuery = {
+const initialQuery = {
   line: [],
   price: [],
   fuel: [],
