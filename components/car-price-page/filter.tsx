@@ -3,9 +3,7 @@
 import { carNames } from "@/data/home";
 import { Dispatch, FC, SetStateAction } from "react";
 import FilterAccordion from "./filter-accordion";
-import { QueryType } from "@/app/(car-price)/gia-xe-kia/page";
-import BtnWithIcon from "../btn-with-icon";
-import { BiSolidEraser } from "react-icons/bi";
+import { QueryType } from "./price-list-page-content";
 
 interface Props {
   query: QueryType;
@@ -38,6 +36,10 @@ const Filter: FC<Props> = ({
     },
     { header: "fuel", items: ["Xăng", "Dầu", "Hybrid"] },
     { header: "seats", items: ["5", "7"] },
+    {
+      header: "tier",
+      items: ["Hạng A", "Hạng B", "Hạng C", "Hạng D", "Hạng E"],
+    },
     {
       header: "kind",
       items: ["Hatchback", "Sedan", "SUV", "Pickup"],

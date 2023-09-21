@@ -3,7 +3,6 @@
 import { FC, Dispatch, SetStateAction } from "react";
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import { FiChevronDown } from "react-icons/fi";
-import { CarType } from "@/types";
 import { QueryType } from "@/app/(car-price)/gia-xe-kia/page";
 import BtnWithIcon from "../btn-with-icon";
 import { BiSolidEraser } from "react-icons/bi";
@@ -35,6 +34,9 @@ const AccordionItem: FC<ItemsProps> = ({ header, ...rest }) => {
       break;
     case "kind":
       headerLabel = "kiểu dáng";
+      break;
+    case "tier":
+      headerLabel = "phân khúc";
       break;
     default:
       headerLabel = "";
@@ -77,7 +79,13 @@ interface Props {
   setSortBy: Dispatch<SetStateAction<string>>;
 }
 
-export type FieldNameType = "line" | "price" | "fuel" | "seats" | "kind";
+export type FieldNameType =
+  | "line"
+  | "price"
+  | "fuel"
+  | "seats"
+  | "kind"
+  | "tier";
 
 const FilterAccordion: FC<Props> = ({
   data,
@@ -150,6 +158,7 @@ const FilterAccordion: FC<Props> = ({
               newState.fuel = [];
               newState.seats = [];
               newState.kind = [];
+              newState.tier = [];
               return newState;
             });
           }}

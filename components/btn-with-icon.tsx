@@ -11,6 +11,7 @@ interface Props {
   customClasses?: string;
   type?: string;
   to?: string;
+  external?: boolean;
 }
 
 const BtnWithIcon: FC<Props> = ({
@@ -22,6 +23,7 @@ const BtnWithIcon: FC<Props> = ({
   customClasses,
   type,
   to,
+  external,
 }): JSX.Element => {
   let Component = "button" as any;
   if (!onClick && href) {
@@ -32,12 +34,18 @@ const BtnWithIcon: FC<Props> = ({
     Component = Link as any;
   }
 
+  let externalLinkAttr = {};
+  if (external) {
+    externalLinkAttr = { target: "_blank", rel: "noopener noreferrer" };
+  }
+
   return (
     <Component
       href={href || to}
       onClick={onClick}
       className={`primary-btn ${customClasses}`}
       type={type}
+      {...externalLinkAttr}
     >
       {icon && icon({ size: iconSize })}
       {content}

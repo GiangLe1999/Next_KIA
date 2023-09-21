@@ -22,6 +22,7 @@ export interface CarType {
     price: number;
     tax: string;
   }[];
+  brochure: string;
 }
 
 export type CarByCategory = {

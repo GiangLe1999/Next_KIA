@@ -62,6 +62,7 @@ const CarSchema = new mongoose.Schema(
         },
       },
     ],
+    brochure: { type: String },
   },
   { timestamps: true }
 );

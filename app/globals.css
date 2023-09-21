@@ -414,11 +414,11 @@ li {
 
 /* Paginagation */
 .pagination .page-link {
-  @apply !rounded-sm grid !text-secondary;
+  @apply !rounded-sm grid !text-primary;
 }
 
 .pagination .page-item.active .page-link {
-  @apply bg-secondary border-secondary !text-white;
+  @apply bg-primary border-primary !text-white;
 }
 
 .pagination .page-item .page-link span {

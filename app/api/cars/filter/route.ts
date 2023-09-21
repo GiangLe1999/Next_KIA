@@ -3,13 +3,14 @@ import Car from "@/model/Car";
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
-  const { query, sortBy, limit, currentPage } = await req.json();
+  const { query, sortBy, limit, currentPage, isCarListPage } = await req.json();
 
   let line: string[] = [];
   let price: string[] = [];
   let fuel: string[] = [];
   let seats: string[] = [];
   let kind: string[] = [];
+  let tier: string[] = [];
 
   if (query) {
     line = query.line;
@@ -17,6 +18,7 @@ export async function POST(req: Request) {
     fuel = query.fuel;
     seats = query.seats;
     kind = query.kind;
+    tier = query.tier;
   }
 
   let carQuery = {} as any;
@@ -32,6 +34,10 @@ export async function POST(req: Request) {
   if (seats.length) {
     const newSeats = seats.map((seat) => Number(seat));
     carQuery["mainInfo.seats"] = newSeats;
+  }
+
+  if (tier.length) {
+    carQuery.tier = tier;
   }
 
   if (kind.length) {
@@ -90,7 +96,11 @@ export async function POST(req: Request) {
 
   const cars = await Car.find(carQuery)
     .sort(sortObj as any)
-    .select("_id name avatar carLines priceFrom slug")
+    .select(
+      isCarListPage
+        ? "_id name slogan avatar priceFrom slug brochure"
+        : "_id name avatar carLines priceFrom slug"
+    )
     .limit(limit)
     .skip((currentPage - 1) * limit);
 
