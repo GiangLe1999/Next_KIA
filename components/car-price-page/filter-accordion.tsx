@@ -1,11 +1,12 @@
 "use client";
 
-import { FC, Dispatch, SetStateAction } from "react";
+import { FC, Dispatch, SetStateAction, useEffect } from "react";
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import { FiChevronDown } from "react-icons/fi";
-import { QueryType } from "@/app/(car-price)/gia-xe-kia/page";
 import BtnWithIcon from "../btn-with-icon";
 import { BiSolidEraser } from "react-icons/bi";
+import { QueryType } from "./price-list-page-content";
+import { usePathname } from "next/navigation";
 
 /**
  * @type {React.ExoticComponent<import('@szhsin/react-accordion').AccordionItemProps>}
@@ -95,6 +96,8 @@ const FilterAccordion: FC<Props> = ({
   setCurrentPage,
   setSortBy,
 }): JSX.Element => {
+  const pathname = usePathname();
+
   const inputChangeHandler = (name: FieldNameType, value: string) => {
     const newQuery = { ...query };
 
@@ -108,6 +111,24 @@ const FilterAccordion: FC<Props> = ({
 
     setQuery(newQuery);
   };
+
+  const resetStateHander = () => {
+    setSortBy("");
+    setQuery((prev) => {
+      const newState = { ...prev };
+      newState.line = [];
+      newState.price = [];
+      newState.fuel = [];
+      newState.seats = [];
+      newState.kind = [];
+      newState.tier = [];
+      return newState;
+    });
+  };
+
+  useEffect(() => {
+    resetStateHander();
+  }, [pathname]);
 
   return (
     <div className="my-4 border-t overflow-y-scroll max-h-screen no-scrollbar">
@@ -149,19 +170,7 @@ const FilterAccordion: FC<Props> = ({
           customClasses="!bg-primary w-full border-t"
           icon={BiSolidEraser}
           iconSize={20}
-          onClick={() => {
-            setSortBy("");
-            setQuery((prev) => {
-              const newState = { ...prev };
-              newState.line = [];
-              newState.price = [];
-              newState.fuel = [];
-              newState.seats = [];
-              newState.kind = [];
-              newState.tier = [];
-              return newState;
-            });
-          }}
+          onClick={resetStateHander}
         />
       </div>
     </div>

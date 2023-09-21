@@ -20,7 +20,7 @@ const CarListItem: FC<Props> = ({ car, isCarListPage }): JSX.Element => {
   if (isCarListPage)
     return (
       <div className="bg-[#F3F3F3] shadow-md border rounded-sm p-4">
-        <h2 className="font-bold text-2xl capitalize">
+        <h2 className="font-bold text-2xl capitalize hover:text-secondary transition">
           <Link href={"/" + car.slug}>{car.name}</Link>
         </h2>
         <p className="text-xs text-black/50 mt-1 mb-4">{car.slogan}</p>
