@@ -84,9 +84,28 @@ export const getCarRegistration = cache(async (carName: string) => {
   }
 });
 
-export const getAllPostsData = async () => {
+export const getAllPostsData = async (cate: string) => {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/posts`);
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/posts/${cate}`,
+      { cache: "no-store" }
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getPostData = async (cateSlug: string, postSlug: string) => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/post?cate_slug=${cateSlug}&post_slug=${postSlug}`
+    );
 
     if (!res.ok) {
       throw new Error("Failed to fetch data");

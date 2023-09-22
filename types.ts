@@ -51,3 +51,12 @@ export type CarLinesType = {
   name: string;
   carLines: CarLineType[];
 };
+
+export interface Post {
+  title: string;
+  desc: string;
+  thumb: string;
+  slug: string;
+  author: string;
+  date: number;
+}

@@ -360,7 +360,11 @@ li {
 
 /* Post content */
 .postContent {
-  @apply mt-8 text-primary;
+  @apply mt-8 text-primary text-sm leading-[26px];
+}
+
+.postContent a {
+  @apply no-underline font-bold;
 }
 
 .promotion-ul {
@@ -427,4 +431,39 @@ li {
 
 .pagination .page-item.disabled .page-link {
   @apply !text-[#ccc];
+}
+
+/* Posts Page Header */
+.posts-page-header {
+  @apply mt-[61px] bg-white border-b-[2px] border-[#e5e5e5];
+}
+
+.posts-page-header a {
+  @apply relative px-3 py-4 font-bold hover:opacity-100 transition;
+}
+
+.posts-page-header a::after {
+  content: "";
+  @apply absolute bottom-0 left-0 h-[3px] bg-primary w-0 transition-width duration-500;
+}
+
+.posts-page-header a:hover::after {
+  width: 100%;
+}
+
+/* Prose */
+.prose table {
+  @apply text-center text-sm border rounded-sm;
+}
+
+.prose table td {
+  @apply py-3 border;
+}
+
+.prose table thead tr {
+  @apply font-bold bg-primary text-white border border-primary;
+}
+
+.prose .table-title {
+  @apply -mt-3 mb-10 font-bold text-center opacity-50;
 }
