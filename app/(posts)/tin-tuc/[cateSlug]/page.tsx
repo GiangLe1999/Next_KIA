@@ -1,5 +1,6 @@
 import HorizontalLargePostCard from "@/components/post-cate-page/horizontal-large-post-card";
 import LargePostCard from "@/components/post-cate-page/large-post-card";
+import RestPosts from "@/components/post-cate-page/rest-post";
 import VerticalLargePostCard from "@/components/post-cate-page/vectical-large-post-card";
 import VerticalSmallPostCard from "@/components/post-cate-page/vertical-small-post-card";
 import { getAllPostsData } from "@/lib/fetchData";
@@ -46,12 +47,7 @@ const page: NextPage<Props> = async ({ params }) => {
       </div>
 
       {/* The Rest */}
-      <div className="mt-14 space-y-14">
-        <h3 className="font-bold text-2xl -mb-5">Tin tức & Ưu đãi</h3>
-        {newestPosts.slice(6).map((post) => (
-          <HorizontalLargePostCard key={post.title} post={post} />
-        ))}
-      </div>
+      <RestPosts posts={newestPosts.slice(5)} />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 ---
 title: Kia Sonet – Lựa chọn xe gầm cao cho người dùng đô thị
 desc: Kia Sonet - Mẫu crossover cỡ nhỏ của Kia có ngoại thất cá tính, đa dạng trang bị, hướng đến nhóm khách đô thị lần đầu sở hữu ôtô tầm giá 600 triệu đồng.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695351382/KIA/KIA%20Posts/kia-seltos-x-line-lua-chon-cho-khach-hang-tre-hien-dai_kjqqdt.webp
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695443579/KIA/KIA%20Posts/kia-sonet-thumb_gjy58e.webp
 date: 1687316400000
 slug: /thong-tin-xe/kia-sonet-dong-xe-gam-cao-cho-do-thi
 author: Giang Le
