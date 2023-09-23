@@ -1,10 +1,10 @@
 ---
 title: KIA gia tăng ưu đãi cho nhiều dòng xe trong tháng 3
 desc: Trong tháng 3, Kia Việt Nam tiếp tục mang đến cơ hội sở hữu xe Kia với mức giá tốt cho khách hàng khi gia tăng ưu đãi giá cho các dòng xe với mức cao nhất tương đương 50% phí trước bạ, chưa bao gồm nhiều ưu đãi hấp dẫn tại các đại lý.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695354034/KIA/KIA%20Posts/kia-uu-dai-thang-3_i5ncdn.webp
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695440302/KIA/KIA%20Posts/kia-uu-dai-gia-thang-3_mdjwty.webp
 date: 1679454128000
 slug: /uu-dai/kia-tang-uu-dai-thang-3
-author: GiangLe
+author: Giang Le
 ---
 
 _Trong tháng 3, Kia Việt Nam tiếp tục mang đến cơ hội sở hữu xe Kia với mức giá tốt cho khách hàng khi gia tăng ưu đãi giá cho các dòng xe với mức cao nhất tương đương 50% phí trước bạ, chưa bao gồm nhiều ưu đãi hấp dẫn tại các đại lý._

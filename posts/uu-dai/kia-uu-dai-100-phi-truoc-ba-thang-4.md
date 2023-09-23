@@ -1,10 +1,10 @@
 ---
 title: Kia ưu đãi 100% phí trước bạ, thêm nhiều ưu đãi hấp dẫn trong tháng 4
 desc: Từ 1/4/2023, Kia ưu đãi 100% phí trước bạ cho Kia K3, Kia Sportage cùng ưu đãi giá hấp dẫn lên đến 100 triệu đồng cho các mẫu xe khác, và thêm nhiều quà tặng tại Đại lý. Chương trình áp dụng tùy từng mẫu xe và phiên bản.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695355841/KIA/KIA%20Posts/kia-uu-dai-thang-4-100-phan-tram-phi-truoc-ba_fwflzw.webp
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695437761/KIA/KIA%20Posts/kia-uu-dai-thang-4-thumb_ivavfc.webp
 date: 1680771600000
 slug: /uu-dai/kia-uu-dai-100-phi-truoc-ba-thang-4
-author: GiangLe
+author: Giang Le
 ---
 
 _Từ 1/4/2023, Kia ưu đãi 100% phí trước bạ cho [Kia K3](https://thenewk3.kiavietnam.com.vn/), [Kia Sportage](https://sportage.kiavietnam.com.vn/) cùng ưu đãi giá hấp dẫn lên đến 100 triệu đồng cho các mẫu xe khác, và thêm nhiều quà tặng tại Đại lý. Chương trình áp dụng tùy từng mẫu xe và phiên bản._

@@ -1,10 +1,10 @@
 ---
 title: Cơ hội vàng sở hữu xe Kia với giá mới đặc biệt trong tháng 9/2023
 desc: Cùng với chính sách giảm 50% trước bạ từ chính phủ và chương trình ưu đãi mới của Kia Việt Nam, khách hàng có cơ hội tốt nhất trong năm để sở hữu các dòng xe Kia thế hệ mới với ưu đãi tương đương 100% lệ phí trước bạ.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695342070/KIA/KIA%20Posts/gia-dac-biet-kia-thang-9-2023_qmrw12.webp
-date: 1695349200000
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695431480/KIA/KIA%20Posts/uu-dai-kia-thang-9-thumbnail_cwzpns.webp
+date: 1694595627000
 slug: /uu-dai/gia-xe-kia-moi-dac-biet-thang-9-2023
-author: GiangLe
+author: Giang Le
 ---
 
 Từ 11/9/2023, Kia áp dụng **giá mới với mức điều chỉnh lên đến 75 triệu đồng** cho các dòng xe **tương đương 50% lệ phí trước bạ**. Theo đó, cùng với chính sách giảm 50% trước bạ từ chính phủ và chương trình ưu đãi mới của Kia Việt Nam, khách hàng có cơ hội tốt nhất trong năm để **sở hữu các dòng xe Kia thế hệ mới với ưu đãi tương đương 100% lệ phí trước bạ**. Chương trình được áp dụng tùy theo dòng xe và phiên bản.

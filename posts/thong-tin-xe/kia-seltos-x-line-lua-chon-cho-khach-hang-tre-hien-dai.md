@@ -1,10 +1,10 @@
 ---
 title: KIA Seltos X-Line hoàn toàn mới – thêm lựa chọn cho khách hàng trẻ hiện đại
 desc: Kia Seltos phiên bản X-Line hoàn toàn mới sử dụng động cơ tăng áp 1.4T cho khả năng vận hành mạnh mẽ, ngoại thất khác biệt với các điểm nhấn màu đen bóng và màu cam cá tính, nội thất sang trọng kết hợp ghế da màu xanh Indigo Pera và cùng logo X-line độc đáo với giá bán 709 triệu đồng.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695351382/KIA/KIA%20Posts/kia-seltos-x-line-lua-chon-cho-khach-hang-tre-hien-dai_kjqqdt.webp
-date: 1695351728000
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695435825/KIA/KIA%20Posts/kia-seltos-x-line-thumb_r2kzia.webp
+date: 1690619427000
 slug: /thong-tin-xe/kia-seltos-x-line-lua-chon-cho-khach-hang-tre-hien-dai
-author: GiangLe
+author: Giang Le
 ---
 
 [Kia Seltos phiên bản X-Line](https://kiavietnam.com.vn/seltos) hoàn toàn mới sử dụng động cơ tăng áp 1.4T cho khả năng vận hành mạnh mẽ, ngoại thất khác biệt với các điểm nhấn màu đen bóng và màu cam cá tính, nội thất sang trọng kết hợp ghế da màu xanh Indigo Pera và cùng logo X-line độc đáo với giá bán 709 triệu đồng.

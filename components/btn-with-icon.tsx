@@ -6,6 +6,7 @@ interface Props {
   onClick?: () => void | ((e: FormEvent<Element>) => void);
   content: string;
   icon?: IconType;
+  iconBehind?: IconType;
   iconSize?: number;
   href?: string;
   customClasses?: string;
@@ -18,6 +19,7 @@ const BtnWithIcon: FC<Props> = ({
   onClick,
   content,
   icon,
+  iconBehind,
   href,
   iconSize,
   customClasses,
@@ -49,6 +51,8 @@ const BtnWithIcon: FC<Props> = ({
     >
       {icon && icon({ size: iconSize })}
       {content}
+
+      {iconBehind && iconBehind({ size: iconSize })}
     </Component>
   );
 };

@@ -4,7 +4,7 @@ desc: Hướng đến việc tạo ra những giá trị thiết thực dành ch
 thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695355841/KIA/KIA%20Posts/kia-uu-dai-thang-4-100-phan-tram-phi-truoc-ba_fwflzw.webp
 date: 1688086800000
 slug: /su-kien/chuong-trinh-cham-soc-khach-hang-cung-chuyen-gia-kia
-author: GiangLe
+author: Giang Le
 ---
 
 Sau hơn 15 năm phát triển tại thị trường Việt Nam, Kia không ngừng mang đến Khách hàng đa dạng các mẫu xe và liên tục lọt top 10 hãng xe được yêu thích nhất. Bên cạnh đó, Kia còn gây ấn tượng với khách hàng Việt Nam nhờ sự tận tâm và chuyên nghiệp trong việc triển khai tốt các dịch vụ hậu mãi.
@@ -28,7 +28,7 @@ Mở đầu chương trình là buổi hội thảo giữa Khách hàng và Chuy
 Cũng trong chuỗi sự kiện này, Khách hàng có dịp tham quan trực tiếp xưởng dịch vụ chính hãng Kia, các khoang sửa chữa và quan sát các thiết bị chuyên dụng. Từ đó, Khách hàng có thể yên tâm khi sử dụng dịch vụ tại Trung tâm dịch vụ chính hãng Kia.
 
 <div class="post-img-wrapper" style={{aspectRatio:1.776}}>
-<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695357260/KIA/KIA%20Posts/lang-nghe-y-kien-tu-nguoi-dung-dong-thoi-cai-thien-nang-cao-chat-luong-dich-vu_xuxnt8.webp" alt="Khách hàng tham quan các khoang sửa chữa tại Trung tâm dịch vụ chính hãng Kia" fill={true} />
+<Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695357264/KIA/KIA%20Posts/khach-hang-tham-quan-cac-khoang-sua-chua-tai-trung-tam-dich-vu-chinh-hang-kia_tbbdgf.webp" alt="Khách hàng tham quan các khoang sửa chữa tại Trung tâm dịch vụ chính hãng Kia" fill={true} />
 <span class="post-img-title">Khách hàng tham quan các khoang sửa chữa tại Trung tâm dịch vụ chính hãng Kia</span>
 </div>
 

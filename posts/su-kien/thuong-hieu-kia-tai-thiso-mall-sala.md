@@ -1,10 +1,10 @@
 ---
 title: Chào đón sự xuất hiện của thương hiệu kia tại Thiso Mall Sala
 desc: Từ ngày 08/09/2023, THACO AUTO chính thức tổ chức sự kiện trưng bày, kết hợp lái thử các dòng xe Kia Thế hệ mới tại TTTM Thiso Mall Sala cùng nhiều hoạt động giải trí hấp dẫn và quà tặng giá trị đến từ thương hiệu Kia.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695347798/KIA/KIA%20Posts/kia-tai-thisco-mall-sala_sil91b.webp
-date: 1695348548000
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695431480/KIA/KIA%20Posts/thumbnail-carnival-thiso_capiig.webp
+date: 1694161527000
 slug: /su-kien/thuong-hieu-kia-tai-thiso-mall-sala
-author: GiangLe
+author: Giang Le
 ---
 
 Từ ngày 08/09/2023, [THACO AUTO](https://thacoauto.vn/) chính thức tổ chức sự kiện trưng bày, kết hợp lái thử [các dòng xe Kia Thế hệ mới](https://kiavietnam.com.vn/san-pham) tại **TTTM Thiso Mall Sala** cùng nhiều hoạt động giải trí hấp dẫn và quà tặng giá trị đến từ [thương hiệu Kia](https://kiavietnam.com.vn/).

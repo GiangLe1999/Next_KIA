@@ -1,10 +1,10 @@
 ---
 title: Kia Việt Nam giới thiệu thêm 3 phiên bản kia Seltos mới, gia tăng lựa chọn cho khách Việt
 desc: Ngoài các phiên bản hiện hữu, Kia Seltos được bổ sung thêm 3 phiên bản mới, trong đó 2 phiên bản được trang bị động cơ 1.6L là Deluxe & Luxury và 1 phiên bản cao cấp GT-Line sử dụng động cơ 1.4T.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695357789/KIA/KIA%20Posts/kia-seltos-14-turbo-gt-line_jtjq2t.webp
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695440472/KIA/KIA%20Posts/kia-seltos-ra-mat-3-phien-ban-moi-thumb_ttt4fx.webp
 date: 1676876400000
 slug: /su-kien/kia-gioi-thieu-them-3-phien-ban-kia-seltos-moi
-author: GiangLe
+author: Giang Le
 ---
 
 _Ngoài các phiên bản hiện hữu, Kia Seltos được bổ sung thêm 3 phiên bản mới, trong đó 2 phiên bản được trang bị động cơ 1.6L là Deluxe & Luxury và 1 phiên bản cao cấp GT-Line sử dụng động cơ 1.4T. Với tổng cộng 4 phiên bản với 2 tùy chọn động cơ, Kia Seltos đang là mẫu xe có đa dạng lựa chọn cho khách hàng nhất trong phân khúc B-SUV._
