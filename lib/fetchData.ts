@@ -116,3 +116,20 @@ export const getPostData = async (cateSlug: string, postSlug: string) => {
     console.log(error);
   }
 };
+
+export const getRelatedPosts = async (cateSlug: string, postSlug: string) => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/post/related-posts?cate_slug=${cateSlug}&post_slug=${postSlug}`,
+      { cache: "no-store" }
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.log(error);
+  }
+};

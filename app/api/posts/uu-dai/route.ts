@@ -6,7 +6,7 @@ export async function GET(request: Request) {
     const data = readPostsInfo("uu-dai");
     return NextResponse.json(data);
   } catch (error) {
-    console.log("[UU_DAI_POSTS_GET", error);
+    console.log("[UU_DAI_POSTS_GET]", error);
     return new NextResponse("Internal Server Error", { status: 500 });
   }
 }

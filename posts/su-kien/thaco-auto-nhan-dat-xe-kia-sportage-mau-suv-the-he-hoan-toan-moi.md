@@ -9,7 +9,7 @@ author: Giang Le
 
 _Sáng nay, ngày 10/6/2022 THACO AUTO chính thức nhận đặt xe Kia Sportage tại các showroom/đại lý KIA trên toàn quốc. Mẫu xe được giới thiệu với 03 tùy chọn động cơ, 08 phiên bản, giá bán từ 899 triệu đồng._
 
-<div class="post-img-wrapper" style={{aspectRatio:1.776}}>
+<div class="post-img-wrapper" style={{aspectRatio:1.6}}>
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695517736/KIA/KIA%20Posts/thaco-auto-nhan-dat-hang-kia-sportage_dacnlf.webp" alt='THACO AUTO chính thức nhận đặt xe Kia Sportage tại các showroom/đại lý KIA toàn quốc từ 10/6/2022' fill={true} />
 <span class="post-img-title">THACO AUTO chính thức nhận đặt xe Kia Sportage tại các showroom/đại lý KIA toàn quốc từ 10/6/2022</span>
 </div>
@@ -25,7 +25,7 @@ Kia Sportage là mẫu xe đầu tiên của KIA tại Việt Nam áp dụng tri
 
 Mẫu xe được thiết kế với 02 kiểu dáng đại diện cho 02 nhóm Khách hàng đặc trưng: Sportage - Hiện đại và cá tính phù hợp với khách hàng đô thị và Sportage X-Line - Ấn tượng và mạnh mẽ phù hợp với khách hàng yêu thích thể thao, dã ngoại.
 
-<div class="post-img-wrapper" style={{aspectRatio:1.47}}>
+<div class="post-img-wrapper" style={{aspectRatio:1.45}}>
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695517736/KIA/KIA%20Posts/kia-sportage-dau-xe_gb1m6p.webp" alt='Kia Sportage với 03 tùy chọn động cơ: Xăng 2.0L, Diesel 2.0L, và 1.6L Turbo' fill={true} />
 <span class="post-img-title">Kia Sportage với 03 tùy chọn động cơ: Xăng 2.0L, Diesel 2.0L, và 1.6L Turbo</span>
 </div>
