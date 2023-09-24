@@ -15,7 +15,7 @@ const LargePostCard: FC<Props> = ({ post }): JSX.Element => {
     <div key={post.title} className="group">
       <Link
         href={"/tin-tuc" + post.slug}
-        className="block relative w-full aspect-[1.109] rounded-sm overflow-hidden"
+        className="block relative w-full aspect-square rounded-sm overflow-hidden"
       >
         <NextImage src={post.thumb} alt={post.title} />
         <div className="absolute w-full bg-black/50 bottom-0 left-0 opacity-0 translate-y-full group-hover:translate-y-0 group-hover:opacity-100 space-y-4 text-white p-[20px] transition duration-1000">

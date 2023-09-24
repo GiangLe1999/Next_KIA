@@ -1,7 +1,7 @@
 ---
-title: Bảo dưỡng đón hè - Nhận ngay ưu đãi từ trung tâm dịch vụ Kia
+title: Bảo dưỡng đón hè - Nhận ngay ưu đãi từ trung tâm dịch vụ KIA
 desc: Trong tháng 6 này, Kia Việt Nam triển khai chương trình “BẢO DƯỠNG ĐÓN HÈ, NHẬN NGAY ƯU ĐÃI” với những đặc quyền khi sử dụng dịch vụ tại Trung tâm dịch vụ chính hãng Kia Việt Nam.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695429104/KIA/KIA%20Posts/bao-duong-don-he-kia-thang-6_txqn0e.webp
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695521632/KIA/KIA%20Posts/bao-duong-don-he-thumb_fogqgd.webp
 date: 1685430000000
 slug: /su-kien/bao-duong-don-he-nhan-ngay-uu-dai-thang-6
 author: Giang Le

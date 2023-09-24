@@ -1,9 +1,9 @@
 ---
 title: Kia Carens - Xe đa dụng dẫn đầu xu hướng xe gầm cao cho các gia đình trẻ
 desc: Được định vị ở phân khúc SUV đô thị hướng đến nhóm khách hàng gia đình trẻ, Kia Carens thế hệ mới không chỉ thừa hưởng thế mạnh từ các thế hệ tiền nhiệm mà còn sở hữu phong cách thể thao cá tính, cùng loạt trang bị công nghệ, tiện nghi hiện đại.
-thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695437761/KIA/KIA%20Posts/kia-carens-thumbnail_mfgc1j.webp
+thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695521757/KIA/KIA%20Posts/kia-carens-xe-da-dung-gam-cao-thumbnail_xabmaq.png
 date: 1687316400000
-slug: /thong-tin-xe/kia-carens-xe-da-dung-gam-cao-cho-gioi-tre
+slug: /thong-tin-xe/kia-carens-xe-da-dung-gam-cao-cho-gia-dinh-tre
 author: Giang Le
 ---
 
