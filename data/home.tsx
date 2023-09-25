@@ -53,16 +53,16 @@ export const mainOptions: {
     link: linkConstants.tintuc,
   },
   {
-    title: "Thủ tục trả góp",
-    desc: "Thủ tục trả góp cho Cá nhân & Doanh nghiệp",
-    bg: option3,
-    link: linkConstants.tragop,
-  },
-  {
     title: "Tải brochure",
     desc: "Tải brochure chi tiết của từng dòng xe",
-    bg: option4,
+    bg: option3,
     link: linkConstants.brochure,
+  },
+  {
+    title: "Thủ tục trả góp",
+    desc: "Thủ tục trả góp cho Cá nhân & Doanh nghiệp",
+    bg: option4,
+    link: linkConstants.tragop,
   },
 ];
 

@@ -12,6 +12,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import NextImage from "../next-image";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 interface Props {}
 
@@ -30,9 +31,9 @@ const MainOptionsSwiper: FC<Props> = (props): JSX.Element => {
       >
         {mainOptions.map((item, index) => (
           <SwiperSlide key={index}>
-            <div
-              onClick={() => router.push(item.link)}
-              className="w-full aspect-[0.67] relative group overflow-hidden cursor-pointer"
+            <Link
+              href={item.link}
+              className="w-full block aspect-[0.67] relative group overflow-hidden cursor-pointer"
             >
               <div className="absolute inset-0 bg-[rgba(0,0,0,0.2)] z-10 group-hover:-translate-x-full transition duration-500"></div>
               <NextImage
@@ -49,7 +50,7 @@ const MainOptionsSwiper: FC<Props> = (props): JSX.Element => {
               <div className="absolute bottom-3 right-6 w-10 h-10 rounded-full bg-transparent border-[1.5px] border-white text-white grid place-items-center cursor-pointer">
                 <BiRightArrowAlt size={23} />
               </div>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -6,6 +6,6 @@ export const linkConstants = {
   dichvu: "/dich-vu",
   lienhe: "/lien-he",
   giaxe: "/gia-xe-kia",
-  brochure: "/e-brochure",
+  brochure: "/tai-brochure",
   laithu: "dang-ky-lai-thu",
 };
