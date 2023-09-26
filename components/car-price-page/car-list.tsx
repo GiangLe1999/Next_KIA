@@ -11,9 +11,15 @@ interface Props {
   cars: CarType[];
   error: string;
   isCarListPage?: boolean;
+  isBrochurePage?: boolean;
 }
 
-const CarList: FC<Props> = ({ cars, error, isCarListPage }): JSX.Element => {
+const CarList: FC<Props> = ({
+  cars,
+  error,
+  isCarListPage,
+  isBrochurePage,
+}): JSX.Element => {
   const Fallback: ReactNode = (
     <>
       <div className="relative w-[80%] aspect-[798/243] mx-auto">
@@ -30,7 +36,7 @@ const CarList: FC<Props> = ({ cars, error, isCarListPage }): JSX.Element => {
 
   return (
     <div className="mt-5 flex-1">
-      {isCarListPage ? (
+      {isCarListPage || isBrochurePage ? (
         <div className="grid grid-cols-2 gap-6 mb-12">
           {Array.isArray(cars) && !error ? (
             cars.map((car) => (
@@ -38,6 +44,7 @@ const CarList: FC<Props> = ({ cars, error, isCarListPage }): JSX.Element => {
                 car={car}
                 key={car._id.toString()}
                 isCarListPage={isCarListPage}
+                isBrochurePage={isBrochurePage}
               />
             ))
           ) : (

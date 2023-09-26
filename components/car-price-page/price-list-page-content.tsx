@@ -32,9 +32,13 @@ const ITEMS_PER_PAGE = 3;
 
 interface Props {
   isCarListPage?: boolean;
+  isBrochurePage?: boolean;
 }
 
-const PriceListPageContent: FC<Props> = ({ isCarListPage }): JSX.Element => {
+const PriceListPageContent: FC<Props> = ({
+  isCarListPage,
+  isBrochurePage,
+}): JSX.Element => {
   const [cars, setCars] = useState<CarType[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -55,9 +59,10 @@ const PriceListPageContent: FC<Props> = ({ isCarListPage }): JSX.Element => {
         body: JSON.stringify({
           query,
           sortBy,
-          limit: isCarListPage ? 6 : ITEMS_PER_PAGE,
+          limit: isCarListPage ? 6 : isBrochurePage ? 6 : ITEMS_PER_PAGE,
           currentPage: currentPage || 1,
           isCarListPage,
+          isBrochurePage,
         }),
       })
         .then((res) => {
@@ -73,7 +78,7 @@ const PriceListPageContent: FC<Props> = ({ isCarListPage }): JSX.Element => {
           setCars(data.cars);
           setTotalPages(
             Math.ceil(
-              isCarListPage
+              isCarListPage || isBrochurePage
                 ? data.carsLength / 6
                 : data.carsLength / ITEMS_PER_PAGE
             )
@@ -123,6 +128,7 @@ const PriceListPageContent: FC<Props> = ({ isCarListPage }): JSX.Element => {
                 cars={cars}
                 error={error}
                 isCarListPage={isCarListPage}
+                isBrochurePage={isBrochurePage}
               />{" "}
               {cars.length > 0 && !error && (
                 <div className="w-fit pagination mx-auto">

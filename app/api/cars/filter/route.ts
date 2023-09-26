@@ -3,7 +3,8 @@ import Car from "@/model/Car";
 import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
-  const { query, sortBy, limit, currentPage, isCarListPage } = await req.json();
+  const { query, sortBy, limit, currentPage, isCarListPage, isBrochurePage } =
+    await req.json();
 
   let line: string[] = [];
   let price: string[] = [];
@@ -97,7 +98,7 @@ export async function POST(req: Request) {
   const cars = await Car.find(carQuery)
     .sort(sortObj as any)
     .select(
-      isCarListPage
+      isCarListPage || isBrochurePage
         ? "_id name slogan avatar priceFrom slug brochure"
         : "_id name avatar carLines priceFrom slug"
     )

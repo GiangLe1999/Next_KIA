@@ -10,14 +10,20 @@ import { PiSteeringWheelFill } from "react-icons/pi";
 import { FaEdit } from "react-icons/fa";
 import { HiCursorClick } from "react-icons/hi";
 import { BiSolidDownload } from "react-icons/bi";
+import { MdDownload } from "react-icons/md";
 
 interface Props {
   car: CarType;
   isCarListPage?: boolean;
+  isBrochurePage?: boolean;
 }
 
-const CarListItem: FC<Props> = ({ car, isCarListPage }): JSX.Element => {
-  if (isCarListPage)
+const CarListItem: FC<Props> = ({
+  car,
+  isCarListPage,
+  isBrochurePage,
+}): JSX.Element => {
+  if (isCarListPage || isBrochurePage)
     return (
       <div className="bg-[#F3F3F3] shadow-md border rounded-sm p-4">
         <h2 className="font-bold text-2xl capitalize hover:text-secondary transition">
@@ -40,37 +46,48 @@ const CarListItem: FC<Props> = ({ car, isCarListPage }): JSX.Element => {
           />
         </Link>
 
-        <div className="grid grid-cols-2 gap-2">
+        {isBrochurePage ? (
           <BtnWithIcon
-            content="Xem chi tiết"
-            icon={HiCursorClick}
+            content="Tải Brochure"
+            iconBehind={MdDownload}
             iconSize={19}
-            customClasses="!bg-primary !text-xs"
-            to={"/" + car.slug}
-          />
-          <BtnWithIcon
-            content="Đăng ký lái thử"
-            icon={PiSteeringWheelFill}
-            iconSize={21}
-            customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs"
-            to={"/" + car.slug}
-          />
-          <BtnWithIcon
-            content="Nhận báo giá"
-            icon={FaEdit}
-            iconSize={18}
-            customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs"
-            to={"/" + car.slug}
-          />
-          <BtnWithIcon
-            content="Download brochure"
-            icon={BiSolidDownload}
-            iconSize={20}
-            customClasses="!bg-primary !text-xs"
-            external
+            customClasses="!bg-primary !text-xs w-full"
             href={car.brochure}
+            external
           />
-        </div>
+        ) : (
+          <div className="grid grid-cols-2 gap-2">
+            <BtnWithIcon
+              content="Xem chi tiết"
+              icon={HiCursorClick}
+              iconSize={19}
+              customClasses="!bg-primary !text-xs"
+              to={"/" + car.slug}
+            />
+            <BtnWithIcon
+              content="Đăng ký lái thử"
+              icon={PiSteeringWheelFill}
+              iconSize={21}
+              customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs"
+              to={"/" + car.slug}
+            />
+            <BtnWithIcon
+              content="Nhận báo giá"
+              icon={FaEdit}
+              iconSize={18}
+              customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs"
+              to={"/" + car.slug}
+            />
+            <BtnWithIcon
+              content="Download brochure"
+              icon={BiSolidDownload}
+              iconSize={20}
+              customClasses="!bg-primary !text-xs"
+              external
+              href={car.brochure}
+            />
+          </div>
+        )}
       </div>
     );
 
