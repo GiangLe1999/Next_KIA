@@ -1,4 +1,5 @@
-import PostsPageHeader from "@/components/post-page-header";
+import SubPageHeader from "@/components/sub-page-header";
+import { postsSubHeaderItems } from "@/data/posts-page";
 import { FC, ReactNode } from "react";
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
 const PostsPageLayout: FC<Props> = ({ children }): JSX.Element => {
   return (
     <>
-      <PostsPageHeader />
+      <SubPageHeader items={postsSubHeaderItems} customClasses="mt-[61px]" />
       <div className="mt-14">
         <div className="container">{children}</div>
       </div>

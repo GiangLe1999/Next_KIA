@@ -420,6 +420,14 @@ li {
   @apply list-disc;
 }
 
+.postContent h3.normal-heading-3 {
+  @apply bg-transparent text-primary px-0;
+}
+
+.postContent h3::after {
+  @apply hidden;
+}
+
 /* Paginagation */
 .pagination .page-link {
   @apply !rounded-sm grid !text-primary;
@@ -439,7 +447,7 @@ li {
 
 /* Posts Page Header */
 .posts-page-header {
-  @apply mt-[61px] bg-white border-b-[2px] border-[#e5e5e5];
+  @apply bg-white border-b-[2px] border-[#e5e5e5];
 }
 
 .posts-page-header a {

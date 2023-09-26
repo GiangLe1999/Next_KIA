@@ -4,23 +4,19 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FC } from "react";
 
-interface Props {}
+interface Props {
+  items: { title: string; link: string }[];
+  customClasses?: string;
+}
 
-const items: { title: string; link: string }[] = [
-  { title: "Tin tức chung", link: "/tin-tuc-chung" },
-  { title: "Ưu đãi", link: "/uu-dai" },
-  { title: "Sự kiện", link: "/su-kien" },
-  { title: "Thông tin xe", link: "/thong-tin-xe" },
-];
-
-const PostsPageHeader: FC<Props> = (props): JSX.Element => {
+const PageSubHeader: FC<Props> = ({ items, customClasses }): JSX.Element => {
   const path = usePathname();
   return (
-    <div className="posts-page-header">
+    <div className={`posts-page-header ${customClasses}`}>
       <div className="container flex justify-around">
         {items.map((item) => (
           <Link
-            href={"/tin-tuc" + item.link}
+            href={item.link}
             key={item.title}
             className={`${
               path.includes(item.link)
@@ -36,4 +32,4 @@ const PostsPageHeader: FC<Props> = (props): JSX.Element => {
   );
 };
 
-export default PostsPageHeader;
+export default PageSubHeader;
