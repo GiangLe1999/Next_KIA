@@ -10,6 +10,7 @@ import { carNames } from "@/data/home";
 import BtnWithIcon from "../btn-with-icon";
 import Car from "@/model/Car";
 import { getCarLinesByCarName } from "@/lib/fetchData";
+import { provinces, services } from "@/data/contact-page";
 
 interface Props {}
 
@@ -36,6 +37,9 @@ const contactFormSchema: Yup.AnyObjectSchema = Yup.object({
     .matches(/^[0-9]+$/, "Vui lòng nhập số từ 0 đến 9")
     .min(10, "Vui lòng nhập ít nhất 10 chữ số")
     .max(11, "Vui lòng nhập không quá 11 chữ số"),
+  province: Yup.string().required(
+    "Vui lòng chọn Tỉnh / thành mà anh chị sinh sống"
+  ),
   service: Yup.string().required("Vui lòng chọn dịch vụ mà anh / chị quan tâm"),
 });
 
@@ -124,6 +128,32 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
             options={carLines}
           />
         </div>
+
+        <div className="grid grid-cols-2 gap-4">
+          <FormSelect
+            id="province"
+            label="Khu vực"
+            register={register("province")}
+            options={provinces}
+            errorMsg={errors.province?.message}
+          />
+
+          <FormSelect
+            id="service"
+            label="Dịch vụ"
+            register={register("service")}
+            options={services}
+            errorMsg={errors.service?.message}
+          />
+        </div>
+
+        <FormInput
+          id="content"
+          label="Nội dung"
+          register={register("content")}
+          textarea
+          rows={6}
+        />
 
         <BtnWithIcon
           type="submit"
