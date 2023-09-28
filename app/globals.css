@@ -479,3 +479,12 @@ li {
 .prose .table-title {
   @apply -mt-3 mb-10 font-bold text-center opacity-50;
 }
+
+/* Contact Table */
+.contact-table table td {
+  @apply py-2 text-sm;
+}
+
+.contact-table table tr {
+  @apply border-b border-[#ececec];
+}

@@ -55,7 +55,23 @@ export const getSingleCarContent = async (carSlug: string) => {
 export const getAllCarsLinesData = async () => {
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/cars/lines`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car/lines`
+    );
+
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    return res.json();
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const getCarLinesByCarName = async (car: string) => {
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/car/lines-by-name?car=${car}`
     );
 
     if (!res.ok) {
