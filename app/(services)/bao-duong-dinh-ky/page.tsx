@@ -1,3 +1,4 @@
+import MaintenanceForm from "@/components/maintenaince-server-page/maintenance-form";
 import NextImage from "@/components/next-image";
 import { NextPage } from "next";
 import Image from "next/image";
@@ -7,6 +8,8 @@ interface Props {}
 const page: NextPage<Props> = () => {
   return (
     <div className="prose postContent">
+      <MaintenanceForm />
+
       <h2>BẢO DƯỠNG ĐỊNH KỲ</h2>
       <p>
         Để đảm bảo chiếc xe của bạn luôn trong tình trạng hoàn hảo và an toàn,

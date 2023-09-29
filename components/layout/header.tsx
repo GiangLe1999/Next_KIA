@@ -47,7 +47,7 @@ const Header: FC<Props> = (props): JSX.Element => {
             <Link href={linkConstants.tintuc}>Tin tức và ưu đãi</Link>
           </li>
           <li>
-            <Link href={linkConstants.giaxe}>Trả góp</Link>
+            <Link href={linkConstants.laithu}>Đăng ký lái thử</Link>
           </li>
           <li>
             <Link href={linkConstants.dichvu}>Dịch vụ</Link>

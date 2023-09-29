@@ -21,7 +21,7 @@ const FormSelect: FC<Props> = ({
 }): JSX.Element => {
   return (
     <div className="mb-4">
-      <label htmlFor={id} className="text-xs uppercase font-bold">
+      <label htmlFor={id} className="text-xs font-bold">
         {label}
       </label>
       <select

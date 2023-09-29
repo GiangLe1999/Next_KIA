@@ -102,12 +102,22 @@ li {
   background-size: 40%;
 }
 
-.car-categories-menu {
+.car-categories-menu,
+.car-categories-menu-sm {
   @apply flex items-center gap-10 text-primary text-lg font-bold w-max custom-shadow-1 border-[0.5px] border-[#05141e61] rounded-[10px];
 }
 
-.car-categories-menu button {
+.car-categories-menu button,
+.car-categories-menu-sm button {
   @apply p-4 border-b-[2px] border-transparent;
+}
+
+.car-categories-menu-sm {
+  @apply text-sm gap-0 w-full justify-between rounded-sm shadow-md;
+}
+
+.car-categories-menu-sm button {
+  @apply py-3 rounded-sm;
 }
 
 .car-categories-swiper .swiper-button-prev,
@@ -487,4 +497,9 @@ li {
 
 .contact-table table tr {
   @apply border-b border-[#ececec];
+}
+
+/* Sticky Btns */
+.shadow-stickyBtns {
+  box-shadow: 0px 0px 1px 1px rgba(192, 192, 192, 0.3);
 }

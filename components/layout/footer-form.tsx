@@ -52,7 +52,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
   //       Swal.fire({
   //         icon: "success",
   //         title: "Thành công!",
-  //         text: "Chúng tôi sẽ liên hê đến Anh (Chị) trong thời gian sớm nhất.",
+  //         text: "Chúng tôi sẽ liên hệ đến Anh (Chị) trong thời gian sớm nhất.",
   //         confirmButtonColor: "green",
   //       });
   //       resetFormHandler();

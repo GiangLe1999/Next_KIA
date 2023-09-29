@@ -1,31 +1,25 @@
 "use client";
 
-import { FC, useEffect, useState } from "react";
-import { useForm } from "react-hook-form";
-import FormInput from "../form-input";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { FC, useEffect } from "react";
+import { useForm } from "react-hook-form";
 import * as Yup from "yup";
-import FormSelect from "../form-select";
-import { carNames } from "@/data/home";
+import FormInput from "../form-input";
 import { ImSpinner3 } from "react-icons/im";
-import { getCarLinesByCarName } from "@/lib/fetchData";
-import { provinces, services } from "@/data/contact-page";
+import FormSelect from "../form-select";
+import { provinces } from "@/data/contact-page";
 import Swal from "sweetalert2";
 
 interface Props {}
 
-type ContactFormValues = {
-  name: string;
-  email: string;
-  phone: string;
-  province: string;
-  car: string;
-  carLine: string;
-  service: string;
-  content: string;
-};
+const today = new Date();
+today.setHours(0, 0, 0, 0);
 
-const contactFormSchema: Yup.AnyObjectSchema = Yup.object({
+const testDriveFormSchema: Yup.AnyObjectSchema = Yup.object({
+  date: Yup.date()
+    .required("Vui lòng chọn ngày dự kiến")
+    .typeError("Vui lòng chọn ngày hợp lệ")
+    .min(today, "Ngày dự kiến phải là ngày sau hôm nay"),
   name: Yup.string()
     .required("Vui lòng nhập họ tên của anh / chị")
     .min(2, "Tên phải có ít nhất 2 kí tự"),
@@ -40,39 +34,40 @@ const contactFormSchema: Yup.AnyObjectSchema = Yup.object({
   province: Yup.string().required(
     "Vui lòng chọn Tỉnh / thành mà anh chị sinh sống"
   ),
-  service: Yup.string().required("Vui lòng chọn dịch vụ mà anh / chị quan tâm"),
 });
 
-const ContactForm: FC<Props> = (props): JSX.Element => {
-  const [carLines, setCarLines] = useState([]);
+export type MaintenaceValues = {
+  date: string;
+  hour: string;
+  province: string;
+  name: string;
+  phone: string;
+  email: string;
+  content: string;
+};
 
-  const form = useForm<ContactFormValues>({
+const MaintenanceForm: FC<Props> = (props): JSX.Element => {
+  const form = useForm<MaintenaceValues>({
     defaultValues: {
-      name: "",
-      email: "",
-      phone: "",
+      date: "",
+      hour: "",
       province: "",
-      car: "",
-      carLine: "",
-      service: "",
+      name: "",
+      phone: "",
+      email: "",
       content: "",
     },
-    resolver: yupResolver(contactFormSchema),
+    resolver: yupResolver(testDriveFormSchema),
   });
 
-  const { register, handleSubmit, formState, watch, reset } = form;
+  const { register, handleSubmit, formState, reset, setValue } = form;
 
   const { errors, isSubmitting, isSubmitSuccessful } = formState;
 
-  const fetchCarLines = async (currentCar: string) => {
-    const cars = await getCarLinesByCarName(currentCar);
-    setCarLines(cars);
-  };
-
-  const onSubmit = async (data: ContactFormValues) => {
+  const onSubmit = async (data: MaintenaceValues) => {
     try {
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_BASE_URL}/api/contact`,
+        `${process.env.NEXT_PUBLIC_BASE_URL}/api/maintenance`,
         {
           method: "POST",
           body: JSON.stringify(data),
@@ -99,28 +94,42 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
     }
   };
 
-  let currentCar = watch("car");
-
-  useEffect(() => {
-    if (currentCar) {
-      fetchCarLines(currentCar);
-    } else {
-      setCarLines([]);
-    }
-  }, [currentCar]);
-
   useEffect(() => {
     if (isSubmitSuccessful) {
       reset();
     }
   }, [isSubmitSuccessful, reset]);
-
   return (
-    <div className="shadow-md py-10 px-6 border rounded-sm">
-      <p className="text-center font-bold mb-4">
-        VUI LÒNG ĐỂ LẠI THÔNG TIN LIÊN HỆ THEO MẪU BÊN DƯỚI
-      </p>
-      <form onSubmit={handleSubmit(onSubmit)} noValidate>
+    <div className="mt-14 shadow-md border p-6 rounded-sm">
+      <form onSubmit={handleSubmit(onSubmit)} noValidate className="w-full">
+        <h1 className="font-bold uppercase text-lg text-center pt-4 pb-6">
+          ĐẶT LỊCH BẢO DƯỠNG XE
+        </h1>
+        <div className="grid grid-cols-2 gap-4">
+          <FormInput
+            id="date"
+            type="date"
+            label="Ngày dự kiến"
+            register={register("date")}
+            errorMsg={errors.date?.message}
+          />
+          <FormInput
+            id="hour"
+            type="time"
+            label="Thời gian dự kiến"
+            register={register("hour")}
+            errorMsg={errors.hour?.message}
+          />
+        </div>
+
+        <FormSelect
+          id="province"
+          label="Khu vực"
+          register={register("province")}
+          options={provinces}
+          errorMsg={errors.province?.message}
+        />
+
         <FormInput
           id="name"
           label="Họ và tên"
@@ -145,43 +154,9 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
-          <FormSelect
-            id="province"
-            label="Khu vực"
-            register={register("province")}
-            options={provinces}
-            errorMsg={errors.province?.message}
-          />
-
-          <FormSelect
-            id="service"
-            label="Dịch vụ"
-            register={register("service")}
-            options={services}
-            errorMsg={errors.service?.message}
-          />
-        </div>
-
-        <div className="grid grid-cols-2 gap-4">
-          <FormSelect
-            id="car"
-            label="Dòng xe"
-            register={register("car")}
-            options={carNames}
-          />
-
-          <FormSelect
-            id="carLine"
-            label="Phiên bản"
-            register={register("carLine")}
-            options={carLines}
-          />
-        </div>
-
         <FormInput
           id="content"
-          label="Nội dung"
+          label="Ghi chú"
           register={register("content")}
           textarea
           rows={6}
@@ -202,4 +177,4 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
   );
 };
 
-export default ContactForm;
+export default MaintenanceForm;

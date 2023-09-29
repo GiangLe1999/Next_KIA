@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Footer from "@/components/layout/footer";
 import StyledProgressBar from "@/components/progress-bar";
+import StickyBtns from "@/components/layout/sticky-btns";
 
 const kiaFont = localFont({
   src: [
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <StickyBtns />
       </body>
     </html>
   );
