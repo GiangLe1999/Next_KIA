@@ -41,13 +41,13 @@ const StickyBtnsData = [
   {
     title: "Tính phí lăn bánh",
     icon: GiCarWheel,
-    link: linkConstants.laithu,
+    link: linkConstants.philanbanh,
     move: "133",
   },
   {
     title: "Thủ tục trả góp",
     icon: BiSolidPieChartAlt2,
-    link: linkConstants.laithu,
+    link: linkConstants.tragop,
     move: "118",
   },
   {
@@ -61,7 +61,7 @@ const itemClasses =
   "w-full relative block aspect-square border-b grid place-items-center bg-white";
 
 const itemLinkClasses =
-  "h-11 border border-transparent border-b-[#e5e7eb] flex items-center gap-3 min-w-max px-[12px] hover:shadow-md hover:border-[#e5e7eb] transition bg-white hover:text-primary";
+  "h-11 border border-transparent border-b-[#e5e7eb] flex items-center gap-3 min-w-max px-[12px] hover:shadow-md hover:border-[#e5e7eb] transition bg-white hover:text-red-700";
 
 const StickyBtns: FC<Props> = (props): JSX.Element => {
   const [maximized, setMaximized] = useState(true);

@@ -430,11 +430,11 @@ li {
   @apply list-disc;
 }
 
-.postContent h3.normal-heading-3 {
+.postContent .normal-heading-3 {
   @apply bg-transparent text-primary px-0;
 }
 
-.postContent h3::after {
+.postContent .normal-heading-3::after {
   @apply hidden;
 }
 
@@ -486,6 +486,14 @@ li {
   @apply font-bold bg-primary text-white border border-primary;
 }
 
+.prose .styled-table td {
+  @apply text-left px-3;
+}
+
+.prose .styled-table .special-td {
+  @apply font-bold !text-right text-red-700 w-[20%];
+}
+
 .prose .table-title {
   @apply -mt-3 mb-10 font-bold text-center opacity-50;
 }
@@ -502,4 +510,47 @@ li {
 /* Sticky Btns */
 .shadow-stickyBtns {
   box-shadow: 0px 0px 1px 1px rgba(192, 192, 192, 0.3);
+}
+
+/* Installment page */
+
+.installment-block,
+.installment-block-sm {
+  @apply p-6 border border-dashed border-secondary rounded-md mt-6;
+}
+
+.installment-block h3 {
+  @apply mx-auto font-bold uppercase text-secondary text-2xl mb-4 bg-transparent;
+}
+
+.installment-block ol {
+  @apply list-decimal ml-6 space-y-3 text-primary;
+}
+
+.installment-block ol ul {
+  @apply list-disc ml-4;
+}
+
+.installment-block ol ul li {
+  @apply pt-2;
+}
+
+.installment-block span {
+  @apply italic text-primary mt-3 block;
+}
+
+.installment-block-sm {
+  @apply border-secondary;
+}
+
+.installment-block-sm p {
+  @apply grid place-items-center mb-3;
+}
+
+.installment-block-sm h3 {
+  @apply text-center font-bold text-secondary text-xl mb-3 bg-transparent;
+}
+
+.installment-block-sm ol {
+  @apply list-decimal ml-6 space-y-2;
 }

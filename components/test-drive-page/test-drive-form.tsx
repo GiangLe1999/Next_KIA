@@ -174,7 +174,7 @@ const TestDriveForm: FC<Props> = ({ cars }): JSX.Element => {
             rows={6}
           />
 
-          <button className="primary-btn !bg-primary ml-auto">
+          <button className="primary-btn !bg-primary w-full">
             {isSubmitting ? (
               <>
                 <ImSpinner3 className="animate-spin" />

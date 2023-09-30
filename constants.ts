@@ -1,7 +1,7 @@
 export const linkConstants = {
   sanpham: "/san-pham-kia",
   sorento_hybrid: "/kia-sorento-hybrid",
-  tragop: "/tra-gop",
+  tragop: "/thu-tuc-tra-gop",
   tintuc: "/tin-tuc/tin-tuc-chung",
   uudai: "/tin-tuc/uu-dai",
   sukien: "/tin-tuc/su-kien",
@@ -13,5 +13,6 @@ export const linkConstants = {
   lienhe: "/lien-he",
   giaxe: "/gia-xe-kia",
   brochure: "/tai-brochure",
-  laithu: "dang-ky-lai-thu",
+  laithu: "/dang-ky-lai-thu",
+  philanbanh: "/tinh-phi-lan-banh",
 };
