@@ -79,7 +79,7 @@ const CarListItem: FC<Props> = ({
               to={"/" + car.slug}
             />
             <BtnWithIcon
-              content="Download brochure"
+              content="Brochure"
               icon={BiSolidDownload}
               iconSize={20}
               customClasses="!bg-primary !text-xs"

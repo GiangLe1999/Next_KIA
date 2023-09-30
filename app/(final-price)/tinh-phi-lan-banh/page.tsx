@@ -141,7 +141,7 @@ const page: NextPage<Props> = () => {
         <thead>
           <tr>
             <td>Áp dụng cho đối tượng</td>
-            <td>Lệ phí (VNĐ)</td>
+            <td className="!text-right">Lệ phí (VNĐ)</td>
           </tr>
         </thead>
 
@@ -221,7 +221,7 @@ const page: NextPage<Props> = () => {
         <thead>
           <tr>
             <td>Áp dụng cho đối tượng</td>
-            <td>Lệ phí (VNĐ)</td>
+            <td className="!text-right">Lệ phí (VNĐ)</td>
           </tr>
         </thead>
 
@@ -285,7 +285,7 @@ const page: NextPage<Props> = () => {
         <thead>
           <tr>
             <td>Áp dụng cho đối tượng</td>
-            <td>Lệ phí (VNĐ)</td>
+            <td className="!text-right">Lệ phí (VNĐ)</td>
           </tr>
         </thead>
 

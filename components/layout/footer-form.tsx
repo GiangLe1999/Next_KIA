@@ -2,7 +2,7 @@
 
 // import { carNames } from "@/data";
 import { FC, FormEvent, useState } from "react";
-import { ImSpinner3 } from "react-icons/im";
+import { ImSpinner } from "react-icons/im";
 // import Swal from "sweetalert2";
 
 interface Props {}
@@ -125,7 +125,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
       >
         {loading ? (
           <>
-            <ImSpinner3 size={20} className="animate-spin" />
+            <ImSpinner size={20} className="animate-spin" />
             Đang gửi
           </>
         ) : (

@@ -9,9 +9,10 @@ import CarListItem from "./car-list-item";
 
 interface Props {
   cars: CarType[];
-  error: string;
+  error?: string;
   isCarListPage?: boolean;
   isBrochurePage?: boolean;
+  isSearchPage?: boolean;
 }
 
 const CarList: FC<Props> = ({
@@ -19,6 +20,7 @@ const CarList: FC<Props> = ({
   error,
   isCarListPage,
   isBrochurePage,
+  isSearchPage,
 }): JSX.Element => {
   const Fallback: ReactNode = (
     <>
@@ -37,7 +39,11 @@ const CarList: FC<Props> = ({
   return (
     <div className="mt-5 flex-1">
       {isCarListPage || isBrochurePage ? (
-        <div className="grid grid-cols-2 gap-6 mb-12">
+        <div
+          className={`grid grid-cols-2 gap-6 mb-12 ${
+            isSearchPage && "!grid-cols-3"
+          }`}
+        >
           {Array.isArray(cars) && !error ? (
             cars.map((car) => (
               <CarListItem

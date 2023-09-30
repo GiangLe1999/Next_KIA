@@ -407,19 +407,13 @@ li {
   @apply w-fit px-3 py-[9px] text-xl font-bold bg-secondary text-white relative uppercase max-[500px]:w-full;
 }
 
-.postContent h2::after,
-.postContent h3::after {
+.postContent h2::after {
   content: "";
   @apply absolute bottom-0 left-0 w-[2000px] h-[2px] bg-secondary block;
 }
 
 .postContent h3 {
   @apply bg-primary text-base capitalize;
-}
-
-.postContent h3::after {
-  content: "";
-  @apply bg-primary block;
 }
 
 .postContent .grid-2-cols {
@@ -432,10 +426,6 @@ li {
 
 .postContent .normal-heading-3 {
   @apply bg-transparent text-primary px-0;
-}
-
-.postContent .normal-heading-3::after {
-  @apply hidden;
 }
 
 /* Paginagation */
@@ -510,6 +500,11 @@ li {
 /* Sticky Btns */
 .shadow-stickyBtns {
   box-shadow: 0px 0px 1px 1px rgba(192, 192, 192, 0.3);
+}
+
+/* Search Block */
+.shadow-search-block {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 /* Installment page */

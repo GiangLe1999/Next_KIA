@@ -5,7 +5,7 @@ import { FC, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import * as Yup from "yup";
 import FormInput from "../form-input";
-import { ImSpinner3 } from "react-icons/im";
+import { ImSpinner } from "react-icons/im";
 import FormSelect from "../form-select";
 import { provinces } from "@/data/contact-page";
 import TestDriveChooseCar from "./test-drive-choose-car";
@@ -177,7 +177,7 @@ const TestDriveForm: FC<Props> = ({ cars }): JSX.Element => {
           <button className="primary-btn !bg-primary w-full">
             {isSubmitting ? (
               <>
-                <ImSpinner3 className="animate-spin" />
+                <ImSpinner className="animate-spin" />
                 Đang gửi
               </>
             ) : (

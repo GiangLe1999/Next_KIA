@@ -5,6 +5,7 @@ import { GiCarWheel } from "react-icons/gi";
 import { PiSteeringWheelFill } from "react-icons/pi";
 import { FaEdit } from "react-icons/fa";
 import { MdHeadsetMic } from "react-icons/md";
+import { linkConstants } from "@/constants";
 
 interface Props {
   name: string;
@@ -13,6 +14,7 @@ interface Props {
   mainInfo: { seats: number; gear: string; fuel: string; engine: string };
   category: string;
   tier: string;
+  slug: string;
 }
 
 const GeneralInfo: FC<Props> = ({
@@ -22,6 +24,7 @@ const GeneralInfo: FC<Props> = ({
   mainInfo,
   category,
   tier,
+  slug,
 }): JSX.Element => {
   return (
     <section id="thongtinchung" className="space-y-3">
@@ -83,12 +86,14 @@ const GeneralInfo: FC<Props> = ({
           icon={GiCarWheel}
           iconSize={19}
           customClasses="!bg-primary"
+          to={`/${slug}#giaxe`}
         />
         <BtnWithIcon
           content="Đăng ký lái thử"
           icon={PiSteeringWheelFill}
           iconSize={21}
           customClasses="!bg-secondary !border-secondary hover:!text-secondary"
+          to={linkConstants.laithu}
         />
         <BtnWithIcon
           content="Nhận báo giá"

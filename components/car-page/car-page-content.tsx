@@ -89,6 +89,7 @@ const CarPageContent: FC<Props> = ({
             mainInfo={mainInfo}
             category={category}
             tier={tier}
+            slug={slug}
           />
 
           <PromotionInfo name={name} content={promotionContent} />

@@ -13,7 +13,7 @@ export async function GET(request: Request) {
   }
 }
 
-const readPostsInfo = () => {
+export const readPostsInfo = () => {
   const postsArr = [] as any[];
 
   const dirPathToRead = path.join(process.cwd(), "posts");

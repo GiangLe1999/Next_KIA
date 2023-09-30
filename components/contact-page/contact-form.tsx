@@ -7,7 +7,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import FormSelect from "../form-select";
 import { carNames } from "@/data/home";
-import { ImSpinner3 } from "react-icons/im";
+import { ImSpinner } from "react-icons/im";
 import { getCarLinesByCarName } from "@/lib/fetchData";
 import { provinces, services } from "@/data/contact-page";
 import Swal from "sweetalert2";
@@ -190,7 +190,7 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
         <button className="primary-btn !bg-primary ml-auto">
           {isSubmitting ? (
             <>
-              <ImSpinner3 className="animate-spin" />
+              <ImSpinner className="animate-spin" />
               Đang gửi
             </>
           ) : (

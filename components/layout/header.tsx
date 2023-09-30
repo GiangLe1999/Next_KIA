@@ -2,7 +2,7 @@ import { FC } from "react";
 import Link from "next/link";
 import ContainNextImage from "../contain-next-image";
 import { linkConstants } from "@/constants";
-import { FaSearch } from "react-icons/fa";
+import SearchBtn from "./search-btn";
 
 interface Props {}
 
@@ -56,9 +56,7 @@ const Header: FC<Props> = (props): JSX.Element => {
             <Link href={linkConstants.lienhe}>Liên hệ</Link>
           </li>
           <li>
-            <button>
-              <FaSearch size={14} />
-            </button>
+            <SearchBtn />
           </li>
         </div>
       </nav>
