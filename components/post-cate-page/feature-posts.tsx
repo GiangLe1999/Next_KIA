@@ -13,13 +13,13 @@ interface Props {
 const FeaturedPosts: FC<Props> = ({ posts, newestPosts }): JSX.Element => {
   return (
     <>
-      <div className="grid grid-cols-2 gap-5">
+      <div className="grid grid-cols-2 max-[650px]:grid-cols-1 gap-5">
         {newestPosts.slice(0, 2).map((post) => (
           <LargePostCard key={post.title} post={post} />
         ))}
       </div>
 
-      <div className="flex gap-8 mt-14">
+      <div className="flex gap-8 mt-14 max-[1000px]:hidden">
         <div className="w-[30%]">
           {/* Mostly Read Posts  */}
           <h3 className="section-title">Xem nhiều</h3>

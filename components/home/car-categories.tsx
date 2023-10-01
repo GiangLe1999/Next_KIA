@@ -24,27 +24,35 @@ const CarCategories: FC<Props> = ({ cars }): JSX.Element => {
           <button
             onClick={() => setSelectedCategory("hatchback")}
             className={`rounded-l-[10px] ${
-              selectedCategory === "hatchback" && "!border-primary"
+              selectedCategory === "hatchback" &&
+              "!border-primary max-[702px]:border-[2px] max-[702px]:rounded-tl-[10px] max-[702px]:rounded-bl-none max-[702px]:bg-primary max-[702px]:text-white"
             }`}
           >
             Hatchback ({hatchbackCars.length})
           </button>
           <button
             onClick={() => setSelectedCategory("sedan")}
-            className={`${selectedCategory === "sedan" && "!border-primary"}`}
+            className={`${
+              selectedCategory === "sedan" &&
+              "!border-primary max-[702px]:border-[2px] max-[702px]:rounded-tr-[10px] max-[702px]:bg-primary max-[702px]:text-white"
+            } `}
           >
             Sedan ({sedanCars.length})
           </button>
           <button
             onClick={() => setSelectedCategory("suv")}
-            className={`${selectedCategory === "suv" && "!border-primary"}`}
+            className={`${
+              selectedCategory === "suv" &&
+              "!border-primary max-[702px]:border-[2px] max-[702px]:rounded-bl-[10px] max-[702px]:bg-primary max-[702px]:text-white"
+            }`}
           >
             SUV ({suvCars.length})
           </button>
           <button
             onClick={() => setSelectedCategory("hybrid")}
             className={`rounded-r-[10px] ${
-              selectedCategory === "hybrid" && "!border-primary"
+              selectedCategory === "hybrid" &&
+              "!border-primary max-[702px]:border-[2px] max-[702px]:rounded-tr-none max-[702px]:bg-primary max-[702px]:text-white"
             }`}
           >
             HYBRID ({hybridCars.length})

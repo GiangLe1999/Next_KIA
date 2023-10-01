@@ -21,13 +21,17 @@ const MainOptionsSwiper: FC<Props> = (props): JSX.Element => {
   return (
     <div className="container">
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={10}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className="main-options-swiper"
+        breakpoints={{
+          480: { slidesPerView: 2 },
+          820: { slidesPerView: 3 },
+        }}
       >
         {mainOptions.map((item, index) => (
           <SwiperSlide key={index}>
@@ -43,11 +47,15 @@ const MainOptionsSwiper: FC<Props> = (props): JSX.Element => {
               />
 
               <div className="absolute top-[73%] text-white left-6 right-4">
-                <h3 className="text-2xl font-bold mb-4">{item.title}</h3>
-                <p className="text-[15px]">{item.desc}</p>
+                <h3 className="text-2xl font-bold mb-4 max-[627px]:text-lg max-[480px]:text-2xl">
+                  {item.title}
+                </h3>
+                <p className="text-[15px] max-[627px]:text-xs max-[480px]:text-[15px]">
+                  {item.desc}
+                </p>
               </div>
 
-              <div className="absolute bottom-3 right-6 w-10 h-10 rounded-full bg-transparent border-[1.5px] border-white text-white grid place-items-center cursor-pointer">
+              <div className="absolute bottom-3 right-6 w-10 h-10 rounded-full bg-transparent border-[1.5px] border-white text-white grid place-items-center cursor-pointer max-[1100px]:hidden">
                 <BiRightArrowAlt size={23} />
               </div>
             </Link>

@@ -48,15 +48,15 @@ export default function CarCategoriesSwiper({
       >
         {cars.map((car) => (
           <SwiperSlide key={car._id.toString()}>
-            <div className="flex items-center gap-x-3 gap-y-24 pb-24 max-[1100px]:flex-col-reverse">
-              <div className="w-[40%] max-[1100px]:mt-8 max-[1100px]:text-center">
-                <h2 className="uppercase font-bold text-3xl text-[25px]">
+            <div className="flex items-center gap-x-3 gap-y-5 pb-24 max-[1100px]:flex-col-reverse">
+              <div className="w-[40%] max-[1100px]:mt-8 max-[1100px]:text-center max-[1100px]:w-full">
+                <h2 className="uppercase font-bold text-3xl text-[25px] max-[525px]:text-xl">
                   <Link href={"/" + car.slug}>{car.name}</Link>
                 </h2>
-                <p className="text-[#05141f] opacity-40 text-lg mb-[10px]">
+                <p className="text-[#05141f] opacity-40 text-lg mb-[10px] max-[525px]:text-sm">
                   {car.slogan}
                 </p>
-                <p className="text-primary font-bold text-[26px] mb-9">
+                <p className="text-primary font-bold text-[26px] mb-9 max-[525px]:text-xl">
                   {formatPrice(car.priceFrom)}
                   <span className="-ml-1">đ</span>
                 </p>
@@ -68,17 +68,17 @@ export default function CarCategoriesSwiper({
               </div>
 
               <div className="w-[60%] flex flex-col max-[1100px]:flex-col-reverse max-[1100px]:w-full">
-                <ul className="text-white text-[15px] space-y-3 ml-auto w-max max-[1100px]:w-full max-[1100px]:space-y-0 max-[1100px]:grid max-[1100px]:grid-cols-3 max-[1100px]:gap-3 max-[1100px]:ml-0 max-[1100px]:mt-3 max-[1100px]:text-xs">
-                  <li className="flex items-center gap-2 max-[1100px]:flex-col">
+                <ul className="car-specifications">
+                  <li>
                     <BsFuelPumpFill size={18} /> {car.mainInfo.engine}
                   </li>
 
-                  <li className="flex items-center gap-2 max-[1100px]:flex-col">
+                  <li>
                     <FaGear size={18} className="-ml-[2px]" />{" "}
                     {car.mainInfo.gear}
                   </li>
 
-                  <li className="flex items-center gap-2 max-[1100px]:flex-col">
+                  <li>
                     <MdEventSeat size={21} className="-ml-[3px]" />{" "}
                     {car.mainInfo.seats} chỗ
                   </li>

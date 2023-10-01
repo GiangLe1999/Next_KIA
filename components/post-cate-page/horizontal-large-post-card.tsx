@@ -12,8 +12,8 @@ interface Props {
 
 const HorizontalLargePostCard: FC<Props> = ({ post }): JSX.Element => {
   return (
-    <div className="flex gap-5">
-      <div className="w-[25%]">
+    <div className="flex gap-5 flex-wrap">
+      <div className="w-[25%] max-[650px]:w-full">
         <Link
           href={"/tin-tuc" + post.slug}
           className="relative w-full aspect-square block rounded-sm overflow-hidden"
@@ -26,7 +26,7 @@ const HorizontalLargePostCard: FC<Props> = ({ post }): JSX.Element => {
         </Link>
       </div>
 
-      <div className="flex-1 flex flex-col justify-between">
+      <div className="flex-1 flex flex-col justify-between max-[650px]:w-full">
         <Link href={"/tin-tuc" + post.slug} className="space-y-3">
           <h4 className="text-xl font-bold">{post.title}</h4>
 
