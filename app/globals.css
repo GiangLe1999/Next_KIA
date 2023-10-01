@@ -56,13 +56,23 @@ li {
   @apply relative;
 }
 
-.header-item-list li:hover a::after {
+.header-item-list-mobile a {
+  @apply w-full block py-3 border-b relative;
+}
+
+.header-item-list li:hover a::after,
+.header-item-list-mobile li:hover a::after {
   width: 100%;
 }
 
-.header-item-list a::after {
+.header-item-list a::after,
+.header-item-list-mobile a::after {
   content: "";
   @apply absolute -bottom-1 left-0 h-[3px] bg-primary w-0 transition-width duration-500;
+}
+
+.header-item-list-mobile a::after {
+  @apply h-[2px] bottom-0;
 }
 
 /* Home Swiper */

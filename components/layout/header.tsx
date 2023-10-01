@@ -1,40 +1,34 @@
-import { FC } from "react";
+"use client";
+
+import { FC, useState } from "react";
 import Link from "next/link";
 import ContainNextImage from "../contain-next-image";
-import { linkConstants } from "@/constants";
-import SearchBtn from "./search-btn";
+import HeaderLeftItems from "./header-left-items";
+import HeaderRightItems from "./header-right-items";
+import SearchBar from "./search-bar";
+import MobileNavBtn from "./mobile-nav-btn";
+import MobileNav from "./mobile-nav";
+import { FaSearch } from "react-icons/fa";
 
 interface Props {}
 
 const Header: FC<Props> = (props): JSX.Element => {
+  const [showMobileNav, setShowMobileNav] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
+
   return (
     <div className="bg-white p-5 text-primary text-sm fixed top-0 left-0 right-0 border-b border-[#e5e5e5] font-bold z-[99]">
       <nav className="container flex items-center justify-between">
         {/* Left Nav */}
-        <div className="header-item-list">
-          <li>
-            <Link href="/" className="group group-test">
-              Trang chủ
-            </Link>
-          </li>
-
-          <li>
-            <Link href={linkConstants.sanpham}>Sản phẩm KIA</Link>
-          </li>
-
-          <li>
-            <Link href={linkConstants.sorento_hybrid} className="relative">
-              Sorento Hybrid
-              <span className="absolute text-[#ea0029] -top-[14px] -right-[22px] text-[10px]">
-                NEW
-              </span>
-            </Link>
-          </li>
-
-          <li>
-            <Link href={linkConstants.giaxe}>Giá xe</Link>
-          </li>
+        <div className="header-item-list max-[1000px]:hidden">
+          <HeaderLeftItems />
         </div>
+
+        {/* Mobile Nav */}
+        <MobileNavBtn
+          showMobileNav={showMobileNav}
+          setShowMobileNav={setShowMobileNav}
+        />
 
         {/* Logo */}
         <Link href="/" className="flex-1 h-4 relative block">
@@ -42,24 +36,19 @@ const Header: FC<Props> = (props): JSX.Element => {
         </Link>
 
         {/* Right Nav */}
-        <div className="header-item-list">
-          <li>
-            <Link href={linkConstants.tintuc}>Tin tức và ưu đãi</Link>
-          </li>
-          <li>
-            <Link href={linkConstants.laithu}>Đăng ký lái thử</Link>
-          </li>
-          <li>
-            <Link href={linkConstants.dichvu}>Dịch vụ</Link>
-          </li>
-          <li>
-            <Link href={linkConstants.lienhe}>Liên hệ</Link>
-          </li>
-          <li>
-            <SearchBtn />
-          </li>
+        <div className="header-item-list max-[1000px]:hidden">
+          <HeaderRightItems />
         </div>
+
+        <div onMouseEnter={() => setShowSearch(true)}>
+          <FaSearch className="cursor-pointer max-[1000px]:text-[18px] text-[14px]" />
+        </div>
+
+        <SearchBar showSearch={showSearch} setShowSearch={setShowSearch} />
       </nav>
+
+      {/* Mobile Nav */}
+      <MobileNav showMobileNav={showMobileNav} />
     </div>
   );
 };

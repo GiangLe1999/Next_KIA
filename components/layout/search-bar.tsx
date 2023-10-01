@@ -1,20 +1,30 @@
 "use client";
 
-import useDropdown from "@/hooks/useDropdown";
-import { useRouter } from "next/navigation";
-import { FC, FormEvent, useState } from "react";
+import { useOuterClick } from "@/hooks/useOuterClick";
+import { usePathname, useRouter } from "next/navigation";
+import {
+  Dispatch,
+  FC,
+  FormEvent,
+  SetStateAction,
+  useEffect,
+  useState,
+} from "react";
 import { AiOutlineWarning } from "react-icons/ai";
-import { FaSearch } from "react-icons/fa";
 import { ImSpinner } from "react-icons/im";
 
-interface Props {}
+interface Props {
+  showSearch: boolean;
+  setShowSearch: Dispatch<SetStateAction<boolean>>;
+}
 
-const SearchBtn: FC<Props> = (props): JSX.Element => {
+const SearchBar: FC<Props> = ({ showSearch, setShowSearch }): JSX.Element => {
+  const pathName = usePathname();
   const [query, setQuery] = useState("");
-  const { show, setShow, innerRef } = useDropdown();
   const router = useRouter();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const innerRef = useOuterClick(() => setShowSearch(false));
 
   const searchHandler = (e: FormEvent) => {
     e.preventDefault();
@@ -30,16 +40,18 @@ const SearchBtn: FC<Props> = (props): JSX.Element => {
     setError("");
   };
 
-  return (
-    <div ref={innerRef} className="relative" onClick={() => setShow(true)}>
-      <FaSearch size={14} className="cursor-pointer" />
+  useEffect(() => {
+    setShowSearch(false);
+  }, [pathName]);
 
+  return (
+    <div ref={innerRef}>
       <form
         style={{
-          transform: show ? "scale(1)" : "scale(0)",
+          transform: showSearch ? "scale(1)" : "scale(0)",
           transformOrigin: "400px -10px",
         }}
-        className={`absolute transition-all top-[220%] right-0 p-4 bg-white rounded-sm shadow-search-block w-[400px]`}
+        className={`absolute transition-all top-full right-9 p-4 bg-white rounded-sm shadow-search-block w-[400px] max-[1000px]:w-full max-[1000px]:left-0 max-[1000px]:right-0 max-[1000px]:top-[60px]`}
         onSubmit={searchHandler}
       >
         <p className="text-xs mb-1">Nhập từ khóa để tìm kiếm (*)</p>
@@ -52,7 +64,7 @@ const SearchBtn: FC<Props> = (props): JSX.Element => {
           />
           <button
             type="submit"
-            className="primary-btn !bg-primary !text-xs flex-1"
+            className="primary-btn !bg-primary !text-xs flex-1 max-[373px]:px-1"
           >
             {loading ? (
               <>
@@ -75,4 +87,4 @@ const SearchBtn: FC<Props> = (props): JSX.Element => {
   );
 };
 
-export default SearchBtn;
+export default SearchBar;

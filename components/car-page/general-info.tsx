@@ -100,6 +100,7 @@ const GeneralInfo: FC<Props> = ({
           icon={FaEdit}
           iconSize={18}
           customClasses="!bg-secondary !border-secondary hover:!text-secondary"
+          to={linkConstants.lienhe}
         />
         <BtnWithIcon
           content="Tư vấn nhanh"
