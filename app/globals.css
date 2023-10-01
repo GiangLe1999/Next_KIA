@@ -137,11 +137,11 @@ li {
 }
 
 .car-categories-swiper .swiper-button-prev {
-  @apply left-[46%];
+  @apply left-[46%] max-[1100px]:left-[37%];
 }
 
 .car-categories-swiper .swiper-button-next {
-  @apply right-[39.75%];
+  @apply right-[39.75%] max-[1100px]:right-[37%];
 }
 
 .car-categories-swiper .swiper-pagination-current {
@@ -149,7 +149,7 @@ li {
 }
 
 .car-categories-swiper .swiper-pagination {
-  @apply text-[10px] -ml-12 bottom-5;
+  @apply text-[10px] -ml-12 bottom-5 max-[1100px]:ml-0 max-[1100px]:bottom-[55px];
 }
 
 .car-categories-swiper .swiper-button-next::after,
@@ -558,4 +558,18 @@ li {
 
 .installment-block-sm ol {
   @apply list-decimal ml-6 space-y-2;
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  .car-categories-section {
+    background: url("../public/assets/images/home/bg-slide-product-mobile.png");
+    background-repeat: no-repeat;
+    background-position: 50% 58%;
+    background-size: 100% 20%;
+  }
+
+  .car-categories-menu {
+    @apply mx-auto;
+  }
 }

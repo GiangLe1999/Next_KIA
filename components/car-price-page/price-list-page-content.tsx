@@ -95,7 +95,7 @@ const PriceListPageContent: FC<Props> = ({
 
   return (
     <div className="container mt-28">
-      <div className="flex mt-8 mb-16 gap-7 max-[1000px]:flex-col">
+      <div className="flex mt-8 mb-16 gap-7 max-[1100px]:flex-col">
         <Filter
           query={query}
           setQuery={setQuery}

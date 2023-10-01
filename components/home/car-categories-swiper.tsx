@@ -48,8 +48,8 @@ export default function CarCategoriesSwiper({
       >
         {cars.map((car) => (
           <SwiperSlide key={car._id.toString()}>
-            <div className="flex items-center gap-3 pb-24">
-              <div className="w-[40%]">
+            <div className="flex items-center gap-x-3 gap-y-24 pb-24 max-[1100px]:flex-col-reverse">
+              <div className="w-[40%] max-[1100px]:mt-8 max-[1100px]:text-center">
                 <h2 className="uppercase font-bold text-3xl text-[25px]">
                   <Link href={"/" + car.slug}>{car.name}</Link>
                 </h2>
@@ -63,22 +63,22 @@ export default function CarCategoriesSwiper({
                 <BtnWithIcon
                   to={"/" + car.slug}
                   content="Xem tất cả"
-                  customClasses="w-max !bg-primary"
+                  customClasses="w-max !bg-primary max-[1100px]:mx-auto max-[1100px]:mb-6"
                 />
               </div>
 
-              <div className="w-[60%]">
-                <ul className="text-white text-[15px] space-y-3 ml-auto w-max">
-                  <li className="flex items-center gap-2">
+              <div className="w-[60%] flex flex-col max-[1100px]:flex-col-reverse max-[1100px]:w-full">
+                <ul className="text-white text-[15px] space-y-3 ml-auto w-max max-[1100px]:w-full max-[1100px]:space-y-0 max-[1100px]:grid max-[1100px]:grid-cols-3 max-[1100px]:gap-3 max-[1100px]:ml-0 max-[1100px]:mt-3 max-[1100px]:text-xs">
+                  <li className="flex items-center gap-2 max-[1100px]:flex-col">
                     <BsFuelPumpFill size={18} /> {car.mainInfo.engine}
                   </li>
 
-                  <li className="flex items-center gap-2">
+                  <li className="flex items-center gap-2 max-[1100px]:flex-col">
                     <FaGear size={18} className="-ml-[2px]" />{" "}
                     {car.mainInfo.gear}
                   </li>
 
-                  <li className="flex items-center gap-2">
+                  <li className="flex items-center gap-2 max-[1100px]:flex-col">
                     <MdEventSeat size={21} className="-ml-[3px]" />{" "}
                     {car.mainInfo.seats} chỗ
                   </li>
@@ -86,7 +86,7 @@ export default function CarCategoriesSwiper({
 
                 <Link
                   href={"/" + car.slug}
-                  className="block cursor-pointer mt-10 w-full aspect-[1.7] relative hover:scale-[1.05] transition"
+                  className="block cursor-pointer mt-10 w-full aspect-[1.7] relative hover:scale-[1.05] transition max-[1100px]:w-[80%] max-[1100px]:mx-auto"
                 >
                   <ContainNextImage src={car.avatar} alt={car.name} />
                 </Link>

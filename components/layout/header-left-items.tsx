@@ -18,7 +18,7 @@ const HeaderLeftItems: FC<Props> = (props): JSX.Element => {
       <li>
         <Link href={linkConstants.sorento_hybrid} className="relative">
           Sorento Hybrid
-          <span className="absolute text-[#ea0029] -top-[14px] -right-[22px] max-[1000px]:top-[2px] max-[1000px]:left-28 text-[10px] max-[1000px]:">
+          <span className="absolute text-[#ea0029] -top-[14px] -right-[22px] max-[1100px]:top-[2px] max-[1100px]:left-28 text-[10px] max-[1100px]:">
             NEW
           </span>
         </Link>

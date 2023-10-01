@@ -19,7 +19,7 @@ const MobileNavBtn: FC<Props> = ({
 
   return (
     <div
-      className="max-[1000px]:flex hidden flex-col gap-[5px] cursor-pointer w-[30px] overflow-hidden duration-500"
+      className="max-[1100px]:flex hidden flex-col gap-[5px] cursor-pointer w-[30px] overflow-hidden duration-500"
       onClick={showHandler}
     >
       <div

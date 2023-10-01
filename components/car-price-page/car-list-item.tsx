@@ -111,7 +111,7 @@ const CarListItem: FC<Props> = ({
         <div className="flex-1 space-y-8 max-[779px]:w-full">
           {car.carLines.map((line, index) => (
             <div
-              className="flex items-center gap-x-8 gap-y-3 max-[1000px]:text-base max-[615px]:text-sm text-xs max-[545px]:flex-col max-[545px]:text-base"
+              className="flex items-center gap-x-8 gap-y-3 max-[1100px]:text-base max-[615px]:text-sm text-xs max-[545px]:flex-col max-[545px]:text-base"
               key={index}
             >
               <h3 className="flex-1 font-bold max-[545px]:w-full">

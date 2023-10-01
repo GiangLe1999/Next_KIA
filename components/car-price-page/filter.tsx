@@ -47,7 +47,7 @@ const Filter: FC<Props> = ({
   ];
 
   return (
-    <div className="w-[23%] bg-[#F3F3F3] p-4 h-fit max-[1000px]:w-full shadow-md border rounded-sm sticky top-28">
+    <div className="w-[23%] bg-[#F3F3F3] p-4 h-fit max-[1100px]:w-full shadow-md border rounded-sm sticky top-28">
       <h3 className="text-lg font-bold text-center">BỘ LỌC</h3>
       <FilterAccordion
         data={accordionData}
