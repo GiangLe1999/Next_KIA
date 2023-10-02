@@ -41,7 +41,8 @@ const CarList: FC<Props> = ({
       {isCarListPage || isBrochurePage ? (
         <div
           className={`grid grid-cols-2 max-[545px]:grid-cols-1 gap-6 mb-12 ${
-            isSearchPage && "!grid-cols-3"
+            isSearchPage &&
+            "!grid-cols-3 max-[1100px]:!grid-cols-2 max-[545px]:!grid-cols-1"
           }`}
         >
           {Array.isArray(cars) && !error ? (

@@ -46,7 +46,7 @@ const SearchPageContent: FC<Props> = ({ query }): JSX.Element => {
           <h2 className="mb-4 font-bold text-lg underline text-zinc-500">
             Tin tức ({posts.length} kết quả)
           </h2>
-          <div className="grid grid-cols-3 gap-5 mb-10">
+          <div className="grid grid-cols-3 gap-5 mb-10 max-[800px]:grid-cols-2 max-[545px]:grid-cols-1">
             {posts.map((post, index) => (
               <RelatedPostCard post={post} key={index} />
             ))}

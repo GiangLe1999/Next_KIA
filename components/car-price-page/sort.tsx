@@ -19,8 +19,8 @@ const Sort: FC<Props> = ({
   };
 
   return (
-    <div className="flex items-center gap-2 bg-[#F3F3F3] round-sm shadow-md border py-3 px-4 sticky top-28 max-[1100px]:top-[60px] before:absolute before:bg-white before:h-28 before:-top-[113px] before:-left-1 before:w-[200%] z-50 text-sm max-[1100px]:before:hidden">
-      <label className="w-[15%]">Sắp xếp theo: </label>
+    <div className="flex flex-wrap items-center gap-2 bg-[#F3F3F3] round-sm shadow-md border py-3 px-4 sticky top-28 max-[1100px]:top-[60px] before:absolute before:bg-white before:h-28 before:-top-[113px] before:-left-1 before:w-[200%] z-50 text-sm max-[1100px]:before:hidden">
+      <label className="w-[100px]">Sắp xếp theo: </label>
       <select
         disabled={loading}
         className="p-2 flex-1 border rounded-sm"
