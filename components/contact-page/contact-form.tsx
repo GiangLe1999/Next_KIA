@@ -128,7 +128,7 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
           errorMsg={errors.name?.message}
         />
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-x-4 max-[550px]:grid-cols-1">
           <FormInput
             id="phone"
             label="Số điện thoại"
@@ -145,7 +145,7 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-x-4 max-[550px]:grid-cols-1">
           <FormSelect
             id="province"
             label="Khu vực"
@@ -163,7 +163,7 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-x-4 max-[550px]:grid-cols-1">
           <FormSelect
             id="car"
             label="Dòng xe"
@@ -187,7 +187,7 @@ const ContactForm: FC<Props> = (props): JSX.Element => {
           rows={6}
         />
 
-        <button className="primary-btn !bg-primary ml-auto">
+        <button className="primary-btn !bg-primary ml-auto max-[550px]:w-full">
           {isSubmitting ? (
             <>
               <ImSpinner className="animate-spin" />
