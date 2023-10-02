@@ -108,95 +108,93 @@ const TestDriveForm: FC<Props> = ({ cars }): JSX.Element => {
   }, [isSubmitSuccessful, reset]);
   return (
     <div className="mt-28 shadow-md border p-6 rounded-sm">
-      <form
-        onSubmit={handleSubmit(onSubmit)}
-        noValidate
-        className="w-full flex"
-      >
-        <div className="w-[65%] border-r pr-6">
-          <h2 className="font-bold uppercase text-lg text-center pt-4 pb-6">
-            Thông tin khách hàng & lịch hẹn
-          </h2>
-          <div className="grid grid-cols-2 gap-4">
-            <FormInput
-              id="date"
-              type="date"
-              label="Ngày dự kiến"
-              register={register("date")}
-              errorMsg={errors.date?.message}
+      <form onSubmit={handleSubmit(onSubmit)} noValidate>
+        <div className="w-full flex max-[840px]:block">
+          <div className="w-[65%] border-r pr-6 max-[840px]:w-full max-[840px]:pr-0 max-[840px]:border-none">
+            <h2 className="font-bold uppercase text-lg text-center pt-4 pb-6">
+              Thông tin khách hàng & lịch hẹn
+            </h2>
+            <div className="grid grid-cols-2 gap-4">
+              <FormInput
+                id="date"
+                type="date"
+                label="Ngày dự kiến"
+                register={register("date")}
+                errorMsg={errors.date?.message}
+              />
+              <FormInput
+                id="hour"
+                type="time"
+                label="Thời gian dự kiến"
+                register={register("hour")}
+                errorMsg={errors.hour?.message}
+              />
+            </div>
+
+            <FormSelect
+              id="province"
+              label="Khu vực"
+              register={register("province")}
+              options={provinces}
+              errorMsg={errors.province?.message}
             />
+
             <FormInput
-              id="hour"
-              type="time"
-              label="Thời gian dự kiến"
-              register={register("hour")}
-              errorMsg={errors.hour?.message}
+              id="name"
+              label="Họ và tên"
+              register={register("name")}
+              errorMsg={errors.name?.message}
+            />
+
+            <div className="grid grid-cols-2 gap-4">
+              <FormInput
+                id="phone"
+                label="Số điện thoại"
+                type="number"
+                register={register("phone")}
+                errorMsg={errors.phone?.message}
+              />
+              <FormInput
+                id="Email"
+                label="Email"
+                type="email"
+                register={register("email")}
+                errorMsg={errors.email?.message}
+              />
+            </div>
+
+            <FormInput
+              id="content"
+              label="Ghi chú"
+              register={register("content")}
+              textarea
+              rows={6}
             />
           </div>
 
-          <FormSelect
-            id="province"
-            label="Khu vực"
-            register={register("province")}
-            options={provinces}
-            errorMsg={errors.province?.message}
-          />
-
-          <FormInput
-            id="name"
-            label="Họ và tên"
-            register={register("name")}
-            errorMsg={errors.name?.message}
-          />
-
-          <div className="grid grid-cols-2 gap-4">
-            <FormInput
-              id="phone"
-              label="Số điện thoại"
-              type="number"
-              register={register("phone")}
-              errorMsg={errors.phone?.message}
-            />
-            <FormInput
-              id="Email"
-              label="Email"
-              type="email"
-              register={register("email")}
-              errorMsg={errors.email?.message}
-            />
+          <div className="flex-1 max-[840px]:w-full">
+            <h2 className="font-bold uppercase text-center pt-4 pb-6">
+              Chọn loại xe
+              <TestDriveChooseCar
+                cars={cars}
+                register={register}
+                setValue={setValue}
+                error={errors.car?.message}
+              />
+            </h2>
           </div>
-
-          <FormInput
-            id="content"
-            label="Ghi chú"
-            register={register("content")}
-            textarea
-            rows={6}
-          />
-
-          <button className="primary-btn !bg-primary w-full">
-            {isSubmitting ? (
-              <>
-                <ImSpinner className="animate-spin" />
-                Đang gửi
-              </>
-            ) : (
-              "Đăng ký ngay"
-            )}
-          </button>
         </div>
 
-        <div className="flex-1">
-          <h2 className="font-bold uppercase text-center pt-4 pb-6">
-            Chọn loại xe
-            <TestDriveChooseCar
-              cars={cars}
-              register={register}
-              setValue={setValue}
-              error={errors.car?.message}
-            />
-          </h2>
-        </div>
+        <button className="primary-btn !bg-primary w-full mt-6 !py-3">
+          {isSubmitting ? (
+            <>
+              <ImSpinner className="animate-spin" />
+              Đang gửi
+            </>
+          ) : (
+            "Đăng ký ngay"
+          )}
+        </button>
       </form>
     </div>
   );

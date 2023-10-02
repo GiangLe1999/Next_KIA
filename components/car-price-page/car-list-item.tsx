@@ -113,7 +113,7 @@ const CarListItem: FC<Props> = ({
         <div className="flex-1 space-y-8 max-[779px]:w-full">
           {car.carLines.map((line, index) => (
             <div
-              className="flex items-center gap-x-8 gap-y-3 max-[1100px]:text-base max-[615px]:text-sm text-xs max-[545px]:flex-col max-[545px]:text-base"
+              className="flex items-center gap-x-8 gap-y-3 max-[1100px]:text-base max-[615px]:text-sm max-[545px]:text-center text-xs max-[545px]:flex-col max-[545px]:text-base"
               key={index}
             >
               <h3 className="flex-1 font-bold max-[545px]:w-full">
@@ -123,16 +123,16 @@ const CarListItem: FC<Props> = ({
                 Giá: {formatPrice(line.price)} VNĐ
               </div>
 
-              <div className="flex flex-col w-[20%] gap-2">
+              <div className="flex flex-col w-[20%] gap-2 max-[545px]:w-full">
                 <BtnWithIcon
                   to={linkConstants.laithu}
-                  customClasses="w-full !bg-primary max-[545px]:w-full !text-xs !p-1"
+                  customClasses="w-full !bg-primary max-[545px]:w-full max-[545px]:!py-2 max-[545px]:!text-sm !text-xs !p-1"
                   content="Lái thử"
                 />
 
                 <BtnWithIcon
                   to={"/" + car.slug}
-                  customClasses="w-full !bg-secondary !border-secondary hover:text-secondary max-[545px]:w-full !text-xs !p-1"
+                  customClasses="w-full !bg-secondary !border-secondary max-[545px]:!py-2 max-[545px]:!text-sm hover:text-secondary max-[545px]:w-full !text-xs !p-1"
                   content="Chi tiết"
                 />
               </div>

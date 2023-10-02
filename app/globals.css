@@ -417,7 +417,7 @@ li {
 }
 
 .post-img-title {
-  @apply absolute -bottom-11 left-0 w-full bg-[rgba(0,0,0,0.05)] text-center block py-2 text-zinc-500;
+  @apply absolute -bottom-11 left-0 w-full bg-[rgba(0,0,0,0.05)] text-center block py-2 px-1 text-zinc-500 !line-clamp-1;
 }
 
 .postContent img {
@@ -439,7 +439,7 @@ li {
 }
 
 .postContent .grid-2-cols {
-  @apply grid grid-cols-2 gap-3;
+  @apply grid grid-cols-2 gap-3 max-[610px]:grid-cols-1;
 }
 
 .postContent li {

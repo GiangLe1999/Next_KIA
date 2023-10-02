@@ -100,7 +100,7 @@ Mặc dù được sếp vàp phân khúc xe hatchback 4 chổ giá rẽ, nhưng
 
 <div class="post-img-wrapper">
 <Image src="https://res.cloudinary.com/dfhheac8o/image/upload/v1695007243/KIA/KIA%20Car/man-hinh-giai-tri-kia-morning_wckqhp.jpg" alt="Màn hình trung tâm KIA morning" fill={true} />
-<span class="post-img-title">Màn hình trung tâm 8inch đặt nổi</span>
+<span class="post-img-title">Màn hình trung tâm 8 inch đặt nổi</span>
 </div>
 
 </div>
@@ -108,7 +108,7 @@ Mặc dù được sếp vàp phân khúc xe hatchback 4 chổ giá rẽ, nhưng
 - Hệ thống khởi động thông minh Star/Stop giúp thao tác khởi động và tắt máy thuận tiện, tiết kiệm thời gian tối đa.
 - Vô- lăng xe được thiết kế 3 chấu bọc da tích hợp nút điều chỉnh âm lượng giúp tối đa hoá sử dụng tiện ích sử dụng.
 - Bảng đồng hồ trung tâm được bố trí tập trung về hướng người lái tạo sự thuận tiện cho việc quan sát khi lái xe.
-- Màn hình trung tâm 8inch đặt nổi, cung cấp đầy đủ tính năng giải trí cần thiết cho mẫu xe công nghệ cao.
+- Màn hình trung tâm 8 inch đặt nổi, cung cấp đầy đủ tính năng giải trí cần thiết cho mẫu xe công nghệ cao.
 
 </section>
 

@@ -45,7 +45,7 @@ const TestDriveChooseCar: FC<Props> = ({
   }, [selectedCategory]);
 
   return (
-    <div className="pl-6">
+    <div className="pl-6 max-[840px]:pl-0">
       <p className="text-xs text-left mt-8 normal-case mb-1">
         Dòng xe{" "}
         {error && <span className="font-normal text-red-700">({error})</span>}

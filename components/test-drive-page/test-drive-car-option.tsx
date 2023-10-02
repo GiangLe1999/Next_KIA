@@ -12,11 +12,11 @@ interface Props {
 const TestDriveCarOption: FC<Props> = ({ car, register }): JSX.Element => {
   return (
     <div>
-      <div className="relative w-full aspect-square">
+      <div className="relative w-full aspect-square max-[840px]:w-[80%] max-[840px]:mx-auto max-[500px]:w-full">
         <ContainNextImage src={car.avatar} alt={car.name} />
       </div>
 
-      <div className="flex items-center justify-center gap-2 -mt-16 relative z-50 cursor-pointer">
+      <div className="flex items-center justify-center gap-2 -mt-16 relative z-50 cursor-pointer max-[500px]:-mt-10">
         <input
           type="radio"
           id={car.name}
