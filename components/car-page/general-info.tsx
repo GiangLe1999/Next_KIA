@@ -85,28 +85,28 @@ const GeneralInfo: FC<Props> = ({
           content="Giá lăn bánh"
           icon={GiCarWheel}
           iconSize={19}
-          customClasses="!bg-primary"
+          customClasses="!bg-primary max-[394px]:text-xs max-[350px]:px-1"
           to={`/${slug}#giaxe`}
         />
         <BtnWithIcon
           content="Đăng ký lái thử"
           icon={PiSteeringWheelFill}
           iconSize={21}
-          customClasses="!bg-secondary !border-secondary hover:!text-secondary"
+          customClasses="!bg-secondary !border-secondary hover:!text-secondary max-[394px]:text-xs max-[350px]:px-1"
           to={linkConstants.laithu}
         />
         <BtnWithIcon
           content="Nhận báo giá"
           icon={FaEdit}
           iconSize={18}
-          customClasses="!bg-secondary !border-secondary hover:!text-secondary"
+          customClasses="!bg-secondary !border-secondary hover:!text-secondary max-[394px]:text-xs max-[350px]:px-1"
           to={linkConstants.lienhe}
         />
         <BtnWithIcon
           content="Tư vấn nhanh"
           icon={MdHeadsetMic}
           iconSize={20}
-          customClasses="!bg-primary"
+          customClasses="!bg-primary max-[394px]:text-xs max-[350px]:px-1"
         />
       </div>
     </section>

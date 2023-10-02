@@ -30,11 +30,11 @@ const MainContent: FC<Props> = ({
       <PriceSection name={name} lines={carLines} registration={registration} />
 
       <div className="flex gap-8">
-        <div className="w-[70%] prose postContent overflow-hidden">
+        <div className="w-[70%] prose postContent overflow-hidden max-[950px]:w-full">
           <MDXRemote {...serializedContent} components={components} />
         </div>
 
-        <div className="flex-1 p-4 text-center mt-16 shadow-md border rounded-sm h-fit sticky top-[150px] space-y-3">
+        <div className="flex-1 p-4 text-center mt-16 shadow-md border rounded-sm h-fit sticky top-[150px] space-y-3 max-[950px]:hidden">
           <h4 className="font-bold text-secondary text-xl mt-2">KIA SÀI GÒN</h4>
           <p className="text-sm">
             Khách hàng vui lòng liên hệ để được tư vấn về giá xe cùng các chương

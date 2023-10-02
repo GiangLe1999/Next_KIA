@@ -111,7 +111,7 @@ const Footer: FC<Props> = (): JSX.Element => {
       </div>
 
       <div className="border-t border-[#999999] py-1">
-        <div className="container text-[#999999] text-xs flex items-center justify-between">
+        <div className="container text-[#999999] text-xs flex items-center justify-between flex-wrap gap-2 max-[529px]:justify-center">
           <span className="uppercase my-2 text-center">
             © 2023 KIA Việt Nam - All rights reserved
           </span>

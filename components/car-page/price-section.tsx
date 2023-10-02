@@ -121,7 +121,7 @@ const PriceSection: FC<Props> = ({
                 <tr className="table-group-heading">
                   <td>Dòng Xe</td>
                   <td>Giá Niêm Yết</td>
-                  <td>Ưu Đãi</td>
+                  <td className="max-[1000px]:hidden">Ưu Đãi</td>
                   <td>Giá Lăn Bánh</td>
                   <td>Trả Trước 20%</td>
                 </tr>
@@ -136,7 +136,7 @@ const PriceSection: FC<Props> = ({
                         : line.price}{" "}
                       Triệu
                     </td>
-                    <td>
+                    <td className="max-[1000px]:hidden">
                       <span className="flex items-center text-red-700 justify-center">
                         <BiSolidPhoneIncoming size={18} className="mr-1" />{" "}
                         0962.334.807
@@ -167,7 +167,7 @@ const PriceSection: FC<Props> = ({
           </>
         )}
 
-        <div className="grid grid-cols-2 gap-6 max-[890px]:grid-cols-1 mt-8">
+        <div className="grid grid-cols-2 gap-6 max-[1000px]:grid-cols-1 mt-8">
           {/* Table 2 */}
           <FinalPriceFrom
             lines={isInstallmentPage ? carLines : lines}

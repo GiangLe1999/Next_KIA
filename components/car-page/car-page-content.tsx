@@ -9,6 +9,7 @@ import ImageGallery from "./image-gallery";
 import MainContent from "./main-content";
 import { stickyMenuItems } from "@/data/single-car-page";
 import Link from "next/link";
+import { useMediaQuery } from "react-responsive";
 
 interface Props {
   name: string;
@@ -40,6 +41,7 @@ const CarPageContent: FC<Props> = ({
   colors,
 }): JSX.Element => {
   const [currentSection, setCurrentSection] = useState("");
+  const isSmall = useMediaQuery({ query: "(max-width: 662px)" });
 
   const scrollHandler = () => {
     const sections = Array.from(document.getElementsByTagName("section"));
@@ -67,7 +69,7 @@ const CarPageContent: FC<Props> = ({
 
   return (
     <>
-      <div className="bg-primary flex items-center justify-center gap-4 px-3 py-2 rounded-sm sticky top-[61px] z-50">
+      <div className="bg-primary flex items-center justify-center gap-4 px-3 py-2 rounded-sm sticky top-[60px] z-50 max-[903px]:grid max-[903px]:grid-cols-4 max-[459px]:hidden">
         {stickyMenuItems.map((item, index) => (
           <Link
             className={`car-page-sticky-item ${
@@ -76,12 +78,12 @@ const CarPageContent: FC<Props> = ({
             href={`/${slug}${item.link}`}
             key={index}
           >
-            {item.title}
+            {isSmall && item.short ? item.short : item.title}
           </Link>
         ))}
       </div>
       <div className="container mt-28 space-y-14">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-6 max-[756px]:grid-cols-1">
           <GeneralInfo
             name={name}
             priceFrom={priceFrom}
