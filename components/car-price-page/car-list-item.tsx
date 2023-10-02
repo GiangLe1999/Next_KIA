@@ -71,14 +71,14 @@ const CarListItem: FC<Props> = ({
               icon={PiSteeringWheelFill}
               iconSize={21}
               customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs"
-              to={"/" + car.slug}
+              to={linkConstants.laithu}
             />
             <BtnWithIcon
               content="Nhận báo giá"
               icon={FaEdit}
               iconSize={18}
               customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs max-[738px]:!bg-primary max-[738px]:!border-primary max-[738px]:hover:!text-primary"
-              to={"/" + car.slug}
+              to={linkConstants.lienhe}
             />
             <BtnWithIcon
               content="Brochure"

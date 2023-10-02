@@ -107,6 +107,7 @@ const GeneralInfo: FC<Props> = ({
           icon={MdHeadsetMic}
           iconSize={20}
           customClasses="!bg-primary max-[394px]:text-xs max-[350px]:px-1"
+          to="#tuvan"
         />
       </div>
     </section>
