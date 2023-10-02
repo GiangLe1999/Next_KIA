@@ -105,7 +105,7 @@ const MaintenanceForm: FC<Props> = (props): JSX.Element => {
         <h1 className="font-bold uppercase text-lg text-center pt-4 pb-6">
           ĐẶT LỊCH BẢO DƯỠNG XE
         </h1>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-x-4 max-[550px]:grid-cols-1">
           <FormInput
             id="date"
             type="date"
@@ -137,7 +137,7 @@ const MaintenanceForm: FC<Props> = (props): JSX.Element => {
           errorMsg={errors.name?.message}
         />
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="gap-x-4 max-[550px]:grid-cols-1">
           <FormInput
             id="phone"
             label="Số điện thoại"
@@ -162,7 +162,7 @@ const MaintenanceForm: FC<Props> = (props): JSX.Element => {
           rows={6}
         />
 
-        <button className="primary-btn !bg-primary ml-auto">
+        <button className="primary-btn !bg-primary ml-auto max-[550px]:w-full">
           {isSubmitting ? (
             <>
               <ImSpinner className="animate-spin" />

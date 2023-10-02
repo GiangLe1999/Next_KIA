@@ -114,7 +114,7 @@ const TestDriveForm: FC<Props> = ({ cars }): JSX.Element => {
             <h2 className="font-bold uppercase text-lg text-center pt-4 pb-6">
               Thông tin khách hàng & lịch hẹn
             </h2>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-x-4">
               <FormInput
                 id="date"
                 type="date"
@@ -146,7 +146,7 @@ const TestDriveForm: FC<Props> = ({ cars }): JSX.Element => {
               errorMsg={errors.name?.message}
             />
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-x-4 max-[550px]:grid-cols-1">
               <FormInput
                 id="phone"
                 label="Số điện thoại"

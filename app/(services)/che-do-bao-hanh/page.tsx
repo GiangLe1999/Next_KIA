@@ -159,7 +159,7 @@ const page: NextPage<Props> = () => {
       <h2>NHỮNG THÔNG TIN CẦN BIẾT</h2>
       <p>
         Quý khách hàng vui lòng đọc kỹ các thông tin dưới đây để đảm hiểu rõ hơn
-        về chính sách bảo hành tại
+        về chính sách bảo hành tại&nbsp;
         <strong>
           CÔNG TY TNHH MỘT THÀNH VIÊN PHÂN PHỐI Ô TÔ DU LỊCH CHU LAI TRƯỜNG HẢI
         </strong>

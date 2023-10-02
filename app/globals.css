@@ -473,7 +473,7 @@ li {
 }
 
 .posts-page-header a {
-  @apply relative px-3 py-4 font-bold hover:opacity-100 transition;
+  @apply relative px-3 py-4 font-bold hover:opacity-100 transition max-[550px]:text-sm;
 }
 
 .posts-page-header a::after {

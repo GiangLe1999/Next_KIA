@@ -13,7 +13,7 @@ const PageSubHeader: FC<Props> = ({ items, customClasses }): JSX.Element => {
   const path = usePathname();
   return (
     <div className={`posts-page-header ${customClasses}`}>
-      <div className="container flex justify-around">
+      <div className="container flex justify-around max-[700px]:grid max-[700px]:grid-cols-2 max-[700px]:gap-x-4">
         {items.map((item) => (
           <Link
             href={item.link}

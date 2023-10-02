@@ -45,7 +45,7 @@ const page: NextPage<Props> = () => {
 
       <h2>Bảo dưỡng nhanh</h2>
       <div className="flex gap-6">
-        <div className="w-[70%]">
+        <div className="w-[70%] max-[950px]:w-full">
           <p>
             Với nỗ lực đáp ứng tối đa nhu cầu chăm sóc cho chiếc xe nhằm mang
             lại sự hài lòng cho khách hàng, Dịch vụ Bảo Dưỡng Nhanh (Quick
@@ -67,7 +67,7 @@ const page: NextPage<Props> = () => {
             150 phút.
           </p>
 
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-2 gap-5 max-[450px]:grid-cols-1">
             <div className="relative w-full aspect-[1.5]">
               <NextImage
                 src="/assets/images/bao-duong/bao-duong-kia.webp"
@@ -84,7 +84,7 @@ const page: NextPage<Props> = () => {
           </div>
         </div>
 
-        <div className="flex-1 relative aspect-[0.59]">
+        <div className="flex-1 relative aspect-[0.59] max-[950px]:hidden">
           <NextImage
             src="/assets/images/bao-duong/quy-trinh-bao-duong.png"
             alt="Qua trình bảo dưỡng nhanh xe KIA"
