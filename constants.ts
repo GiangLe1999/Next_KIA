@@ -15,4 +15,11 @@ export const linkConstants = {
   brochure: "/tai-brochure",
   laithu: "/dang-ky-lai-thu",
   philanbanh: "/tinh-phi-lan-banh",
+  gioithieu: "/gioi-thieu-chung",
+};
+
+export const pageConstants = {
+  siteTitle: "KIA Việt Nam",
+  siteDescription:
+    "Website chính thức của KIA Việt Nam cung cấp thông tin chính xác nhất về các tính năng, hình ảnh và thông số kỹ thuật của tất cả các xe ô tô, Hatchback, SUV, Sedan, Hybrid.",
 };

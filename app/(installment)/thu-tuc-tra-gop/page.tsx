@@ -1,4 +1,5 @@
 import PriceSection from "@/components/car-page/price-section";
+import { linkConstants } from "@/constants";
 import { carNames } from "@/data/home";
 import { NextPage } from "next";
 import { ImUserTie } from "react-icons/im";
@@ -8,8 +9,10 @@ export const generateMetadata = () => {
   return {
     title: "Thủ tục trả góp",
     description:
-      "Tìm hiểu thông tin về thủ tục trả góp đối với sản phẩm xe Mazda một cách chính xác nhất tại Mazda Sài Gòn.",
-    canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/thu-tuc-tra-gop`,
+      "Tìm hiểu thông tin về thủ tục trả góp đối với sản phẩm xe KIA một cách chính xác nhất tại website chính thức của KIA Việt Nam.",
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}${linkConstants.tragop}`,
+    },
   };
 };
 

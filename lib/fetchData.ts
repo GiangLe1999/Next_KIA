@@ -16,7 +16,7 @@ export const getCarDataByCategory = async () => {
   }
 };
 
-export const getSingleCarData = async (carSlug: string) => {
+export const getSingleCarData = cache(async (carSlug: string) => {
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/car?slug=${carSlug}`
@@ -30,7 +30,7 @@ export const getSingleCarData = async (carSlug: string) => {
   } catch (error) {
     console.log(error);
   }
-};
+});
 
 export const getSingleCarContent = async (carSlug: string) => {
   try {
@@ -117,7 +117,7 @@ export const getAllPostsData = async (cate: string) => {
   }
 };
 
-export const getPostData = async (cateSlug: string, postSlug: string) => {
+export const getPostData = cache(async (cateSlug: string, postSlug: string) => {
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/post?cate_slug=${cateSlug}&post_slug=${postSlug}`
@@ -131,7 +131,7 @@ export const getPostData = async (cateSlug: string, postSlug: string) => {
   } catch (error) {
     console.log(error);
   }
-};
+});
 
 export const getRelatedPosts = async (cateSlug: string, postSlug: string) => {
   try {

@@ -3,9 +3,20 @@ import MainOptionsSwiper from "@/components/home/main-options-swiper";
 import HomeSwiper from "@/components/home/main-swiper";
 import FeaturedPosts from "@/components/post-cate-page/feature-posts";
 import RestPosts from "@/components/post-cate-page/rest-post";
+import { pageConstants } from "@/constants";
 import { getAllPostsData, getCarDataByCategory } from "@/lib/fetchData";
 import { sortNewestPosts } from "@/lib/sortPostsByDate";
 import { CarByCategory, Post } from "@/types";
+
+export const generateMetadata = () => {
+  return {
+    title: "Xe KIA chính hãng | KIA Việt Nam",
+    description: pageConstants.siteDescription,
+    alternates: {
+      canonical: process.env.NEXT_PUBLIC_BASE_URL,
+    },
+  };
+};
 
 export default async function Home() {
   const cars = (await getCarDataByCategory()) as CarByCategory[];

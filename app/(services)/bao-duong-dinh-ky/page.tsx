@@ -1,7 +1,19 @@
 import MaintenanceForm from "@/components/maintenaince-server-page/maintenance-form";
 import NextImage from "@/components/next-image";
+import { linkConstants } from "@/constants";
 import { NextPage } from "next";
 import Image from "next/image";
+
+export const generateMetadata = () => {
+  return {
+    title: "Bảo dưỡng định kỳ KIA",
+    description:
+      "Cung cấp dịch vụ bảo trì, dịch vụ bảo dưỡng định kỳ xe ô tô KIA tại Việt Nam, bảo dưỡng các dòng xe Morning, Seltos, Sorento, Sportage,...",
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}${linkConstants.baoduong}`,
+    },
+  };
+};
 
 interface Props {}
 

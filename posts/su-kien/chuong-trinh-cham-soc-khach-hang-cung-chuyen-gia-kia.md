@@ -1,5 +1,5 @@
 ---
-title: Kia Việt Nam tri ân khách hàng vớI chương trình chăm sóc khách hàng cùng chuyên gia KIA
+title: Kia Việt Nam tri ân khách hàng với chương trình chăm sóc khách hàng cùng chuyên gia KIA
 desc: Hướng đến việc tạo ra những giá trị thiết thực dành cho Khách hàng, vừa qua, Kia Việt Nam đã tổ chức chuỗi sự kiện “Chăm sóc Khách hàng cùng Chuyên gia Kia”. Chương trình là dịp để Kia hiểu thêm về những mong muốn của Khách hàng trong quá trình sử dụng xe.
 thumb: https://res.cloudinary.com/dfhheac8o/image/upload/v1695517147/KIA/KIA%20Posts/kia-cham-soc-khach-hang-cung-chuyen-gia-thum_mfo0am.jpg
 date: 1688086800000

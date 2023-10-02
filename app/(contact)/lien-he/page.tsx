@@ -1,14 +1,17 @@
 import ContactForm from "@/components/contact-page/contact-form";
+import { linkConstants } from "@/constants";
 import { contactInfoArr } from "@/data/contact-page";
 import { NextPage } from "next";
 import { BsDot } from "react-icons/bs";
 
 export const generateMetadata = () => {
   return {
-    title: "Liên hệ với KIA ",
+    title: "Liên hệ với KIA Việt Nam",
     description:
-      "Liên hệ ngay với KIA để đặt lịch lái thử hoặc nhận báo giá mới nhất cho các dòng xe KIA.",
-    canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/lien-he`,
+      "Liên hệ ngay với KIA Việt Nam để đặt lịch lái thử hoặc nhận báo giá mới nhất cho các dòng xe KIA.",
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}${linkConstants.lienhe}`,
+    },
   };
 };
 

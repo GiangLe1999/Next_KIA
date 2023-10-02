@@ -1,9 +1,9 @@
 "use client";
 
-// import { carNames } from "@/data";
+import { carNames } from "@/data/home";
 import { FC, FormEvent, useState } from "react";
 import { ImSpinner } from "react-icons/im";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 
 interface Props {}
 
@@ -20,57 +20,57 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
     setLoading(false);
   };
 
-  //   const submitHandler = async (e: FormEvent) => {
-  //     e.preventDefault();
+  const submitHandler = async (e: FormEvent) => {
+    e.preventDefault();
 
-  //     if (!name || !name.trim() || !phone || !phone.trim() || !choseCar) {
-  //       Swal.fire({
-  //         icon: "error",
-  //         title: "Không hợp lệ!",
-  //         text: "Vui lòng kiểm tra lại thông tin trước khi gửi form.",
-  //         confirmButtonColor: "#C4161C",
-  //       });
-  //       return;
-  //     }
+    if (!name || !name.trim() || !phone || !phone.trim() || !choseCar) {
+      Swal.fire({
+        icon: "error",
+        title: "Không hợp lệ!",
+        text: "Vui lòng kiểm tra lại thông tin trước khi gửi form.",
+        confirmButtonColor: "#C4161C",
+      });
+      return;
+    }
 
-  //     setLoading(true);
+    setLoading(true);
 
-  //     try {
-  //       const data = JSON.stringify({ name, phone, choseCar });
-  //       const res = await fetch(
-  //         `${process.env.NEXT_PUBLIC_BASE_URL}/api/quick-consult`,
-  //         {
-  //           method: "POST",
-  //           body: data,
-  //         }
-  //       );
+    try {
+      const data = JSON.stringify({ name, phone, choseCar });
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_BASE_URL}/api/quick-consult`,
+        {
+          method: "POST",
+          body: data,
+        }
+      );
 
-  //       if (!res.ok) {
-  //         throw new Error();
-  //       }
+      if (!res.ok) {
+        throw new Error();
+      }
 
-  //       Swal.fire({
-  //         icon: "success",
-  //         title: "Thành công!",
-  //         text: "Chúng tôi sẽ liên hệ đến Anh (Chị) trong thời gian sớm nhất.",
-  //         confirmButtonColor: "green",
-  //       });
-  //       resetFormHandler();
-  //     } catch (error) {
-  //       Swal.fire({
-  //         icon: "error",
-  //         title: "Không hợp lệ!",
-  //         text: "Vui lòng kiểm tra lại thông tin trước khi gửi form.",
-  //         confirmButtonColor: "#C4161C",
-  //       });
-  //       resetFormHandler();
-  //     }
-  //   };
+      Swal.fire({
+        icon: "success",
+        title: "Thành công!",
+        text: "Chúng tôi sẽ liên hệ đến Anh (Chị) trong thời gian sớm nhất.",
+        confirmButtonColor: "green",
+      });
+      resetFormHandler();
+    } catch (error) {
+      Swal.fire({
+        icon: "error",
+        title: "Không hợp lệ!",
+        text: "Vui lòng kiểm tra lại thông tin trước khi gửi form.",
+        confirmButtonColor: "#C4161C",
+      });
+      resetFormHandler();
+    }
+  };
 
   return (
     <form
       className="w-full bg-white py-3 pb-5 px-5 rounded-sm space-y-3"
-      //   onSubmit={submitHandler}
+      onSubmit={submitHandler}
     >
       <div className="form-input-wrapper">
         <label htmlFor="name" className="form-input-label">
@@ -111,11 +111,11 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
           onChange={(e) => setChoseCar(e.target.value)}
         >
           <option value="">-- Chọn dòng xe -- </option>
-          {/* {carNames.map((car, index) => (
-            <option value={car.toUpperCase()} key={index} className="uppercase">
-              {car.toUpperCase()}
+          {carNames.map((car, index) => (
+            <option value={car} key={index}>
+              KIA {car}
             </option>
-          ))} */}
+          ))}
         </select>
       </div>
 

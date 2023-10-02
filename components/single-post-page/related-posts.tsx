@@ -11,7 +11,7 @@ const RelatedPosts: FC<Props> = ({ data }): JSX.Element => {
     <div className="mt-14">
       <h4 className="text-center font-bold text-2xl">TIN TỨC LIÊN QUAN</h4>
 
-      <div className="grid grid-cols-3 gap-5 mt-4">
+      <div className="grid grid-cols-3 gap-5 mt-4 max-[800px]:grid-cols-2 max-[550px]:grid-cols-1">
         {data.map((post) => (
           <RelatedPostCard post={post} key={post.title} />
         ))}

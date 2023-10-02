@@ -1,6 +1,6 @@
 import { CarByCategory } from "@/types";
 import { FC } from "react";
-import { UseFormRegister, UseFormSetValue } from "react-hook-form";
+import { UseFormRegister } from "react-hook-form";
 import { TestDriveValues } from "./test-drive-form";
 import ContainNextImage from "../contain-next-image";
 

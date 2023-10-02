@@ -1,6 +1,18 @@
+import { linkConstants } from "@/constants";
 import { NextPage } from "next";
 
 interface Props {}
+
+export const generateMetadata = () => {
+  return {
+    title: "Dịch vụ sửa chữa KIA",
+    description:
+      "Với hệ thống xưởng sửa chữa chuyên nghiệp và trải rộng khắp cả nước KIA Việt Nam sẽ đáp ứng được mọi nhu cầu và các tình huống phát sinh khi Khách hàng sử dụng xe.",
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}${linkConstants.suachua}`,
+    },
+  };
+};
 
 const page: NextPage<Props> = () => {
   return (

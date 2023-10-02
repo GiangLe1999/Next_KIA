@@ -1,7 +1,19 @@
+import { linkConstants } from "@/constants";
 import { NextPage } from "next";
 import Image from "next/image";
 
 interface Props {}
+
+export const generateMetadata = () => {
+  return {
+    title: "Về KIA",
+    description:
+      "Với triết lý “Tận tâm phục vụ”, Trung tâm dịch vụ Kia mang đến chất lượng dịch vụ và cung cách phục vụ lấy khách hàng là trung tâm.",
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}${linkConstants.gioithieu}`,
+    },
+  };
+};
 
 const page: NextPage<Props> = () => {
   return (

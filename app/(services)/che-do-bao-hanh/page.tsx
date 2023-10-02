@@ -1,6 +1,18 @@
+import { linkConstants } from "@/constants";
 import { NextPage } from "next";
 
 interface Props {}
+
+export const generateMetadata = () => {
+  return {
+    title: "Bảo hành KIA",
+    description:
+      "Thông tin về chế độ bảo hành chung được áp dụng cho tất cả các loại xe du lịch KIA do THACO AUTO phân phối tại thị trường Việt Nam với thời gian là 36 tháng và không giới hạn số km.",
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}${linkConstants.baohanh}`,
+    },
+  };
+};
 
 const page: NextPage<Props> = () => {
   return (
