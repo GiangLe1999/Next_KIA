@@ -163,16 +163,6 @@ const FilterAccordion: FC<Props> = ({
           </AccordionItem>
         ))}
       </Accordion>
-
-      <div className="pt-4 border-t">
-        <BtnWithIcon
-          content="Reset bộ lọc"
-          customClasses="!bg-primary w-full border-t"
-          icon={BiSolidEraser}
-          iconSize={20}
-          onClick={resetStateHander}
-        />
-      </div>
     </div>
   );
 };

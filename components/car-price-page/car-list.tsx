@@ -40,7 +40,7 @@ const CarList: FC<Props> = ({
     <div className="mt-5 flex-1">
       {isCarListPage || isBrochurePage ? (
         <div
-          className={`grid grid-cols-2 gap-6 mb-12 ${
+          className={`grid grid-cols-2 max-[545px]:grid-cols-1 gap-6 mb-12 ${
             isSearchPage && "!grid-cols-3"
           }`}
         >

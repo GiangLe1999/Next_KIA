@@ -29,7 +29,9 @@ const CarListItem: FC<Props> = ({
         <h2 className="font-bold text-2xl capitalize hover:text-secondary transition">
           <Link href={"/" + car.slug}>{car.name}</Link>
         </h2>
-        <p className="text-xs text-black/50 mt-1 mb-4">{car.slogan}</p>
+        <p className="text-xs text-black/50 mt-1 mb-4 line-clamp-1">
+          {car.slogan}
+        </p>
 
         <p className="font-bold text-xl text-primary/90 pb-2 border-b border-[#e5e5e5] mb-6">
           {formatPrice(car.priceFrom)}VNĐ
@@ -56,7 +58,7 @@ const CarListItem: FC<Props> = ({
             external
           />
         ) : (
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-2 gap-2 max-[738px]:grid-cols-1">
             <BtnWithIcon
               content="Xem chi tiết"
               icon={HiCursorClick}
@@ -75,14 +77,14 @@ const CarListItem: FC<Props> = ({
               content="Nhận báo giá"
               icon={FaEdit}
               iconSize={18}
-              customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs"
+              customClasses="!bg-secondary !border-secondary hover:!text-secondary !text-xs max-[738px]:!bg-primary max-[738px]:!border-primary max-[738px]:hover:!text-primary"
               to={"/" + car.slug}
             />
             <BtnWithIcon
               content="Brochure"
               icon={BiSolidDownload}
               iconSize={20}
-              customClasses="!bg-primary !text-xs"
+              customClasses="!bg-primary !text-xs max-[738px]:!bg-secondary max-[738px]:!border-secondary max-[738px]:hover:!text-secondary"
               external
               href={car.brochure}
             />

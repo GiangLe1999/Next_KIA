@@ -4,6 +4,8 @@ import { carNames } from "@/data/home";
 import { Dispatch, FC, SetStateAction } from "react";
 import FilterAccordion from "./filter-accordion";
 import { QueryType } from "./price-list-page-content";
+import BtnWithIcon from "../btn-with-icon";
+import { BiSolidEraser } from "react-icons/bi";
 
 interface Props {
   query: QueryType;
@@ -46,8 +48,22 @@ const Filter: FC<Props> = ({
     },
   ];
 
+  const resetStateHander = () => {
+    setSortBy("");
+    setQuery((prev) => {
+      const newState = { ...prev };
+      newState.line = [];
+      newState.price = [];
+      newState.fuel = [];
+      newState.seats = [];
+      newState.kind = [];
+      newState.tier = [];
+      return newState;
+    });
+  };
+
   return (
-    <div className="w-[23%] bg-[#F3F3F3] p-4 h-fit max-[1100px]:w-full shadow-md border rounded-sm sticky top-28">
+    <div className="w-[23%] bg-[#F3F3F3] p-4 h-fit max-[1100px]:h-max max-[1100px]:w-full shadow-md border rounded-sm sticky max-[1100px]:static top-28">
       <h3 className="text-lg font-bold text-center">BỘ LỌC</h3>
       <FilterAccordion
         data={accordionData}
@@ -57,6 +73,16 @@ const Filter: FC<Props> = ({
         loading={loading}
         setCurrentPage={setCurrentPage}
       />
+
+      <div>
+        <BtnWithIcon
+          content="Reset bộ lọc"
+          customClasses="!bg-primary w-full"
+          icon={BiSolidEraser}
+          iconSize={20}
+          onClick={resetStateHander}
+        />
+      </div>
     </div>
   );
 };
