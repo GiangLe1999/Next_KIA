@@ -6,6 +6,7 @@ import Footer from "@/components/layout/footer";
 import StyledProgressBar from "@/components/progress-bar";
 import StickyBtns from "@/components/layout/sticky-btns";
 import { pageConstants } from "@/constants";
+import Script from "next/script";
 
 const kiaFont = localFont({
   src: [
@@ -28,6 +29,9 @@ export const metadata: Metadata = {
     default: pageConstants.siteTitle,
   },
   description: pageConstants.siteDescription,
+  verification: {
+    google: "wItXhin9D-BzR7t0Ph9c3O8IUFKrFFK6KrThm3c4f9c",
+  },
 };
 
 export default function RootLayout({
@@ -36,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="vi">
       <body className={kiaFont.className}>
         <StyledProgressBar />
         <Header />
