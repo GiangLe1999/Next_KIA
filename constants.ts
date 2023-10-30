@@ -9,7 +9,7 @@ export const linkConstants = {
   dichvu: "/gioi-thieu-chung",
   suachua: "/sua-chua-chung",
   baoduong: "/bao-duong-dinh-ky",
-  baohanh: "che-do-bao-hanh",
+  baohanh: "/che-do-bao-hanh",
   lienhe: "/lien-he",
   giaxe: "/gia-xe-kia",
   brochure: "/tai-brochure",
