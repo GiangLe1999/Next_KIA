@@ -195,7 +195,7 @@ export const footerCol32: footerItemType[] = [
 ];
 
 export const footerCol4: { title: string; link: string; icon: IconType }[] = [
-  { title: "Hotline: 0962334807", link: "tel:0962334807", icon: MdPhone },
+  { title: "Hotline: 0909388082", link: "tel:0909388082", icon: MdPhone },
   {
     title: "cskh@thaco.com.vn",
     link: "mailto:cskh@thaco.com.vn",

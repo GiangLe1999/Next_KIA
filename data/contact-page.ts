@@ -5,8 +5,8 @@ export const contactInfoArr = [
   },
   {
     title: "Số điện thoại",
-    link: "tel:0962334807",
-    content: "096.2334.807 (Mr. Giang)",
+    link: "tel:0909388082",
+    content: "090.9388.082 (Mr. Giang)",
   },
   {
     title: "Email",

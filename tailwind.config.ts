@@ -19,6 +19,7 @@ const config: Config = {
       },
       transitionProperty: {
         width: "width",
+        fadeIn: "visible opacity transform",
       },
       typography: {
         DEFAULT: {
@@ -26,6 +27,18 @@ const config: Config = {
             maxWidth: "120ch",
           },
         },
+      },
+      keyframes: {
+        wiggle: {
+          "35%": { transform: "rotate(17deg)" },
+          "55%": { transform: "rotate(-17deg)" },
+          "65%": { transform: "rotate(17deg)" },
+          "75%": { transform: "rotate(-17deg)" },
+          "100%": { transform: "rotate(0)" },
+        },
+      },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite 1s",
       },
     },
   },

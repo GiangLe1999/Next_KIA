@@ -51,9 +51,9 @@ const StickyBtnsData = [
     move: "118",
   },
   {
-    title: "Hotline: 096.2334.807",
+    title: "Hotline: 090.9388.082",
     icon: FaPhone,
-    tel: "tel:0962334807",
+    tel: "tel:0909388082",
   },
 ];
 

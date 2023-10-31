@@ -8,6 +8,7 @@ import Image from "next/image";
 import BtnWithIcon from "../btn-with-icon";
 import { FaEdit } from "react-icons/fa";
 import { PiSteeringWheelFill } from "react-icons/pi";
+import { linkConstants } from "@/constants";
 
 interface Props {
   name: string;
@@ -40,19 +41,21 @@ const MainContent: FC<Props> = ({
             Khách hàng vui lòng liên hệ để được tư vấn về giá xe cùng các chương
             trình khuyến mại mới nhất.
           </p>
-          <p className="text-red-700 font-bold">Hotline: 0962.334.807</p>
+          <p className="text-red-700 font-bold">Hotline: 090.9388.082</p>
 
           <BtnWithIcon
             content="Yêu cầu báo giá"
             icon={FaEdit}
             iconSize={18}
             customClasses="!bg-secondary !border-secondary hover:!text-secondary w-full"
+            to={linkConstants.lienhe}
           />
           <BtnWithIcon
             content="Đăng ký lái thử"
             icon={PiSteeringWheelFill}
             iconSize={20}
             customClasses="!bg-primary w-full"
+            to={linkConstants.laithu}
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ import Footer from "@/components/layout/footer";
 import StyledProgressBar from "@/components/progress-bar";
 import StickyBtns from "@/components/layout/sticky-btns";
 import { pageConstants } from "@/constants";
-import Script from "next/script";
+import ContactBtns from "@/components/layout/contact-btns";
 
 const kiaFont = localFont({
   src: [
@@ -47,6 +47,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <StickyBtns />
+        <ContactBtns />
       </body>
     </html>
   );
