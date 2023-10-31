@@ -1,9 +1,11 @@
 "use client";
 
-import { FC, useState } from "react";
+import { FC } from "react";
 import { BsHeadset, BsWhatsapp, BsFillEnvelopeCheckFill } from "react-icons/bs";
 import { FaViber } from "react-icons/fa";
 import NextImage from "../next-image";
+import Link from "next/link";
+import { linkConstants } from "@/constants";
 
 interface Props {}
 
@@ -56,14 +58,17 @@ const ContactBtns: FC<Props> = (props): JSX.Element => {
         <span className={`${tooltipCommon} bg-[#67c92f]`}>Whatsapp</span>
       </a>
 
-      <button className={`${common} bg-pink-700 cursor-pointer`}>
+      <Link
+        href={linkConstants.lienhe}
+        className={`${common} bg-pink-700 cursor-pointer`}
+      >
         <BsFillEnvelopeCheckFill
           color="white"
           size={19}
           className="animate-wiggle"
         />
         <span className={`${tooltipCommon} bg-pink-700`}>Báo giá</span>
-      </button>
+      </Link>
     </div>
   );
 };
